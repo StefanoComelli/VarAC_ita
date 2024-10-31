@@ -1,0 +1,136 @@
+[English-template]
+
+###################################################################
+# Settings Form (1)
+###################################################################
+main_screen_rightclick_block_callsign_confirmation_header=Block callsign
+main_screen_rightclick_block_callsign_confirmation_details=Blocking it will prevent any future connections, and you will no longer see new traffic from this callsign in your beacons, broadcasts, or CQ lists.[NL][NL]You can always undo this action by going to the settings menu, under the QSO tab, and editing your blocked callsigns list.[NL][NL]Are you sure you want to block this callsign?
+main_screen_rightclick_menuitem_block_callsign=Block callsign
+main_screen_edit_application_startup_list_tool_strip_menu_item=Applications launcher
+main_screen_open_backup_directory_tool_strip_menu_item=Open Backup Directory
+
+main_screen_closing_text_closing_software=Closing VarAC...
+main_screen_closing_text_closing_applications_launched=Closing applications launched by VarAC...
+main_screen_closing_text_returning_rig_state=Returning RIG to initial state.
+main_screen_closing_text_disconnecting_vara_modem=Disconnecting the VARA modem...
+main_screen_closing_text_closing_com_ports=Closing COM ports...
+main_screen_closing_text_closing_active_threads=Closing active threads...
+main_screen_closing_text_performing_backup=Performing backup...
+main_screen_closing_text_deleting_old_backups_files=Deleting old backup files...
+ 
+ 
+## Change to existing params:
+main_screen_messagebox_please_update_vara_details=This version requires VARA {{varahf_min_version}} or higher.[NL][NL]Please update your VARA modem.[NL][NL]Disconnecting VARA modem...
+
+###################################################################
+# Settings Form (4)
+###################################################################
+settings_label_callsigns_dropdown=Callsigns dropdown
+settings_messagebox_what_is_callsigns_dropdown_mode_header=What is callsign dropdown mode?
+settings_messagebox_what_is_callsigns_dropdown_mode_details=On the main screen, you'll find a dropdown menu that displays callsigns for connection.[NL][NL]You can customize this list to either show RECENT stations you've had QSOs with, or POPULAR stations you've contacted within the past 60 days, ordered from the most popular to the least.[NL][NL]You can also select CUSTOM and provide a fixed list of callsigns that you would like to appear in the list.
+settings_messagebox_what_is_callsigns_dropdown_custom_list_header=What is custom callsign dropdown list?
+settings_messagebox_what_is_callsigns_dropdown_custom_list_details=You can customize the callsigns dropdown by adding a fixed list of callsigns. Just enter the callsigns separated by commas.[NL][NL]For example:[NL]4Z1AC, NC3Z, SV1UY[NL][NL]The order in which you enter them will define their order in the dropdown.
+settings_tab_emcomm=EmComm
+settings_label_emcomm_settings=These settings take effect only when operating in EmComm mode
+settings_groupbox_emcomm=EmComm
+settings_checkbox_emcomm_disable_snr_sending=Disable SNR report sending
+settings_messagebox_what_is_emcomm_disable_snr_sending_header=What is disable SNR sending?
+settings_messagebox_what_is_emcomm_disable_snr_sending_details=In Emcomm mode during a crisis, exchanging SNR reports may be unnecessary and could consume valuable transmission time and power.[NL][NL]Disabling SNR sending will prevent SNR reports from being sent both upon connection and during a QSO.[NL][NL]Even when disabled, SNRs will still be sent under the following conditions:[NL]- If you are pinged by another station.[NL]- If you manually enable Verbose SNR.[NL]- When an SNR is requested via an SNR inquiry.[NL][NL]Please be aware that if no SNR report is exchanged, the link may not be recognized as a valid QSO for logging purposes
+settings_checkbox_emcomm_allow_last_connections_peeking=Allow last connections peeking
+settings_messagebox_what_is_emcomm_allow_last_connections_peeking_header=What is allow last connections peeking?
+settings_messagebox_what_is_emcomm_allow_last_connections_peeking_details=In EmComm mode, it may sometimes be necessary to know what a fellow EmComm station was connected to previously.[NL][NL]By enabling this feature, a connected station will be able to query your last 5 connections (excluding pings) along with their start times
+settings_checkbox_emcomm_disable_call_id_sending=Disable Call ID sending
+settings_messagebox_what_is_emcomm_disable_call_id_sending_header=What is disable call id sending?
+settings_messagebox_what_is_emcomm_disable_call_id_sending_details=Transmitting your callsign at the start of a QSO and periodically throughout is required by local regulations.[NL]If you want to disable callsign transmissions during a QSO while in EmComm mode (to conserve time and power), you can enable this feature.[NL][NL]Ensure compliance with local regulations before using this option!
+settings_checkbox_emcomm_automatic_incoming_file_approval=Automatic incoming file approval
+settings_messagebox_what_is_emcomm_automatic_incoming_file_approval_header=What is automatic incoming file approval?
+settings_messagebox_what_is_emcomm_automatic_incoming_file_approval_details=Incoming files exceeding a specified size (as defined in the QSO -> File Transfer) require manual approval from the receiving side.[NL][NL]To automatically accept all incoming files, regardless of size, while in EmComm mode, enable this feature.
+settings_checkbox_antenna_selector_band_change_enabled=Enable antenna selector
+settings_messagebox_what_is_antenna_selector_band_change_enable_header=What is Enable antenna selector?
+settings_messagebox_what_is_antenna_selector_band_change_enable_details=Some rigs are capable of working with multiple antennas. For these rigs, you can enable a feature that automatically sends a command to switch to the appropriate antenna whenever you change bands in VarAC.[NL][NL]To enable this feature, you must manually edit the 'VarAC_cat_commands.ini' file and add a parameter in the following format: AntennaBand_XXXX=YYYY[NL][NL]For example: AntennaBand_20m=AN1;[NL][NL]VarAC will execute this command each time you switch bands.[NL][NL]Please note: This feature is available only when using direct CAT rig control.
+settings_groupbox_backup=Backup
+settings_checkbox_enable_automatic_backup=Enable automatic backup
+settings_label_backup_retention=Retention (copies):
+settings_button_backup_now=BACKUP NOW
+settings_label_backup_directory=Backup directory
+settings_label_open_backup_directory=Click to open
+settings_label_backup_progress_backup_in_progress=Backup in progress...
+settings_label_backup_progress_backup_completed=Backup completed
+settings_messagebox_backup_what_is_automatic_backup_header=What is automatic backup?
+settings_messagebox_backup_what_is_automatic_backup_details=When enabled, closing VarAC will trigger a backup of all important files into a ZIP archive.[NL]These backups can be used to restore VarAC, either locally or on another computer, preserving all data and configuration.[NL][NL]Please note that backups might take a few seconds to complete, depending on the size of your VarAC database and log files.
+
+###################################################################
+# Send vmail Form (12)
+###################################################################
+send_vmail_checkbox_vmail_mark_as_urgent=Mark as urgent
+send_vmail_label_urgent=URGENT!
+
+###################################################################
+# Vmailbox Form (13)
+###################################################################
+vmailbox_urgent=Urgent
+
+###################################################################
+# Settings Form (14)
+###################################################################
+read_vmail_button_translate=TRANSLATE
+read_vmail_label_urgent=URGENT!
+
+###################################################################
+# Callsign history (15)
+###################################################################
+callsign_history_table_column_qso_snr_chart=SNR Chart
+callsign_history_table_column_qso_snr_chart_view=VIEW
+callsign_history_label_select_a_qso_to_view_it=Select a QSO from above to view its contents
+
+###################################################################
+# DXCluster Form (19)
+###################################################################
+dx_cluster_spot_button_spot_in_progress=SPOT in progress...
+dx_cluster_spot_button_close=CLOSE
+dx_cluster_spot_button_spot_sent=SPOT SENT
+dx_cluster_spot_button_spot_failed=SPOT FAILED[NL]TRY AGAIN
+
+###################################################################
+# Vmail relay notification Form (20)
+###################################################################
+vmail_relay_notification_urgent=Urgent
+
+###################################################################
+# Broadcast message Form (23)
+###################################################################
+broadcast_message_checkbox_ask_for_snr_report=Ask for SNR report (confirm receipt)
+broadcast_message_messagebox_what_is_ask_for_snr_report_header=What is ask for SNR report?
+broadcast_message_messagebox_what_is_ask_for_snr_report_details=Activating this feature will include a request for the recipient to send back an SNR report for the broadcast, which can also serve as a receipt confirmation of the broadcast.
+
+###################################################################
+# Incoming File Size Alert (37)
+###################################################################
+incoming_file_size_alert_direction=ltr
+incoming_file_size_alert_form_title=Incoming file size alert
+incoming_file_size_alert_label_incoming_file_size_alert=Your partner is trying to send you a file that is larger than the your incoming file size limit (defined under the settings menu).[NL][NL]Incoming file size: {{file_incoming_size}} Bytes[NL]Your incoming file size limit: {{file_incoming_file_size_limit}} Bytes[NL][NL]Do you wish to receive this file?
+incoming_file_size_alert_button_accept=ACCEPT
+incoming_file_size_alert_button_reject=REJECT
+
+###################################################################
+# Inquire Form (38)
+###################################################################
+inquire_button_last_connections_peeking=LAST CONNECTIONS PEEKING
+inquire_label_last_connections_peeking=Request the last 5 connections. Works only if they are in EmComm mode and have enabled it.
+inquire_checkbox_close_upon_inquiry=Close upon inquiry
+
+###################################################################
+# Applications Launcher (40)
+###################################################################
+applications_launcher_direction=ltr
+applications_launcher_title=Applications launcher
+applications_launcher_checkbox_enable_applications_launcher=Enable applications launcher
+applications_launcher_label_about_applications_launcher=Here you can define a list of applications you want to run before starting VarAC, such as loggers, rig control applications, and more.[NL]For each application, you can specify:[NL]- Application: Full path to the executable file.[NL]- Arguments: Arguments to pass to the executable.[NL]- Wait Time (seconds): Time to wait after launching the app to allow it to fully start.[NL]- Restart if Active: Choose whether to relaunch the app if it’s already running or leave it as is.[NL]- Close on Exit: Specify if the app should close when VarAC exits.[NL][NL]PLEASE NOTE:[NL]- The order in which you list the applications determines their execution sequence.[NL]- VarAC will always be the last application to start. Do not enter it here.[NL]- Do not configure the VARA modem to start using this file.  The launch of the VARA modem is managed through the Settings menu.
+applications_launcher_label_enabled=Enable
+applications_launcher_label_application=Application full path
+applications_launcher_label_arguments=Arguments
+applications_launcher_label_wait_time=Wait time[NL](Seconds)
+applications_launcher_label_close_first=Restart[NL]if active
+applications_launcher_label_close_on_exit=Close[NL]on exit
+applications_launcher_label_app_n=Application
+applications_launcher_button_save_and_close=SAVE AND CLOSE

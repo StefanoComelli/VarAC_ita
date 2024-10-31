@@ -1,0 +1,3 @@
+VarAC_UI_languages_IT.ini
+Main form (1)
+Settings Form (4)

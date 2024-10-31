@@ -1,0 +1,1224 @@
+[English-template]
+# Added By {YOUR FULL NAME. EX: Irad Deutsch} {YOUR CALLSIGN. EX: 4Z1AC}
+# Version: 1 ({DATE} EX:7/2/2024)
+###################################################################
+# Main form (1)
+###################################################################
+main_screen_direction=ltr
+main_screen_label_frequency=FREQUENCY
+main_screen_label_freq_busy=BUSY
+main_screen_label_profile=Profile:
+main_screen_label_slot=SLOT
+main_screen_label_cf=CF
+main_screen_button_connect_varahf=CONNECT MODEM
+main_screen_button_disconnect_varahf=DISCONNECT MODEM
+main_screen_button_tune=TUNE
+main_screen_button_tune_stop=STOP
+main_screen_label_checkbox_disable_ptt=PTT Disabled
+main_screen_button_connect_callsign=CONNECT
+main_screen_button_disconnect_callsign=DISCONNECT
+main_screen_button_ping_callsign=PING
+main_screen_button_abort=ABORT
+main_screen_button_cq=CALL CQ
+main_screen_button_abort_cq=END CQ
+main_screen_button_beacon_next_beacon=NEXT BEACON
+main_screen_button_beacon_next_beacon_soon=SOON
+main_screen_button_beacon_next_beacon_paused=BEACON PAUSED
+main_screen_button_beacon_send_beacons=SEND BEACONS
+main_screen_label_varac_log=VarAC Log
+main_screen_label_vara_commands=VARA Log
+main_screen_label_beacons=Beacons
+main_screen_label_lh_time_diff_view=Time diff view
+main_screen_label_cq_calls=CQ calls
+main_screen_label_screen_size_alert=RESIZE TO SEE ALL
+main_screen_label_ui_advanced_mode=Advanced mode
+main_screen_label_update_available=NEW VERSION AVAILABLE
+main_screen_label_in_qso_with=In QSO with
+main_screen_label_duration=Duration:
+main_screen_label_callsign_history=History
+main_screen_label_callsign_qrz=QRZ ?
+main_screen_label_snr_graph= Graph
+main_screen_label_snr_db=SNR(db)
+main_screen_label_snr_last=Last
+main_screen_label_snr_avg=Avg
+main_screen_label_snr_mine=Mine
+main_screen_label_checkbox_is_typing=Send 'is typing'
+main_screen_label_checkbox_mute_all_sounds=Mute all sounds
+main_screen_label_checkbox_away=I'm away
+main_screen_label_checkbox_away_auto=I'm away (Auto)
+main_screen_label_unattended_links=Unattended links
+main_screen_label_verbose_snr=Verbose SNR
+main_screen_button_compose_msg=SEND VMAIL
+main_screen_button_send_broadcast=BROADCAST
+main_screen_button_pskreporter=PSK REP. MAP
+main_screen_button_send_file=SEND FILE
+main_screen_button_path_finder=PATH FINDER
+main_screen_button_snr_request=SNR
+main_screen_button_info_request=INFO
+main_screen_button_last_heard_peeking=LH.P
+main_screen_button_freq_schedule_peeking=FS.P
+main_screen_label_currently_sending=Currently sending
+main_screen_label_in_queue=In queue
+main_screen_button_clear_modem_buffer=CLR
+main_screen_button_reset_q=CLR
+main_screen_button_edit_q=EDIT
+main_screen_button_replying_to_cancel=CANCEL
+main_screen_label_checkbox_auto_log_qso=Auto log QSO
+main_screen_label_qsolog_callsign=CALLSIGN
+main_screen_label_qsolog_snr_s=SNR-S
+main_screen_label_qsolog_snr_r=SNR-R
+main_screen_label_qsolog_band=BAND
+main_screen_label_qsolog_name=NAME
+main_screen_label_qsolog_loc=LOC
+main_screen_label_qsolog_qth=QTH
+main_screen_label_qsolog_my_power=MyPWR
+main_screen_label_qsolog_start_time=START TIME
+main_screen_label_qsolog_end_time=END TIME
+main_screen_button_log_qso=LOG
+main_screen_button_clear_log_qso=CLR
+main_screen_button_spot_dxcluster=SPOT (DXCluster)
+main_screen_label_new_message=New message
+main_screen_label_gestures_catalog=Gestures/Tags
+main_screen_label_load_canned_messages=Load canned message:
+main_screen_label_enter_send_message=Enter to send
+main_screen_button_send_message=SEND
+main_screen_button_send_message_clear=CLR
+main_screen_button_frequency_schedule_on=FREQ SCHEDULE ON
+main_screen_button_frequency_schedule_off=FREQ SCHEDULE OFF
+main_screen_button_frequency_schedule_na=FREQ SCHEDULE N/A
+main_screen_settings_tool_strip_menu_item=Settings
+main_screen_tools_tool_strip_menu_item=Tools
+main_screen_logs_tool_strip_menu_item=Logs
+main_screen_resources_tool_strip_menu_item=Resources
+main_screen_about_tool_strip_menu_item=About
+main_screen_my_info_tool_strip_menu_item=My Information
+main_screen_config_tool_strip_menu_item=RIG Control and VARA Configurations
+main_screen_apperance_tool_strip_menu_item=Appearance and Sounds
+main_screen_canned_messages_tool_strip_menu_item=Canned (predefined) Messages
+main_screen_frequency_schedule_tool_strip_menu_item=Frequency Scheduler
+main_screen_frequency_list_editor_tool_strip_menu_item=Edit Frequency Drop-down List
+main_screen_auto_QSY_allowed_frequency_ranges_tool_strip_menu_item=Auto-QSY Allowed Frequency Ranges
+main_screen_switch_profile_tool_strip_menu_item=Switch profile
+main_screen_alert_tags_configuration_tool_strip_menu_item=Alert tags configuration
+main_screen_download_latest_CAT_commands_file_tool_strip_menu_item=Download Latest CAT Commands File
+main_screen_mailbox_tool_strip_menu_item=Mailbox
+main_screen_callsign_history_tool_strip_menu_item=Callsign history
+main_screen_alert_center_tool_strip_menu_item=Alert center
+main_screen_image_shrinker_tool_strip_menu_item=Image shrinker
+main_screen_statistics_tool_strip_menu_item=Statistics
+main_screen_qso_log_adif_tool_strip_menu_item=QSO Log (ADIF)
+main_screen_chat_history_tool_strip_menu_item=Chat History
+main_screen_varac_log_tool_strip_menu_item=VarAC Log
+main_screen_open_logs_directory_tool_strip_menu_item=Open Logs Directory
+main_screen_quick_start_guide_tool_strip_menu_item=Quick Start Guide
+main_screen_user_manual_en_tool_strip_menu_item=User Manuals (EN)
+main_screen_user_manual_international_tool_strip_menu_item=User Manuals (Non EN)
+main_screen_varac_facebook_group_tool_strip_menu_item=VarAC Facebook Group
+main_screen_varac_telegram_chat_group_tool_strip_menu_item=VarAC Telegram Chat Group
+main_screen_varac_forum_tool_strip_menu_item=VarAC Forum
+main_screen_troubleshooting_tool_strip_menu_item=Troubleshooting
+main_screen_faq_tool_strip_menu_item=FAQ
+main_screen_about_varac_details_tool_strip_menu_item=About VarAC
+main_screen_table_column_beacons_band=Bnd
+main_screen_table_column_beacons_time=Time
+main_screen_table_column_beacons_timediff=TΔ
+main_screen_table_column_beacons_callsign=Callsign
+main_screen_table_column_beacons_bw=BW
+main_screen_table_column_beacons_snr=SNR
+main_screen_table_column_cq_band=Bnd
+main_screen_table_column_cq_time=Time
+main_screen_table_column_cq_timediff=TΔ
+main_screen_table_column_cq_callsign=Callsign
+main_screen_table_column_cq_loc=LOC
+main_screen_table_column_cq_bw=BW
+main_screen_table_column_cq_cq_type=Type
+main_screen_table_column_cq_snr=SNR
+main_screen_table_column_cq_slot=Slot
+main_screen_table_column_broadcast_band=Bnd
+main_screen_table_column_broadcast_time=Time
+main_screen_table_column_broadcast_from=From
+main_screen_table_column_broadcast_to=To
+main_screen_table_column_broadcast_via=Via
+main_screen_table_column_broadcast_snr=SNR
+main_screen_table_column_broadcast_message=Broadcast message
+main_screen_table_column_datastream_time=Time
+main_screen_table_column_datastream_callsign=Callsign
+main_screen_table_column_datastream_message=Datastream message
+main_screen_table_column_datastream_image=Image
+main_screen_table_column_datastream_reply=Reply
+main_screen_status_strip_progress_bar_idle=IDLE
+main_screen_status_strip_progress_bar_receiving=RECEIVING
+main_screen_status_strip_progress_bar_sending=SENDING
+main_screen_status_strip_alert=ALERT
+main_screen_status_strip_relay=RELAY
+main_screen_status_strip_outbox=Outbox
+main_screen_status_strip_parking=Parking
+main_screen_status_strip_no_new_vmail=NO NEW VMAIL
+main_screen_status_strip_new_vmail=NEW VMAIL
+# Stickers
+main_screen_sticker_qsy_sniffer=QSY Sniffer is Active
+main_screen_sticker_waiting_on_slot=Waiting on slot for reply[NL]Returning calling freq in {{seconds}} sec[NL]Click here to return now
+main_screen_sticker_qsy_reminder=You're on a calling Freq.[NL]PSE QSY OR LINK WILL[NL]BE CLOSED IN {{seconds}} SEC.
+main_screen_sticker_is_typing_msg={{connected_to_fullcallsign}} is typing
+# Right click menu items
+main_screen_rightclick_menuitem_copy=Copy
+main_screen_rightclick_menuitem_copy_all=Copy all
+main_screen_rightclick_menuitem_copy_text=Copy text
+main_screen_rightclick_menuitem_clear=Clear
+main_screen_rightclick_menuitem_select_all=Select All
+main_screen_rightclick_menuitem_qso_log_set_as_name=QSO log: Set as Name
+main_screen_rightclick_menuitem_qso_log_set_as_qth=QSO log: Set as QTH
+main_screen_rightclick_menuitem_qso_log_set_as_locator=QSO log: Set as Locator
+main_screen_rightclick_menuitem_qso_log_set_all_elements=QSO Log: set Name/QTH/LOC
+main_screen_rightclick_menuitem_qrz_lookup=QRZ.COM lookup
+main_screen_rightclick_menuitem_translate=Translate
+main_screen_rightclick_menuitem_connect=Connect
+main_screen_rightclick_menuitem_ping=Ping (get report)
+main_screen_rightclick_menuitem_cant_ping_now_header=Can not PING now
+main_screen_rightclick_menuitem_cant_ping_now_details=Connection already in progress.
+main_screen_rightclick_menuitem_cant_connect_now_header=Can not CONNECT now
+main_screen_rightclick_menuitem_cant_connect_now_details=Connection already in progress.
+main_screen_rightclick_menuitem_no_callsign_selected_header=No Callsign selected
+main_screen_rightclick_menuitem_no_callsign_selected_details=Please select a callsign to perform this action.
+main_screen_rightclick_menuitem_send_vmail_now=Send VMail now
+main_screen_rightclick_menuitem_broadcast_reply=Broadcast reply
+main_screen_rightclick_menuitem_rebroadcast=Re-Broadcast
+main_screen_rightclick_menuitem_psk_reporter_lookup=PSK Reporter lookup
+main_screen_rightclick_menuitem_dx_cluster_spot=DX Cluster spot
+main_screen_rightclick_menuitem_callsign_history=Callsign history
+main_screen_rightclick_menuitem_qsy_to_slot=QSY to slot
+main_screen_rightclick_menuitem_no_message_selected_header=No message selected
+main_screen_rightclick_menuitem_no_message_selected_details=Please select a message
+main_screen_rightclick_menuitem_no_broadcast_selected_header=No broadcasts selected
+main_screen_rightclick_menuitem_no_broadcast_selected_details=Please select a broadcast
+main_screen_rightclick_menuitem_wrong_broadcast_selected_header=Wrong broadcasts selected
+main_screen_rightclick_menuitem_wrong_broadcast_selected_details=Re-broadcasting is allowed only to your OWN previos broadcasts.
+main_screen_rightclick_menuitem_no_callsign_or_slot_selected_header=No Callsign selected or no slot avilable
+main_screen_rightclick_menuitem_no_callsign_or_slot_selected_details=Please select a callsign with a slot
+
+# Tooltips
+main_screen_tooltip_button_last_heard_peeking=Request the LAST HEARD list of your QSO partner.[NL]It can be asked only once during a QSO.
+main_screen_tooltip_button_ping_callsign=Connect for an SNR report only
+main_screen_tooltip_button_freq_schedule_peeking=Request the FREQUENCY SCHEDULE of your QSO partner.[NL]It can be asked only once during a QSO.
+main_screen_tooltip_button_qsyd=Left click:[NL]Send a QSY DOWN request[NL][NL]Right click & Hold:[NL]Check if your QSY DOWN frequency is free.[NL]It temporarily disables PTT and move you[NL]to the destination freq.[NL]Releasing the right button will take you back.[NL]It is safe to use it during an active QSO.[NL][NL]The distance of the QSY frequency from your frequency is:
+main_screen_tooltip_button_qsyu=Left click:[NL]Send a QSY UP request[NL][NL]Right click & Hold:[NL]Check if your QSY UP frequency is free.[NL]It temporarily disables PTT and move you[NL]to the destination freq.[NL]Releasing the right button will take you back.[NL]It is safe to use it during an active QSO.[NL][NL]The distance of the QSY frequency from your frequency is:
+main_screen_tooltip_button_qsyf=Send a QSY request to a frequency of your choice
+main_screen_tooltip_radiobutton_bw500hz=Set QSO bandwidth to 500Hz[NL](recommended)
+main_screen_tooltip_radiobutton_bw2300hz=Set QSO bandwidth to 2300Hz[NL](not allowed on calling QRGs)
+main_screen_tooltip_button_log_qso=Write the current log entry to the ADIF file
+main_screen_tooltip_label_checkbox_away=Send your AWAY message for incoming connections
+main_screen_tooltip_label_unattended_links=You can deactivate this feature if you prefer not[NL]to receive incoming connections when you're away[NL](activated by checking the 'I'm Away' checkbox).[NL][NL]Additionally, please ensure that you disable it on[NL]frequencies where local regulations, such as[NL]FCC 47 CFR § 97.221, prohibit unattended connections[NL](beacons are allowed).[NL][NL]Please note that beacons will be transmitted until[NL]manually turned off.
+main_screen_tooltip_label_checkbox_is_typing=Let your QSO partner know you are composing a message.[NL]Disable during slow QSOs to save traffic.
+main_screen_tooltip_label_checkbox_mute_all_sounds=Mute all sounds including gestures & narrations.[NL]It does not change the personalized settings you[NL]have configured in the Sound & Appearance settings.
+main_screen_tooltip_label_verbose_snr=Sending an SNR report every 1 minute on the minute.[NL]Great for propagation tests.[NL]Enabling this also invites your partner to enable it.
+main_screen_tooltip_label_checkbox_auto_log_qso=The QSO is automatically stored in the ADIF file once ended.
+main_screen_tooltip_button_snr_request=Ask for your report (SNR)[NL]Your partner will send your last SNR automatically
+main_screen_tooltip_button_info_request=Ask for information about your QSO partner[NL]including Name, QTH, Locator & Rig.
+main_screen_tooltip_label_freq_up=Move up a slot
+main_screen_tooltip_label_freq_down=Move down a slot
+main_screen_tooltip_label_checkbox_disable_ptt=Tick this if you want to keep VarAC on[NL] listening mode only and prevent it from keying your PTT.[NL][NL]NOTE: make sure you do not leave your RIG on VOX[NL]otherwise your PTT will key.
+main_screen_tooltip_button_tune=Sets the VARA modem ALC level and keys the PTT to test it.[NL][NL]NOTE! REQUIRES VARA 4.6.2 (or above) AND A VARA LICENSE
+main_screen_tooltip_button_clear_modem_buffer=Clear VARA buffer: clear a message that was already[NL]sent to the VARA modem but still pending.[NL][NL]NOTE! REQUIRES VARA 4.6.4 (or above) AND A VARA LICENSE
+main_screen_tooltip_button_freq_schedule=You can configure VarAC to QSY to different[NL]frequencies at specific times.[NL][NL]This is useful when you want to QRV on[NL]different frequencies / bands across the day[NL](ex. 20m for daytime / 40m for night time).[NL][NL]Look for the 'Frequency Schedule' under the settings menu[NL]for frequency schedule configuration.[NL][NL]Frequency scheduler is enabled only if you have RIG frequency CAT control.
+main_screen_tooltip_button_pskreporter=Takes you to PSK-Reporter website showing[NL]recently active VarAC callsigns on the map.[NL][NL]Once opened, you can change[NL]PSKReporter filters as you wish.
+main_screen_tooltip_button_beacon=Send a beacon periodically so others can see you’re online.[NL]Your spotted beacons will be reported by others to PSK Reporter.[NL]Set the beacon interval under the 'Settings -> Rig Control & Vara configuration' menu.[NL][NL]To reset the beacon timer, Turn it OFF and ON.[NL][NL]The beacon will shut down within 72 hours. You'll need to reenable it if you wish to continue beaconing.[NL][NL]'SOON' means that the time for a beacon has arrived but VarAC is waiting for up to {{freq_not_busy_time_seconds}} seconds[NL]from the last moment it sensed that the frequency was busy.[NL][NL]'PAUSED' means that you are currently off the main QRG waiting on a slot so the beacon[NL]won't fire until you are back on the calling frequency.
+main_screen_tooltip_button_reset_q=Empty the queue from messages that are waiting to be sent
+main_screen_tooltip_button_edit_q=Take the queued messages back to the 'new message' section[NL]so you can edit them.
+main_screen_tooltip_button_compose_msg=You can send a VMail during a connection or queue it in[NL]in your outbox until you are connected with your VMail recipient[NL][NL]You can also relay a VMail to someone through a 3rd part station.[NL][NL]In addition, receiving an < AWAY > message, will trigger[NL]the send mail option automatically.[NL][NL]VMails are greats if you want to leave your partner a note[NL]when they are away.[NL][NL]
+main_screen_tooltip_button_send_broadcast=VarAC broadcasts are async messages that are sent in AX25[NL]protocol (similar to APRS) to one callsign or to all.
+main_screen_tooltip_button_path_finder=Find who heard a station you are interested in.[NL]Find a station who can relay a VMail to your destination.
+main_screen_tooltip_button_go_to_cf=Return to Calling Frequency (CF):[NL]Click here to return to the calling frequency if you are no longer[NL]interested in standing by on a slot.
+main_screen_tooltip_label_cf=The frequency where you first called CQ before QSYed to a slot for a QSO[NL]
+main_screen_tooltip_label_slot=The SLOT ID you are currently on
+main_screen_tooltip_label_set_start_time_now=manually set QSO start time to NOW
+main_screen_tooltip_label_set_end_time_now=manually set QSO end time to NOW
+main_screen_tooltip_label_snr_graph=Shows SNR data on a graph
+main_screen_tooltip_label_lh_time_diff_view=Show beacon/CQ times as delta from UTC time.
+main_screen_tooltip_label_profile=You can start VarAC with different configuration[NL]files (profiles) to support multiple Rig / Vara[NL]modem configurations and to easily switch between them.
+main_screen_tooltip_label_ui_advanced_mode=Toggle between Simple & Advanced UI modes.[NL]Simple mode include the must-have features only.[NL]Toggling will temporarily resize VarAC.
+# messageboxes
+main_screen_messagebox_auto_qso_log_is_off_header=AUTO QSO LOG IS OFF
+main_screen_messagebox_auto_qso_log_is_off_details=This QSO will not be automatically logged.[NL]Click 'LOG' to manually log it or enable auto-logging[NL][NL]This message will be automatically closed in 10 seconds.
+main_screen_messagebox_cannot_abort_message_header=Cannot abort message
+main_screen_messagebox_cannot_abort_message_details=The message is already on its way. You can not abort.
+main_screen_messagebox_please_update_vara_header=Please update VARA
+main_screen_messagebox_please_update_vara_details=This version requires VARA {{varahf_min_version}} [NL][NL]Please update your VARA modem.[NL][NL]Disconnecting VARA modem...
+main_screen_messagebox_check_vara_modem_type_header=Please check your VARA modem type
+main_screen_messagebox_check_vara_modem_type_details=VarAC settings does not match the VARA[NL]modem type you connected.[NL][NL]Your VarAC settings indicate that you use[NL]a {{vara_modem_type}} modem while the VARA[NL]modem you connected to is a Vara {{vara_version_cmd_output_modem_type}} modem.[NL][NL]Please make sure they are aligned.[NL][NL]Disconnecing VARA modem...
+main_screen_messagebox_large_incoming_file_header=Large incoming file!
+main_screen_messagebox_large_incoming_file_details=Your partner is trying to send you a file that is larger than the your incoming file size limit (defined under the settings menu).[NL][NL]Incoming file size: {{file_incoming_size}} Bytes[NL]Your incoming file size limit: {{file_incoming_file_size_limit}} Bytes[NL][NL]Do you wish to receive this file?[NL][NL](If you do not respond in 30 seconds, this file will be automatically rejected)
+main_screen_messagebox_unable_to_connect_vara_kiss_port_header=Unable to connect the VARA KISS port!
+main_screen_messagebox_unable_to_connect_vara_kiss_port_details=VarAC had failed to communicate with the VARA modem KISS port on Port {{varahf_main_kiss_port}}.[NL]This will not allow you to use the Broadcast and the Relay-notifications features[NL][NL]This could happen due to one or more of the following reasons:[NL]1. Wrong VARA version:[NL]VARA modem version must be 4.6.8 or higher (4.2.7 for VARA FM)[NL][NL]2. Firewall issue:[NL]Port {{varahf_main_kiss_port}} Must be whitelisted on your firewall to allow VarAC to connect the VARA modem KISS port.[NL][NL]3. KISS port misconfiguration:[NL]VarAC KISS port under the settings screen is not the same port on the VARA modem settings screen.[NL][NL]4. Another VarAC process is locking the port:[NL]Make sure no other VarAC processes are running at the background (use the task manager to kill them)[NL][NL]5. Permission issue:[NL]Try running VarAC/VARA with administrator privileges (VarAC.exe -> right click -> run as administrator[NL][NL]Please make sure you configure VarAC and VARA correctly and restart VarAC
+main_screen_messagebox_switching_to_2300Hz_bandwidth_header=Switching to 2300Hz Bandwidth
+main_screen_messagebox_switching_to_2300Hz_bandwidth_details=VarAC QSOs are made in 500Hz only.[NL][NL]If you Call CQ or Beacon with 2300Hz you won't be heard[NL]or get any replies.[NL][NL]Using 2300Hz on calling frequencies is not allowed.[NL][NL]Are you sure you want to switch to 2300Hz?
+main_screen_messagebox_bandwidth_not_allowed_header=Bandwidth not allowed!
+main_screen_messagebox_bandwidth_not_allowed_details=You can't use a 2300Hz Bandwidth on a calling QRG as it may cause QRM to nearby VarAC stations.[NL]Please note that 500Hz provides great & fast chat experience.[NL][NL]PLEASE SWITCH YOUR BANDWIDTH TO 500HZ OR CHANGE FREQUENCY.
+main_screen_messagebox_cant_connect_now_header=Can't connect now
+main_screen_messagebox_cant_connect_now_details=Modem is still performing a previous command.[NL][NL]Please try again in a few seconds
+main_screen_messagebox_frequency_is_busy_header=Frequency is busy
+main_screen_messagebox_frequency_is_busy_details=You can not connect while the frequency appears to be busy.[NL][NL]If it is free, then wait a few seconds until the busy[NL]indicator is cleared and try again.
+main_screen_messagebox_cant_ping_now_header=Can't ping now
+main_screen_messagebox_cant_ping_now_details=Modem is still performing a previous command.[NL][NL]Please try again in a few seconds
+main_screen_messagebox_change_settings_not_allowed_header=Changing settings is not allowed
+main_screen_messagebox_change_settings_not_allowed_details=You can't change settings while connected, connection in progress, calling CQ, sending a beacon or broadcasting.[NL][NL]Please try later.
+main_screen_messagebox_change_frequency_manually_header=Change frequency Manually
+main_screen_messagebox_change_frequency_manually_details=You have no RIG frequency control defined.[NL]You will need to change frequencies manually until you set one under SETTINGS.[NL][NL]Please tune your VFO now to: {{frequency}}[NL][NL]This message will be automatically closed in 20 seconds.
+main_screen_messagebox_error_opening_file_header=Error opening file
+main_screen_messagebox_ptt_is_disabled_header=PTT is disabled!
+main_screen_messagebox_ptt_is_disabled_details=You can't perform this action while your PTT is disabled.[NL]Please untick the 'DISABLE PTT' checkbox and try again.
+main_screen_messagebox_send_file_not_connected_header=Not connected
+main_screen_messagebox_send_file_not_connected_details=You can't send a file without being connected to someone
+main_screen_messagebox_send_file_in_process_header=Sending file in process
+main_screen_messagebox_send_file_in_process_details=You can't send a file while another file is being sent
+main_screen_messagebox_send_file_receiving_file_in_process_header=Receiving file in process
+main_screen_messagebox_send_file_receiving_file_in_process_details=You can't send a file while a file is received
+main_screen_messagebox_send_file_can_not_send_file_in_cf_header=Can not send file on a CF
+main_screen_messagebox_send_file_can_not_send_file_in_cf_details=Sending a file over a calling frequency is forbidden.[NL][NL]Please QSY first.
+main_screen_messagebox_wrong_band_header=Wrong band
+main_screen_messagebox_wrong_band_details=You are trying to connect a station on {{band}}[NL]while you are currently on {{current_band}}.[NL][NL]Switch bands before trying to connect.
+main_screen_messagebox_old_cq_call_header=Old CQ call
+main_screen_messagebox_old_cq_call_details=This station called CQ on a slot {{minutes}} minutes ago.[NL]Most stations won't wait for over 5 minutes on a slot for incoming connections.[NL][NL]Do you still want to connect this station on slot {{selected_slot}}?[NL][NL]Click YES to connect on slot {{selected_slot}}[NL][NL]Click NO to connect on the calling frequency (Please QSY once connected)[NL]
+main_screen_messagebox_unable_to_send_broadcast_reply_header=Unable to send broadcast reply
+main_screen_messagebox_unable_to_send_broadcast_reply_details=You can not send a broadcast reply to yourself
+main_screen_messagebox_wrong_band_broadcast_reply_header=Wrong band
+main_screen_messagebox_wrong_band_broadcast_reply_details=You are trying to send a broadcast reply to a station on {{band}}[NL]while you are currently on {{current_band}}.[NL][NL]Switch bands before trying to send a broadcast reply.
+main_screen_messagebox_double_qsy_header=DOUBLE QSY REQUEST
+main_screen_messagebox_double_qsy_details=Double QSY happens when both parties send a QSY invitation at the same time resulting in a double QSY.[NL][NL]It can also happen if one of the parties accidently sends multiple QSY invitations in a short period of time.[NL][NL]To avoid this, VarAC does not allow to perform two QSYs in under {{seconds}} seconds timeframe.
+main_screen_messagebox_frequency_is_busy_tune_header=Frequency is busy!
+main_screen_messagebox_frequency_is_busy_tune_details=The frequency appears to be busy.[NL]Please wait until the frequency is cleared.[NL][NL]Do you still wish to TUNE
+main_screen_messagebox_tune_requires_vara_license_header=TUNE requires a VARA modem license
+main_screen_messagebox_tune_requires_vara_license_details=This operations requires a VARA license.[NL][NL]You can however perform the TUNE operation directly in the VARA modem application.[NL][NL]VarAC is not affiliated  with the VARA modem creator in any way and does not benefit from VARA license purchases
+main_screen_messagebox_no_frequency_schedule_rules_configured_header=No Frequency schedule rules configured
+main_screen_messagebox_no_frequency_schedule_rules_configured_details=You need to configure some frequency schedule rules first.[NL]You can access the frequency scheduler through the Settings menu.[NL][NL]DO YOU WANT TO OPEN THE FREQUENCY SCHEDULER EDITOR NOW
+main_screen_messagebox_changing_info_not_allowed_header=Changing your info not allowed now
+main_screen_messagebox_changing_info_not_allowed_details=You can't change your info while connected, connection in progress, calling CQ or sending a beacon.[NL][NL]Please try later
+main_screen_messagebox_no_callsign_selected_header=No Callsign selected
+main_screen_messagebox_no_callsign_selected_details=Please connect a station first to see its' history.
+main_screen_messagebox_cant_switch_profile_header=You can't switch a profile now
+main_screen_messagebox_cant_switch_profile_details=Make sure you are not connected, trying to connect or beaconing.
+main_screen_messagebox_clear_vara_buffer_requires_vara_license_header=CLEAR VARA BUFFER requires a VARA modem license
+main_screen_messagebox_clear_vara_buffer_requires_vara_license_details=This operations requires a VARA license.[NL][NL]This feature allows you to cancel a message that is already passed to VARA modem as long as it is still waiting to be sent.[NL][NL]VarAC is not affiliated with the VARA modem creator in any way and does not benefit from VARA license purchases.
+main_screen_messagebox_change_callsign_not_allowed_header=Changing your callsign not allowed now
+main_screen_messagebox_change_callsign_not_allowed_details=You can't change your info while connected, connection in progress,[NL]sending relay notifications, calling CQ or sending a beacon.[NL][NL]Please try later.
+main_screen_messagebox_cant_send_path_finder_now_wait_header=Can't send path finder request now
+main_screen_messagebox_cant_send_path_finder_now_wait_details=You can only send one path finder request every {{seconds}} seconds as you are still waiting for repsponses to your previous path finder request.
+main_screen_rightclick_menuitem_log4om_lookup=Log4OM lookup
+main_screen_label_ignore_freq_busy_dcd=Ignore DCD
+main_screen_tooltip_label_ignore_freq_busy_dcd=When persistent noise triggers the BUSY indicator,[NL]instruct VarAC to temporarily disregard it during tasks such as[NL]Beaconing, Calling CQ, Tuning, or broadcasting.[NL][NL]PLEASE NOTE: Use this feature sparingly[NL]activating it only when needed.[NL][NL]Note that this setting resets itself to 'Inactive'[NL]within 2 hours or upon VarAC startup.
+main_screen_text_message_previous_chats_displayed_above=------ PREVIOUS CHATS (UP TO {{datastream_load_history_rows}} ROWS) WITH {{connected_to_callsign}} ARE DISPLAYED ABOVE ------
+main_screen_text_message_too_long=--- MESSAGE TOO LONG TO DISPLAY: Double-click to read it all ---[NL]
+main_screen_status_strip_statusstrip_label_locator_no_gps=NO GPS READ FOR OVER {{seconds}} SECONDS
+main_screen_status_strip_statusstrip_label_locator_last_read=Last read
+main_screen_messagebox_switching_to_emcomm_mode_on_the_cf_header=PAY ATTENTION! EmComm on a calling frequency
+main_screen_messagebox_switching_to_emcomm_mode_on_the_cf_details=You're transitioning into Emergency Communications (EmComm) mode while on a designated calling frequency.[NL][NL]EmComm mode on the calling frequency is strictly reserved for genuine emergency situations or emergency drills.[NL][NL]Utilizing EmComm mode on the calling frequency, such as beaconing as an EmComm station, when not facing a real emergency or as part of a drill may lead to a temporary or permanent ban from the VarAC network.[NL][NL]Exercise discretion when employing EmComm mode.[NL][NL]For testing or practice, kindly move away from the calling frequency.[NL][NL]ARE YOU SURE YOU WANT TO TRANSITION TO EMCOMM MODE ON THE CALLING FREQUENCY?
+main_screen_button_play=HAM-PLAY
+main_screen_tooltip_button_play=Play a game with your QSO partner.
+main_screen_button_inquire=INQUIRE
+main_screen_tooltip_button_inquire=Inquire details from your QSO partner, such as their info, Last heard stations and more.
+main_screen_label_closing=Closing VarAC[NL]Please wait
+
+###################################################################
+# Settings Form (4)
+###################################################################
+settings_direction=ltr
+settings_form_title=Settings
+settings_tab_rig=RIG
+settings_tab_logging=Logging
+settings_tab_vara=Vara
+settings_tab_qso=QSO
+settings_tab_cq_beacon=CQ / Beacon
+settings_tab_dxcluster=DX Cluster
+settings_tab_misc=Misc.
+settings_groupbox_ptt_configuration=PTT Configuration
+settings_label_test=TEST
+settings_radiobutton_ptt_none=None
+settings_button_ptt_on=PTT ON
+settings_button_ptt_off=PTT OFF
+settings_groupbox_frequency_control=Frequency Control
+settings_radiobutton_freq_ctl_none=None
+settings_checkbox_set_to_last_freq_upon_startup=Load last frequency
+settings_checkbox_read_freq=Read frequency every
+settings_label_read_frequency_seconds=seconds
+settings_label_frequency_offset_hz=Offset Hz
+settings_label_antenna_tuner=Antenna tuner
+settings_button_set_freq=TEST
+settings_groupbox_cat_configuration=CAT Configuration
+settings_label_cat_test_error_log=CAT Test Error Log
+settings_label_cat_freq_control=(?) I’m having trouble with CAT
+settings_label_download_cat_file=DOWNLOAD latest CAT command file
+settings_button_config_save=SAVE AND EXIT
+settings_groupbox_logging=Logging
+settings_label_adif_file=ADIF file
+settings_label_submode=Submode
+settings_label_send_log_to=Send log to
+settings_checkbox_load_history_upon_connection=Load history upon connection
+settings_groupbox_pskreporter=PSKReporter
+settings_checkbox_pskreporter_upload=Uload
+settings_checkbox_pskreporter_self_report=Self report
+settings_label_custom_map=Custom map
+settings_groupbox_vara_modem_configuration=VARA Modem Configuration
+settings_label_vara_modem_type=VARA modem type
+settings_label_main_port=Main port
+settings_label_vara_file_path=VARA file path
+settings_label_vara_monitor_path=VARA monitor path (Optional)
+settings_checkbox_start_vara_modem=Start modem upon startup
+settings_groupbox_qso_configuration=QSO Configuration
+settings_label_call_id_interal=Call ID interval (min)
+settings_label_auto_disconnect=Auto disconnect
+settings_label_show_distance=Show distance in
+settings_label_callsign_block_list=Callsigns block list
+settings_checkbox_auto_away=Auto away in
+settings_label_auto_away_minutes=minutes
+settings_checkbox_suppress_is_typing_in_low_snr=Suppress 'is typing' under low SNR
+settings_checkbox_allow_last_heard_peeking=Allow last heard peeking
+settings_checkbox_allow_non_hams_callsigns=Allow non-ham callsigns
+settings_checkbox_allow_incoming_pings=Allow incoming pings
+settings_checkbox_allow_info_request=Allow info request
+settings_checkbox_allow_auto_qsy=Auto QSY
+settings_checkbox_allow_auto_qsy_band_skip=Band skip
+settings_checkbox_load_broadcast_history=Load broadcasts history
+settings_checkbox_load_datastream_history=Load datastream history
+settings_checkbox_auto_accept_verbose_snr=Auto accept verbose SNR
+settings_groupbox_file_transfer=File Transfer
+settings_label_incoming_file_size_limit=Incoming file size limit (bytes)
+settings_label_incoming_files_directory=Incoming files directory
+settings_label_outgoing_files_directory=Outgoing files directory
+settings_groupbox_vmail=VMail
+settings_checkbox_send_relay_notifications=Relay notification
+settings_checkbox_allow_parking=Allow parking
+settings_groupbox_path_finder=Path finder
+settings_checkbox_allow_path_finder=Allow path finder
+settings_checkbox_show_my_path_finders_only=Show my path finders only
+settings_groupbox_beacon_cqs=Beacons / CQs
+settings_label_beacon_interval_minutes=Beacon interval (minutes)
+settings_label_beacon_cq_digipeat_via=Digipeat via
+settings_label_cq_slow_wait_time_seconds=CQ Slot wait time (seconds)
+settings_checkbox_skip_cq_slot_selector=Skip slot selector
+settings_checkbox_load_last_heard_history=Load last heard history
+settings_label_slot_size_hz=Slot size (hz)
+settings_groupbox_dx_cluster_uploads=DX Cluster uploads
+settings_checkbox_dxcluster_enabled=Enable
+settings_label_dxcluster_host=Host
+settings_label_dxcluster_port=Port
+settings_label_dxcluster_username=Username
+settings_label_dxcluster_password=Password
+settings_button_dxcluster_test=TEST
+settings_groupbox_misc=Misc.
+settings_checkbox_debug_mode=Enable debug mode
+settings_checkbox_check_for_updates=Check for VarAC updates
+settings_checkbox_linux_compatible_mode=Linux compatible mode
+settings_label_linux_installation_guide=Click for Installation guide
+settings_messagebox_what_is_frequency_offset_header=What is frequency offset?
+settings_messagebox_what_is_frequency_offset_details=Some RIGs VFOs are not well calibrated and has a certain offset (drift)[NL]from the real frequency.[NL][NL]Set this offset in Hz (ex: 200 or -200) and every time VarAC will change[NL]your RIG frequency, it will adjust it according to your offset.[NL][NL]Set to '0' (zero) to disable this features.[NL][NL]PLEASE NOTE:[NL]If you enable this feature, disable the ‘Read frequency’ checkbox so[NL]VarAC will not read your RIG offset frequency, which will mess with the[NL]VarAC ability to perform its tasks.
+settings_messagebox_what_is_antenna_tuner_header=What is antenna tuner?
+settings_messagebox_what_is_antenna_tuner_details=VarAC can activate your antenna tuner option on your rig when you[NL]change frequencies.[NL][NL]This option is available only to users who control their Rig using[NL]direct CAT control or through FLRig. OmniRig Does not provide with a[NL]tune option.[NL][NL]If your rig supports this option through CAT command but VarAC does[NL]not provide you with this option, you can manually edit the[NL]'VarAC_cat_commands.ini' and add a CAT command to the 'AntennaTuner='[NL]parameter under your rig section.[NL]Please notify us through the support forum so we can add it to all users.[NL][NL]You have 2 options:[NL]ALWAYS: Tune every time you change frequency.[NL]BANDSKIP: Tune only if you change band.
+settings_messagebox_cat_freq_control_header=Troubles with CAT control?
+settings_messagebox_cat_freq_control_details="Please make sure you have the most recent CAT command file at: https://www.varac-hamradio.com/rig-control-file [NL]As there are so many RIGs out there, it takes time to develop and validate against each and every one.[NL][NL]But no worries, if you can’t find your RIG here or if you fail to configure it with CAT control, you can always use OmniRig to control both your PTT and frequency.[NL][NL]Do you want to download OmniRig?
+settings_messagebox_loggin_adif_file_path_header=What is adif file path?
+settings_messagebox_loggin_adif_file_path_details=VarAC stores all your QSOs in an ADIF format file.[NL][NL]You can configure the ADIF file path according to your preferences.
+settings_messagebox_adif_log_submode_header=What are VarAC mode & Submodes?
+settings_messagebox_adif_log_submode_details=The ADIF committee has decided to classify VARA as a set of[NL]submodes under a generic mode called “DYNAMIC”.[NL][NL]The supported ADIF classifications are:[NL]Mode: DYNAMIC[NL]Submode: VARA HF / VARA SATELLITE / VARA FM 1200 / VARA FM 9600[NL][NL]VarAC will write to the adif file the submode based on on your[NL]modem type (VARA/VARA-FM/VARA-SAT). You can override this here.
+settings_messagebox_load_history_upon_connection_header=What is load history upon connection?
+settings_messagebox_load_history_upon_connection_details=When VarAC is linked to a station, it will query its database for any preexisting[NL]information about that station, such as its name, QTH, and Locator.[NL][NL]If such data is found, it will be automatically inserted into the LOG section.
+settings_messagebox_logging_tcp_header=What is QSO loggins?
+settings_messagebox_logging_tcp_details=VarAC can send your QSO record in real-time to an external logger using both TCP & UDP protocol.[NL][NL]The default port number for your selected logger is automatically populated. however you can change it manually.[NL][NL]Do you want to read the VarAC - Loggers integration guide?
+settings_messagebox_pskreporter_upload_header=What is PSKReporter upload?
+settings_messagebox_pskreporter_upload_details=PSKReporter is a website that aggregates spots from various[NL]logging programs.[NL][NL]VarAC can upload all stations you spotted to PSKReporter.[NL][NL]Please note that spots that are uploaded to PSKReported will[NL]
+"be visible under the mode name: “VARAC”
+settings_messagebox_pskreporter_upload_self_report_header=What is PSKReporter self report?
+settings_messagebox_pskreporter_upload_self_report_details=Let people know you are active on a frequency without being[NL]spotted by sending a beacon or a CQ call.[NL][NL]Every time you change frequency, a self-report to PSKReporter[NL]will be sent.[NL][NL]PLEASE NOTE: Self reports will only be sent after staying[NL]at least {{time}} seconds on the same frequency.
+settings_messagebox_pskreport_custom_link_header=What is Custom PSKReporter map?
+settings_messagebox_pskreport_custom_link_details=PSKreport offers a verity of options to customize the map.[NL]The VarAC PSKReporter buttons is activating a link which is[NL]composed of 2 elements.[NL][NL]A static one :[NL]https://pskreporter.info/pskmap.html?preset&callsign=YOURCALL&mode=VARAC[NL][NL]and a dynamic one that is concatenated to the static one which[NL]contains the customization options.[NL][NL]The VarAC default dynamic element is:[NL]&timerange=21600&showsnr=1&showlines=1[NL][NL]Change your PSKReporter map preferences by changing this link so[NL]next time you click the button “PSKReporter MAP” it will open up[NL]the way you want it to.[NL][NL]To find out more about PSKReporter customization options, open the[NL]PSKReporter map, click “Display options” at the top right, and set[NL]your preferences. Then click the “Permalink” to see the results.[NL][NL]Once you’re happy, copy the website URL aside and paste only what[NL]comes after the: “Mode = VARAC” to this settings field.
+settings_messagebox_start_modem_help_header=What is 'Start modem' ?
+settings_messagebox_start_modem_help_details=By default, VarAC will start the VARA modem locally before trying[NL]to connect it. [NL][NL]But in case you run the VARA modem on a remote server, then you[NL]can disable this from happening by unchecking this box.
+settings_messagebox_what_is_varahf_monitoring_header=What is VARA HF Monitor?
+settings_messagebox_what_is_varahf_monitoring_details=A VARA modem can be configured either in the Ready-To-Connect mode, or the Listening (Monitoring) mode.[NL][NL]If you wish to be ready for incoming connections and at the same time monitor the frequency for VARA traffic such as ongoing VARA QSO, then you need to run a separate VARA modem instance in Monitor mode.[NL][NL]Simply duplicate your existing VARA modem  directory into a new folder, set this path to the new VARA.EXE file and VarAC will do the rest. VarAC will configure the second VARA modem to run in MONITORING mode upon startup.[NL][NL]If you do not wish you launch a Monitoring VARA modem, simply leave this section empty.
+settings_messagebox_what_is_call_id_intervals_header=What is Call ID intervals?
+settings_messagebox_what_is_call_id_intervals_details=As hams we are obligated to identify ourselves every few minutes while in a QSO. The number of minutes depends on YOUR local regulations.[NL][NL]It also allows other hams whom are monitoring the frequency to know who is chatting, and once the QSO is over, they can connect any of the chatting parties.[NL][NL]This parameter affects the interval in which a 'DE MyCallsign' message is sent over the chat.
+settings_messagebox_what_is_auto_disconnect_idle_minutes_header=What is auto disconnect (idle minutes)?
+settings_messagebox_what_is_auto_disconnect_idle_minutes_details=Set the time in minutes in which you want idle connection to be terminated.[NL][NL]This is useful if you don't want someone to connect you and leave the link open for a long period of time without sending something or if you forget the link open.[NL][NL]SET THIS PARAMETER TO 0 (ZERO) IF YOU WISH TO DISABLE THIS FEATURE
+settings_messagebox_what_is_callsigns_block_list_header=What is callsigns block list?
+settings_messagebox_what_is_callsigns_block_list_details=You can tell VarAC to block specific callsigns you are not interested in seeing or connecting with.[NL][NL]type in callsigns separated by commas.[NL][NL]Those callsigns won't be able to connect you and won't appear on your last-heard lists.
+settings_messagebox_what_is_auto_away_header=What is Auto away?
+settings_messagebox_what_is_auto_away_details=Auto away mode puts VarAC in “I’m away” state automatically if there was not operation performed in the VarAC application for a given amount of minutes.
+settings_messagebox_suppress_is_typing_in_low_snr_header=What is suppress 'Is Typing' in low SNR?
+settings_messagebox_suppress_is_typing_in_low_snr_details='Is typing' events brings a live experience into the chat.[NL]Yet it comes with a price of extra data to be sent.[NL][NL]In the other sides does not copy you well (low/red SNR level)[NL]It may spend precious QSO time sending this event. So VarAC[NL]Will not send 'Is Typing' events under low SNR levels.
+settings_messagebox_what_is_last_heard_peeking_header=What is last heard peeking?
+settings_messagebox_what_is_last_heard_peeking_details=You can allow the other party to pull your last heard beacons/cq lists.[NL][NL]It allows your partner to see who you see online
+settings_messagebox_allow_non_hams_callsigns_header=What is allow non-ham callsigns?
+settings_messagebox_allow_non_hams_callsigns_details=By default, VarAC ignores beacons, CQ calls and connect attempts from stations who does not use a valid amateur radio callsign.[NL][NL]We recommend you leave this feature disabled to protect you from non amateur radio connection attempts.[NL][NL]If you use VarAC for other purposes outside of the amateur radio bands with non amateur radio callsigns, you should enable this feature.[NL][NL]
+settings_messagebox_allow_incoming_pings_header=What is allow incoming pings?
+settings_messagebox_allow_incoming_pings_details=Pings are short QSO for the purpose of reports exchange only.[NL]Pings are great to check the link between 2 stations.[NL][NL]By default, your VarAC will accept ping requests.[NL]You can disable it by unchecking this box.
+settings_messagebox_allow_info_request_header=What is allow info request?
+settings_messagebox_allow_info_request_details=VarAC allows your QSO partner to retrieve your info (Name,QTH,Locator).[NL][NL]If you wish to disable this option, then uncheck this box.
+settings_messagebox_allow_auto_qsy_header=What is allow auto QSY?
+settings_messagebox_allow_auto_qsy_details=When q QSY invitation is sent or received, VarAC will automatically[NL]QSY to the destination frequency.[NL][NL]To prevent an Auto-QSY outside of allowed ranges, VarAC incorporates[NL]an Auto-QSY allowed frequency list. You can Access and edit it through[NL]The VarAC 'Settings' menu -> 'Auto-QSY allowed frequency ranges'[NL][NL]VarAC will also Automatically QSY back to the calling frequency when[NL]the QSO ends.[NL][NL]Enabling 'Band skip' means that you approve band change in auto qsy.[NL][NL]
+Note: This feature is enabled only if you configured frequency control.
+settings_messagebox_load_broadcast_history_header=What is load broadcasts history?
+settings_messagebox_load_broadcast_history_details=VarAC keeps all incoming and outgoing broadcasts in its database.[NL][NL]You can ask VarAC to populate the broadcasts section upon startup from the database so if you restart VarAC for any reason, you will still see on screen the previously captured broadcasts.[NL][NL]VarAC will load broadcasts from the past 24 hours.
+settings_messagebox_load_datastream_history_header=What is load datastream history?
+settings_messagebox_load_datastream_history_details=VarAC keeps all datastream data (chats and system messages) in its database.[NL][NL]When using tabular mode datastream (enabled by default), you can tell VarAC to populate[NL]the datastream section upon startup from its' database.[NL][NL]VarAC will load datastream data from the past 24 hours.
+settings_messagebox_auto_accept_verbose_snr_header=What is auto accept verbose SNR?
+settings_messagebox_auto_accept_verbose_snr_details=Verbose SNR is a great tool to examine propagation during[NL]a QSO by sharing an SNR report every minute.[NL][NL]When your QSO partner sends a verbose SNR invitation, your[NL]VarAC can automatically accept it.[NL][NL]This is useful if you want to allow stations to perform SNR[NL]tests while you are away.
+settings_messagebox_send_relay_notifications_header=What are VMail relay notifications?
+settings_messagebox_send_relay_notifications_details=When your VarAC hears a beacon of a station, it checks if it has[NL]parking VMails waiting for that station.[NL][NL]If there are, it will send an asynchronous packet(broadcast) letting[NL]that station know you hold VMails that are waiting to be collected.[NL][NL]Your VarAC also receives relay notifications and show you in indicatio[NL]for VMails that are waiting to be collected[NL][NL]You can enable or disabled these incoming & outgoing notifications[NL]using this checkbox.
+settings_messagebox_allow_parking_header=About parking
+settings_messagebox_allow_parking_details=VarAC allows you to store and forward VMails for 3rd parties.[NL][NL]Users can connect you and leave VMails for 3rd parties.[NL]Your VarAC notifies users about parked(waiting) VMails[NL]through the “Relay notification” mechanism, and forward[NL]the VMail, once the destination station connects to you.[NL][NL]If you do not wish users to park messages on your VarAC due[NL]to local regulations or other reasons, you can disable this[NL]feature here.
+settings_messagebox_allow_path_finder_header=What is allow path finder?
+settings_messagebox_allow_path_finder_details=If a station needs to send a VMail to another station but[NL]cannot establish a direct connection, it can initiate a[NL]'Path Find' call to check if any other stations have detected[NL]the target station and can serve as relays for the VMail.[NL][NL]By enabling this functionality, your VarAC will respond to'[NL]'Path Find' calls if it has detected the target station within[NL]the last 24 hours.
+settings_messagebox_show_my_path_finders_only_header=What is show my path finders only
+settings_messagebox_show_my_path_finders_only_details=By default, all pathfinder broadcasts, including both yours and others, are displayed.[NL]In certain instances, this may overwhelm the broadcast window.[NL][NL]Enable this option if you prefer to show only your pathfinder requests and responses.
+settings_messagebox_what_is_beacon_interval_header=What is Beacon interval?
+settings_messagebox_what_is_beacon_interval_details=You can set VarAC to send beacons periodically to let other stations know you are on frequency.[NL][NL]If you check the 'send beacon' checkbox, a beacon with your callsign will be broadcasted every few minutes based on your selection here.[NL][NL]A beacon will be sent out only if the frequency is not busy for at least 1 minute to avoid running over active QSOs or beacons.[NL][NL]Once you activate beacons, they will be sent out for a period of up to 24 hours and then automatically disabled
+settings_messagebox_digipeat_via_header=What is Digipeat Via?
+settings_messagebox_digipeat_via_details=Applicable only for VARA-FM:[NL]VaraFM allows you to digipeat your transmission through[NL]one or more parties.[NL][NL]If you wish to CQ/Beacon through a digipeater,[NL]enter its’ callsign here.[NL][NL]You can enter more than one callsign if you wish to[NL]relay your transmissions through a chain of digipeaters.[NL]Use SPACE as a delimiter.Ex: “4Z1DIG 4Z2DIG”
+settings_messagebox_cq_slot_wait_seconds_header=What is CQ slot wait time?
+settings_messagebox_cq_slot_wait_seconds_details=When you call CQ, you can wait for incoming connections on[NL]another frequency (Slot).[NL][NL]The amount of time VarAC will keep waiting for incoming connection[NL]on the slot is determined by this parameter.
+settings_messagebox_skip_cq_slot_selector_header=What is skip cq slot selector?
+settings_messagebox_skip_cq_slot_selector_details=VarAC slot system allow you to call CQ on a shared calling[NL]frequency while encoding into the CQ call the frequency[NL](slot) where you will be standing by for an incoming call.[NL][NL]This checkbox disables this CQ mechanism.[NL][NL]Disable the slot - based mechanism ONLY if you use VarAC[NL]with VARA-FM or if you wish to run your own VarAC net on[NL]another frequency without slots.[NL][NL]IF YOU USE VarAC ON THE OFFICIAL VarAC HF CALLING FREQUENCIES,[NL]YOU MUST USE SLOTS (Hence leave this checkbox un-checked)
+settings_messagebox_what_is_load_last_heard_history_header=What is load last heard history?
+settings_messagebox_what_is_load_last_heard_history_details=VarAC keeps a log file of both last heard CQ calls and last heard beacons.[NL][NL]You can ask VarAC to populate the last heard lists upon startup from that log so if you restart VarAC for any reason, you will still see on screen the previously captured CQ calls and Beacons[NL][NL]VarAC looks back only on the last 100 rows of the last heard log file. Please note that you may see less callsigns on screen as VarAC only shows the last event per callsign
+settings_messagebox_slot_size_hz_help_header=What is slot size?
+settings_messagebox_slot_size_hz_help_details=Slots are like channels around the calling frequency.[NL]to allow multiple QSOS to take place simultaneously.[NL][NL]VARA HF default slot size is 750Hz and VARA SAT is 2550Hz.[NL]However, you can set your own slot size, but keep in mind[NL]That your partners would need to use the same slot size[NL]On their end.
+settings_messagebox_dxcluster_password_help_header=About DX Cluster password
+settings_messagebox_dxcluster_password_help_details=Most DxClusters do not require a password.[NL]Only a username which is your callsign.[NL][NL]If no password is required – leave this field empty.
+settings_messagebox_dxcluster_missing_information_header=Missing DxCluster information
+settings_messagebox_dxcluster_missing_information_details=Make sure you provide at least a host, port and username.[NL]Also make sure that the PORT number is numeric.
+settings_messagebox_debug_mode_header=What is debug mode?
+settings_messagebox_debug_mode_details=Enable this ONLY when instructed by the developers of VarAC.[NL][NL]Enabling this may slow down VarAC significantly and may affect/disable some of the VarAC functionalities as many log entires will be written to disk.
+settings_messagebox_linux_compatible_mode_header=About linux compatible mode
+settings_messagebox_linux_compatible_mode_details=VarAC can be used on Linux/Pi/Mac using WINE.[NL][NL]Some VarAC elements are managed differently on such a platform[NL]so mark this checkbox in case you are running VarAC on Linux/Pi/Mac.[NL][NL]Please note: Linux compatibility mode disables the following features[NL]that only works on windows platforms:[NL][NL]-- Narrations - Completely disabled.[NL]-- Speller - Completely disabled.[NL]-- PSK Reporter uploads - you can enable manually & test to see if it works on your Linux flavour[NL]
+settings_messagebox_restart_required_header=Restart required?
+settings_messagebox_restart_required_details=You've changed a parameter that requires a restart of VarAC.[NL][NL]VarAC will now restart itself. Click OK to proceed. [NL][NL]This may take a few seconds. Please be patient.
+settings_messagebox_what_is_incoming_file_size_limit_header=What is incoming file size limit?
+settings_messagebox_what_is_incoming_file_size_limit_details=You can configure the maximum file size limit (in bytes) you wish to receive automatically without explicit permission.[NL][NL]While activly in QSO, if an incoming file transfer exceed this limit, you will be asked to approve or reject the file.[NL][NL]While you are away ('I'm away' status), if someone tries to send you a file that exceed this limit, it will be automatically rejected.
+settings_checkbox_logger_callsign_lookup=Automatic callsign lookup
+settings_messagebox_show_logger_automatic_callsign_lookup_header=What is QSO loggins automatic callsign lookup?
+settings_messagebox_show_logger_automatic_callsign_lookup_details=Some loggers support a real-time callsign lookup. Upon connection, VarAC will ask your logger application to[NL]Perform a callsign lookup and present in the logger application all the information about it including QRZ.COM[NL]info, previous QSOs etc.[NL][NL]Please note that you need to enable this feature also on your QSO logger application.
+settings_checkbox_remember_vara_audio_level_per_band=Remember VARA audio level per band
+settings_messagebox_remember_vara_audio_level_per_band_header=What is 'remember vara audio level per band' ?
+settings_messagebox_remember_vara_audio_level_per_band_details=Different bands may necessitate varying VARA modem audio levels.[NL]By default, VarAC retains the last audio (TUNE) level associated[NL]with each operated band.[NL][NL]Enabling this feature enables VarAC to adjust the audio level[NL]when transitioning between bands.
+settings_tab_gps=GPS
+settings_groupbox_gps=GPS Configuration
+settings_checkbox_gps_enabled=Enable GPS reading
+settings_checkbox_remember_last_gps_position=Remember last position
+settings_messagebox_gps_enabled_header=What is enable GPS reading?
+settings_messagebox_gps_enabled_details=VarAC seamlessly integrates with NMEA-based GPS devices via a COM port interface.[NL][NL]By leveraging this integration, VarAC is capable of efficiently reading GPS coordinates and swiftly converting them into Grid locators.[NL][NL]This functionality proves invaluable for users engaged in activities such as outdoor activity or emergency communication operations (Emcomm), ensuring that their Grid locator remains constantly updated and accurate, even while on the move.
+settings_messagebox_remember_last_gps_position_header=What is remember last GPS position?
+settings_messagebox_remember_last_gps_position_details=Enabling this feature allows VarAC to store the last received grid locator from a GPS.[NL][NL]Consequently, upon restarting VarAC even in the absence of a connected GPS, it will retain and display your most recent grid locator.
+settings_checkbox_lastheard_time_diff_view=Time diff view
+settings_messagebox_what_is_lastheard_time_diff_view_header=What is time diff view?
+settings_messagebox_what_is_lastheard_time_diff_view_details=VarAC can show beacon/CQ times either as UTC time or as delta from UTC time.[NL]For example, if a beacon was received at 12:00 and it now 12:02, it will be shown as 00:02 in time diff view.
+settings_checkbox_consider_all_freq_list_as_cf=Consider entire frequency list as CF
+settings_messagebox_consider_all_freq_list_as_cf_header=What is consider entire frequency list as CF?
+settings_messagebox_consider_all_freq_list_as_cf_details=VarAC restricts some actions (such as VMail forwardings) on official CF - Calling Frequencies (VarAC official frequencies Such as 14.105Mhz) to keep these frequencies clear for Beacons, CQs, Broadcasts, and Link establishments.[NL][NL]However, VarAC allows you to create custom Calling Frequencies by adding them to the frequency dropdown list.[NL][NL]To have [NL][NL] treat all frequencies in the list as calling frequencies and apply the associated limitations to each, enable this option.
+settings_checkbox_load_chat_history_upon_connection=Load chat history upon connection
+settings_messagebox_what_is_load_chat_history_upon_connection_header=What is load chat history upon connection?
+settings_messagebox_what_is_load_chat_history_upon_connection_details=If activated, upon linking to a station, the data stream will automatically display previous chats you've had with the connected station.[NL][NL]This allows you to conveniently refresh your memory with past correspondence and seamlessly resume the conversation from where you left off
+settings_tab_hamplay=HamPlay
+settings_groupbox_hamplay=HamPlay game center
+settings_checkbox_hamplay_enabled=Enable HamPlay
+settings_messagebox_hamplay_enabled_header=What is enable HamPlay?
+settings_messagebox_hamplay_enabled_details=HamPlay is VarAC's game center where you can play games with your QSO partner.[NL][NL]If you disable this feature, VarAC will automatically decline any HamPlay invitations.
+settings_checkbox_hamplay_suppress_move_packets_from_datastream=Suppress HamPlay move packets from datastream
+settings_messagebox_hamplay_suppress_move_packets_from_datastream_header=What is suppress move packets from datastream?
+settings_messagebox_hamplay_suppress_move_packets_from_datastream_details=By default, all incoming and outgoing traffic is displayed in the Datastream. During a HamPlay game, the stream can become cluttered with numerous game move transmissions.[NL][NL]Enable this option to hide those transmissions and keep the chat cleaner and clearer during a HamPlay game.
+settings_label_open_images_with=Open images with
+
+
+###################################################################
+# Gestures Form (6)
+###################################################################
+gestures_direction=ltr
+gestures_form_title=VarAC Gestures Catalog
+gestures_label_gestures=Gestures
+gestures_label_gestures_info=With VarAC, you can turn your chat into a more live,[NL]funny and colorful experience using VarAC gestures.[NL][NL]Typing the following strings as part of your chat message,[NL]will trigger a gesture or event on your partner's side.
+gestures_label_request_data_tags=Request data tags
+gestures_label_request_data_tags_ver_info=Ask for the VarAC version
+gestures_label_request_data_tags_ver_info_info=Ask for profile information (Name, QTH, Locator..)
+gestures_label_request_data_tags_locr_info=Ask for Locator only
+gestures_label_request_data_tags_snrr_info=Ask for SNR report
+gestures_label_request_data_tags_lhr_info=Peek into the last heard lists of your QSO partner
+gestures_label_request_data_tags_fsp_info=Peek into the frequency schedule of your QSO partner
+gestures_label_emojis=Emojis
+gestures_label_sounds=Sounds
+gestures_label_sounds_ding_info=Plays a "DING"
+gestures_label_sounds_ring_info=Plays 3 phone ring sounds
+gestures_label_sounds_hihiw_info=Woman laughing
+gestures_label_sounds_hihim_info=Man laughing
+gestures_label_embed_info_into_tags=Embed profile info Tags
+gestures_label_embed_info_into_tags_info=VarAC allows you to send your information in a way  that will be[NL]automatically  logged by the other side. Make sure you enter[NL]your information in the "Settings" --> "My Information" Menu.[NL][NL]You can also use  those tags in your canned messages or manually[NL]type them while in QSO.
+gestures_label_embed_tag_call_info=My Callsign
+gestures_label_embed_tag_name_info=My Name
+gestures_label_embed_tag_qth_info=My QTH
+gestures_label_embed_tag_loc_info=My Locator
+gestures_label_embed_tag_rig_info=My RIG
+gestures_label_embed_tag_ant_info=My Antenna
+gestures_label_embed_tag_pwr_info=My TX Power
+gestures_label_embed_tag_hcall_info=OM Callsign
+gestures_label_embed_tag_hname_info=OM Name
+gestures_label_embed_tag_hqth_info=OM QTH
+gestures_label_embed_tag_hloc_info=OM Locator
+gestures_label_embed_tag_gpsloc_info=My GPS Locator
+gestures_button_close=CLOSE
+
+###################################################################
+# Canned messages Form (7)
+###################################################################
+canned_messages_direction=ltr
+canned_messages_form_title=Canned messages
+canned_messages_label_welcome_message=Welcome message
+canned_messages_label_welcome_message_help_header=What is welcome message?
+canned_messages_label_welcome_message_help_details=This message will be automatically sent to anyone who connects you while you are not in 'I'm away' status.[NL][NL]Leave it empty if you do not wish you send anything.[NL][NL]Please note: a 'de YOURCALL' will be added at the end of your welcome message.
+canned_messages_groupbox_tags=Tags
+canned_messages_label_name=Name
+canned_messages_label_shortcut_key=Shortcut key
+canned_messages_label_canned_message=Canned message
+canned_messages_button_save_and_close=SAVE AND CLOSE
+canned_messages_label_my_callsign=My Callsign
+canned_messages_label_my_name=My Name
+canned_messages_label_my_qth=My QTH
+canned_messages_label_my_locator=My Locator
+canned_messages_label_om_callsign=OM Callsign
+canned_messages_label_om_name=OM Name
+canned_messages_label_om_qth=OM QTH
+canned_messages_label_om_locator=OM Locator
+canned_messages_label_my_rig=My RIG
+canned_messages_label_my_antenna=My Antenna
+canned_messages_label_my_tx_power=My TX power
+canned_messages_label_send_message=Send message
+canned_messages_label_disconnect=Disconnect
+canned_messages_label_ice_breaker=Ice breaker info: age, profession, hobbies
+
+###################################################################
+# Apperance Form (8)
+###################################################################
+appearance_and_sounds_direction=ltr
+appearance_and_sounds_form_title=Appearance and Sounds
+appearance_and_sounds_label_load_predefined_themes=Load predefined themes
+appearance_and_sounds_checkbox_darkmode=Dark mode
+appearance_and_sounds_label_stream_section=Data stream section
+appearance_and_sounds_checkbox_datastream_tabular_view=Tabuler view
+appearance_and_sounds_label_datastream_font_size=Font size
+appearance_and_sounds_label_datastream_background_color=Background color
+appearance_and_sounds_label_datastream_my_font_color=My Font color
+appearance_and_sounds_label_datastream_partner_font_color=Partner font color
+appearance_and_sounds_label_datastream_info_messages_color=Info messages color
+appearance_and_sounds_label_new_message_section=New message section
+appearance_and_sounds_new_message_section_font_size=Font size
+appearance_and_sounds_new_message_section_font_color=Font color
+appearance_and_sounds_new_message_section_background_color=Background color
+appearance_and_sounds_label_beacon_cq_section=Beacons/CQ section
+appearance_and_sounds_label_beacon_cq_section_font_size=Font size
+appearance_and_sounds_label_beacon_cq_section_background_color=Background color
+appearance_and_sounds_label_vmails=VMails
+appearance_and_sounds_label_vmails_font_size=Font size
+appearance_and_sounds_label_application_main_screen=Application main screen
+appearance_and_sounds_label_application_main_screen_font_color=Font color
+appearance_and_sounds_label_application_main_screen_background_color=Background color
+appearance_and_sounds_label_interface_language=Interface language
+appearance_and_sounds_label_sounds=Sounds (Enable to test)
+appearance_and_sounds_checkbox_play_sound_incoming_chat_message=Incoming chat message
+appearance_and_sounds_checkbox_play_sound_outgoing_chat_message=Outgoing chat message
+appearance_and_sounds_checkbox_play_sound_incoming_broadcast=Incoming broadcast
+appearance_and_sounds_checkbox_play_sound_vmail_relay_notification=VMail relay notification
+appearance_and_sounds_checkbox_play_sound_incoming_connection_request=Incoming connection request
+appearance_and_sounds_checkbox_play_sound_connected_to_station=Connected to station
+appearance_and_sounds_checkbox_play_sound_is_typing=Is typing
+appearance_and_sounds_checkbox_play_sound_frequency_change=Frequency change
+appearance_and_sounds_checkbox_play_sound_cq_call=CQ Call
+appearance_and_sounds_checkbox_play_sound_qsy_invitation=QSY alerts
+appearance_and_sounds_checkbox_play_sound_gestures=Gestures
+appearance_and_sounds_checkbox_play_sound_alert_tags=Alert tags
+appearance_and_sounds_label_narrator=Narrator
+appearance_and_sounds_checkbox_narrate_incoming_messages=Narrate incoming messages
+appearance_and_sounds_checkbox_narrate_alerts_and_notifications=Narrate alerts and notifications
+appearance_and_sounds_checkbox_narrate_beacons=Narrate beacons
+appearance_and_sounds_checkbox_narrate_cqs=Narrate CQs
+appearance_and_sounds_checkbox_narrate_broadcasts=Narrate Broadcasts
+appearance_and_sounds_label_misc=Misc.
+appearance_and_sounds_checkbox_new_message_spellcheck=Check spelling as you type a message (English only)
+appearance_and_sounds_checkbox_replace_zero_slash=Replace "0" with "Ø" in the data stream
+appearance_and_sounds_button_save_and_close_appearance=SAVE AND CLOSE
+appearance_and_sounds_button_reset_to_default=Reset to default
+appearance_and_sounds_title_about_spell_check=About spell check
+appearance_and_sounds_text_about_spell_check=VarAC support speller in the English language only.[NL][NL]Please note: Speller is disabled under Linux compatibility mode
+appearance_and_sounds_title_about_tabular_view=About Tabular view
+appearance_and_sounds_text_about_tabular_view=DataStream tabular view provides a more structured way of chatting.[NL][NL]It also includes additional capabilities as Chat Reply button,[NL]Chat history load upon startup.[NL][NL]If you want to return to the old-fashioned DataStream mode(non-tabular),[NL]disable this checkbox.
+appearance_and_sounds_label_datetime_format=Date/Time format
+appearance_and_sounds_label_emcomm_beacon_background_color=EmComm Background color
+appearance_and_sounds_label_emcomm_beacon_font_color=EmComm Font color
+appearance_and_sounds_label_datastream_separator_messages_color=Info separator color
+
+###################################################################
+# Send QSY invitation Form (9)
+###################################################################
+send_qsy_invitation_direction=ltr
+send_qsy_invitation_form_title=Send QSY Invitation
+send_qsy_invitation_away_message=Your QSO partner is away but allows auto-QSY.[NL]Please send a QSY invitation to clear the calling frequency.
+send_qsy_invitation_follow_this_wizard_message=Your QSO partner is away but allows auto-QSY.[NL]Please send a QSY invitation to clear the calling frequency.
+send_qsy_invitation_groupbox_select_frequency_or_slot=STEP #1: Select frequency or a slot ID
+send_qsy_invitation_label_preferred=Preferred
+send_qsy_invitation_label_calling_freq=Calling frequency
+send_qsy_invitation_label_slot_id=Slot ID:
+send_qsy_invitation_label_slot_conflict_allocation_alert=Some slots were disabled to avoid conflict with other band allocaitons
+send_qsy_invitation_label_current_frequency=Current frequency
+send_qsy_invitation_label_selected_slot_frequency_or_type_manualy=Selected Slot frequency[NL]or type one manually
+send_qsy_invitation_label_selected_slot_frequency_alert=Make sure the slot is not out of band!
+send_qsy_invitation_groupbox_check_slot_free=STEP #2: Check if the frequency is free
+send_qsy_invitation_label_avaialble_only_with_cat=Available only with CAT freq. control
+send_qsy_invitation_button_slot_sniffer=FREQUENCY SNIFFER
+send_qsy_invitation_label_click_and_hold=Click and hold
+send_qsy_invitation_groupbox_send_qsy_invitation=STEP #3: Send QSY invitation
+send_qsy_invitation_button_send_qsy_invite=SEND QSY INVITATION
+send_qsy_invitation_button_cancel=CANCEL
+send_qsy_invitation_label_click_and_hold_keep_holding=Keep holding...
+send_qsy_invitation_label_click_and_hold_done=Done
+
+###################################################################
+# Frequency scheduler Form (10)
+###################################################################
+frequency_scheduler_direction=ltr
+frequency_scheduler_form_title=FREQ schedule
+frequency_scheduler_label_info=You can configure VarAC to QSY to different[NL]frequencies at specific times.[NL][NL]This is useful when you want to QRV on[NL]different frequencies / bands across the day[NL]ex. 20m for daytime / 40m for night time).
+frequency_scheduler_label_utc_time=UTC time[NL](hour:minute)
+frequency_scheduler_label_frequency=Frequency (Hz)[NL]ex: 14.105.000
+frequency_scheduler_button_save_and_exit=SAVE AND EXIT
+
+###################################################################
+# My information Form (11)
+###################################################################
+my_information_direction=ltr
+my_information_form_title=My Information
+my_information_groupbox_callsign=Callsign
+my_information_label_special_prefix=Special[NL]prefix
+my_information_label_your_callsign=Your[NL]callsign
+my_information_label_special_suffix=Special[NL]suffix
+my_information_label_callsign=Callsign:
+my_information_label_example=Example:
+my_information_label_complex_callsigns_info=How complex callsigns work?
+my_information_label_complex_callsigns_info_header=How complex callsigns work?
+my_information_label_complex_callsigns_info_details=VARA modem supports only plain callsigns.[NL]However, with VarAC you can define a[NL]complex callsign such as W / 4Z1AC / QRP.[NL][NL]VarAC will use your plain callsign during[NL]the connect phase, and if a complex callsign is[NL]defined, it will be sent right after the connection[NL]is established and will be reflected on the other[NL]side console.[NL][NL]PLEASE NOTE:[NL]CQ and BEACONS will show your plain callsign only
+my_information_groupbox_basic_info=Basic information
+my_information_label_qth=QTH
+my_information_label_name=Name:
+my_information_label_locator=Locator:
+my_information_groupbox_setup=Setup
+my_information_label_rig=RIG
+my_information_label_power=Power (W):
+my_information_label_antenna=Antenna:
+my_information_groupbox_icebreaker=Ice Breaker
+my_information_label_icebreaker_intro=Sharing more about yourself beyond ham radio can[NL]spark longer and more enjoyable chats.
+my_information_label_age=Age:
+my_information_label_profession=Profession:
+my_information_label_other_hobbies=Other[NL]hobbies:
+my_information_label_tags_info=Use the following tags during[NL]a QSO or in your canned messages[NL]to share your information:
+my_information_button_save_and_exit=SAVE AND EXIT
+
+###################################################################
+# Send vmail Form (12)
+###################################################################
+send_vmail_direction=ltr
+send_vmail_form_title=Send VMail
+send_vmail_label_to=TO:
+send_vmail_label_from=FROM:
+send_vmail_label_comma_info=Use comma for multiple recipients
+send_vmail_label_subject=SUBJECT:
+send_vmail_label_message=MESSAGE:
+send_vmail_button_send=SEND
+send_vmail_button_send_and_disconnect=SEND AND DISCONNECT
+send_vmail_button_cancel=CANCEL
+send_vmail_vmail_will_be_queued_header=VMail will be queued
+send_vmail_vmail_will_be_queued_details=You are not connected to anyone at the moment.[NL][NL]Your VMail will be waiting to be sent in your OUTBOX folder.[NL]Once connected to the destination station, the VMail will[NL]be automatically forwarded
+send_vmail_sending_vmail_to_different_callsign_header=Sending Vmail to a different callsign
+send_vmail_sending_vmail_to_different_callsign_details=You are sending a Vmail to: {{to_callsign}}[NL]But you are currently connected to: {{connected_to_fullcallsign}}[NL][NL]Do you want to relay this VMail through {{connected_to_fullcallsign}}?[NL][NL]Click YES to relay now.[NL][NL]Click NO to queue this VMail in the outbox until connected with {{to_callsign}}
+send_vmail_label_load_vmail_template=LOAD TEMPLATE:
+send_vmail_button_load_original_message=LOAD ORIGINAL MESSAGE
+
+###################################################################
+# Vmailbox Form (13)
+###################################################################
+vmailbox_direction=ltr
+vmailbox_form_title=VarAC Mailbox
+vmailbox_inbox=Inbox
+vmailbox_inbox_tooltip=My incoming VMails
+vmailbox_sent=Sent
+vmailbox_sent_tooltip=Sent VMails (Mine and relayed)
+vmailbox_outbox=Outbox
+vmailbox_outbox_tooltip=VMails you composed awaiting to be sent
+vmailbox_parking=Parking
+vmailbox_parking_tooltip=VMails that someone parked in your mailbox[NL]waiting to be relayed to other stations
+vmailbox_label_filter_last_days=Filter last days:
+vmailbox_button_delete=DELETE
+vmailbox_button_close=CLOSE
+vmailbox_status=Status
+vmailbox_status_read=READ
+vmailbox_status_new=NEW
+vmailbox_time_received=Time received
+vmailbox_time_composed=Compose time
+vmailbox_time_received_composed=sent_time_received_composed
+vmailbox_to=To
+vmailbox_from=From
+vmailbox_band=Band
+vmailbox_snr=SNR
+vmailbox_subject=Subject
+vmailbox_message_preview=Message preview
+vmailbox_rightclick_menuitem_delete_mail=Delete mail
+vmailbox_rightclick_menuitem_no_mail_selected_header=No mail selected
+vmailbox_rightclick_menuitem_no_mail_selected_details=Please select a mail to perform this operation
+vmailbox_rightclick_menuitem_connect_and_relay_now=Connect and relay now
+vmailbox_rightclick_menuitem_cannot_connect_and_relay_now_header=Can not connect & relay now
+vmailbox_rightclick_menuitem_cannot_connect_and_relay_now_details=You are currently connected to a station.
+vmailbox_rightclick_menuitem_relay_now_through_connected_station=Relay now through connected station
+vmailbox_rightclick_menuitem_relay_now_not_connected_header=You are not connected to a station now
+vmailbox_rightclick_menuitem_relay_now_not_connected_details=You can't Relay this message now.[NL]You need to be connected first.
+vmailbox_rightclick_menuitem_path_finder=Path finder
+vmailbox_rightclick_menuitem_mark_as_new=Mark as NEW
+vmailbox_rightclick_menuitem_mark_as_read=Mark as READ
+vmailbox_rightclick_menuitem_from_qrz_lookup=Sender QRZ.COM lookup (From)
+vmailbox_rightclick_menuitem_from_callsign_history=Sender Callsign History (From)
+vmailbox_rightclick_menuitem_from_psk_reporter_lookup=Sender PSK Reporter lookup (From)
+vmailbox_rightclick_menuitem_to_qrz_lookup=Recipient QRZ.COM lookup (To)
+###################################################################
+# Read vmail Form (14)
+###################################################################
+read_vmail_direction=ltr
+read_vmail_form_title=Read VMail
+read_vmail_label_from=FROM:
+read_vmail_label_to=TO:
+read_vmail_label_via=VIA:
+read_vmail_label_composed_time=COMPOSED:
+read_vmail_label_received_time=RECEIVED:
+read_vmail_label_added_time=ADDED:
+read_vmail_label_name=NAME:
+read_vmail_label_received_snr=RECEIVED SNR:
+read_vmail_label_band=BAND:
+read_vmail_label_subject=SUBJECT:
+read_vmail_label_message=MESSAGE:
+read_vmail_button_reply=REPLY
+read_vmail_button_edit=EDIT
+read_vmail_button_close=CLOSE
+read_vmail_button_print=PRINT
+
+###################################################################
+# Callsign history (15)
+###################################################################
+callsign_history_direction=ltr
+callsign_history_form_title=Callsign history
+callsign_history_label_callsign=Callsign:
+callsign_history_label_name=Name:
+callsign_history_label_qth=QTH:
+callsign_history_label_locator=Locator:
+callsign_history_label_comments=Comments:
+callsign_history_button_history_lookup=History lookup
+callsign_history_button_edit=EDIT
+callsign_history_button_save=SAVE
+callsign_history_button_qrz_lookup=QRZ Lookup
+callsign_history_button_pskreporter_lookup=PSK Reporter Lookup
+callsign_history_label_beacon_history=Beacons history (1 year)
+callsign_history_label_cq_history=CQ calls history (1 year)
+callsign_history_label_previous_qsos=Previous QSOs
+callsign_history_label_broadcasts_history=Broadcasts history
+callsign_history_label_chat_history=Chat history
+callsign_history_button_close=CLOSE
+callsign_history_table_column_band=Bnd
+callsign_history_table_column_time=Time
+callsign_history_table_column_bw=BW
+callsign_history_table_column_cq_type=Type
+callsign_history_table_column_snr=SNR
+callsign_history_table_column_qso_frequency=Frequency
+callsign_history_table_column_qso_snr_sent=SNR-S
+callsign_history_table_column_qso_snr_received=SNR-R
+callsign_history_table_column_qso_locator=Locator
+callsign_history_table_column_qso_duration_min=QSO duration (min)
+callsign_history_table_column_broadcasts_from=From
+callsign_history_table_column_broadcasts_to=To
+callsign_history_table_column_broadcasts_via=Via
+callsign_history_table_column_broadcasts_message=Broadcast message
+callsign_history_table_column_datastream_time=Time
+callsign_history_table_column_datastream_callsign=Callsign
+callsign_history_table_column_datastream_message=Datastream message
+callsign_history_table_column_datastream_image=Image
+
+###################################################################
+# Leave a message  Form (16)
+###################################################################
+leave_a_message_direction=ltr
+leave_a_message_form_title=Leave a message
+leave_a_message_label_leave_a_message_info=Your partner seems to be away...[NL][NL]Would you like to leave a message in the mailbox?
+leave_a_message_button_leave_a_message=LEAVE A MESSAGE
+leave_a_message_button_close=CLOSE
+
+###################################################################
+# CQ slot selector Form (17)
+###################################################################
+cq_slot_selector_direction=ltr
+cq_slot_selector_form_title=CQ Slot selector
+cq_slot_selector_label_what_are_varac_slots=What are VarAC Slots ?
+cq_slot_selector_label_what_are_varac_slots_info=VarAC has a single calling QRG per band. However, there are multiple frequencies around that QRG that are[NL]750Hz apart. These frequencies are called “SLOTS” while each slot has a unique ID.[NL][NL]When you call CQ, VarAC encodes into the CQ call the slot ID where you will be standing by for incoming[NL]connections. VarAC will automatically QSY to the slot once the CQ call ends. If you do not use CAT control,[NL]for automatic frequency change, you will be asked QSY manually.[NL][NL]Please use the “SLOT SNIFFER” to make sure the slot you've picked is not occupied or check manually if[NL]you have no CAT frequency control.
+cq_slot_selector_groupbox_select_cq_type=STEP #1: Select CQ type
+cq_slot_selector_label_cq_type_varahf_only=Can be changes in VaraHF only
+cq_slot_selector_label_cq_type_include_locator=The call will include locator
+cq_slot_selector_groupbox_select_a_slot=STEP #2: Select a slot
+cq_slot_selector_label_preferred=Preferred
+cq_slot_selector_label_calling_freq=CQ Calling frequency
+cq_slot_selector_label_slot_id=Slot ID:
+cq_slot_selector_label_slot_conflict_allocation_alert=Some slots were disabled to avoid conflict with other band allocaitons
+cq_slot_selector_label_selected_slot_frequency=Selected Slot frequency
+cq_slot_selector_label_selected_slot_frequency_alert=Make sure the slot is not out of band!
+cq_slot_selector_groupbox_check_slot_free=STEP #3: Check if the slot is free
+cq_slot_selector_label_avaialble_only_with_cat=Available only with CAT freq. control
+cq_slot_selector_button_slot_sniffer=SLOT SNIFFER
+cq_slot_selector_label_click_and_hold=Click and hold
+cq_slot_selector_groupbox_call_cq=STEP #4: Call CQ
+cq_slot_selector_button_call_cq=CALL CQ
+cq_slot_selector_label_qsy_afer_cq_info=VarAC will QSY to the slot once the[NL]CQ on the calling QRG ends
+cq_slot_selector_label_click_and_hold_keep_holding=Keep holding...
+cq_slot_selector_label_click_and_hold_done=Done
+
+###################################################################
+# Frequency is busy Form (18)
+###################################################################
+frequency_is_busy_direction=ltr
+frequency_is_busy_form_title=Frequenct is busy!
+frequency_is_busy_label_frequency_is_busy_info=The frequency appears to be busy.[NL]Please wait until the frequency is cleared.[NL][NL]Do you still wish to continue and call CQ now ?
+frequency_is_busy_button_continue=CONTINUE
+frequency_is_busy_button_cancel=CANCEL
+
+
+###################################################################
+# DX cluster spot Form (19)
+###################################################################
+dx_cluster_spot_direction=ltr
+dx_cluster_spot_form_title=DX Cluster spot
+dx_cluster_spot_label_callsign=CALLSIGN:
+dx_cluster_spot_label_frequency=FREQUENCY:
+dx_cluster_spot_label_comment=COMMENT:
+dx_cluster_spot_button_spot=SPOT
+dx_cluster_spot_button_cancel=CANCEL
+dx_cluster_spot_label_log=SPOT LOG
+
+###################################################################
+# Vmail relay notification Form (20)
+###################################################################
+vmail_relay_notification_direction=ltr
+vmail_relay_notification_form_title=VMail Relay notifications
+vmail_relay_notification_label_about_vmail_relay_notifications=The following stations notified that they have VMails waiting for you to collect.[NL][NL]Double click a callsign to connect and collect your VMails. If required, your RIG will QSY to the frequency
+where the relay notification received.[NL][NL]How does it work?[NL]Every time your beacon is decoded by someone, if they have a VMail to relay to you, they will send you a[NL]"Relay Notification" broadcast. Those broadcasts are limited to once every 20 minutes per callsign.
+vmail_relay_notification_button_delete=DELETE
+vmail_relay_notification_button_close=CLOSE
+vmail_relay_notification_last_notification=Last notification
+vmail_relay_notification_frequency=Frequency
+vmail_relay_notification_callsign=Callsign
+vmail_relay_notification_last_heard=Last heard Beacon/CQ
+
+###################################################################
+# SNR chart Form (21)
+###################################################################
+snr_chart_direction=ltr
+snr_chart_form_title=SNR history chart
+snr_chart_label_no_data_to_show=NO DATA TO SHOW[NL]Waiting for SNR data to be received
+snr_chart_button_copy_data_to_clipboard=COPY DATA TO CLIPBOARD
+snr_chart_button_copy_graph_to_clipboard=COPY GRAPH TO CLIPBOARD
+snr_chart_label_about_this_graph=About this graph
+snr_chart_label_about_this_graph_info=Here you can track the SNR reports during the QSO.[NL][NL]There are more reports of your partner as VarAC tracks[NL]the SNR every time a message is received while your SNR[NL]is reported by your QSO partner only occasionally.[NL][NL]Use the SNR button on the main screen if you wish to get[NL]a an updated SNR report.
+
+###################################################################
+# Switch profile Form (22)
+###################################################################
+switch_profile_direction=ltr
+switch_profile_form_title=VarAC החלפת פרופיל
+switch_profile_label_about_switching_profile=You can start VarAC with different configuration files (profiles) to support[NL]multiple Rig/Vara modem configurations and to easily switch between them.[NL][NL]Simply duplicate the main VarAC.ini file under a different name within the[NL]VarAC directory and it will show up here. Once loaded, you can edit it through[NL]the settings tab.[NL][NL]You can also duplicate your VARA modem directories and point each VarAC[NL]profile to a different VARA modem settings (ex: in case different sound cards[NL]are used for different rigs)
+switch_profile_label_format=VarAC profile files format: VarAC_XXX.ini ex: VarAC_IC7300.ini
+switch_profile_label_how_to_switch=Available VarAC profiles. Double click to select.
+switch_profile_table_column_creation_time=Creation time
+switch_profile_table_column_file_name=File name
+switch_profile_table_column_status=Status
+switch_profile_button_close=CLOSE
+
+###################################################################
+# Broadcast message Form (23)
+###################################################################
+broadcast_message_direction=ltr
+broadcast_message_form_title=Broadcast message
+broadcast_message_label_about_broadcasts=About broadcasts
+broadcast_message_text_about_broadcasts=VarAC broadcasts are async messages that are sent in[NL]AX25 protocol (similar to APRS).[NL][NL]Broadcasts do not have a “delivery guaranteed” mechanism[NL]like a VARA link and they may or may not be received[NL](it depends on received signal strength).[NL][NL]You can send a broadcast to a specific callsign or to all.[NL][NL]With VARA-FM - you can also use digipeaters:[NL]> Up to 2 digipeaters are allowed.[NL]> Use SPACE between digipeater callsigns.[NL]> SSIDs are not allowed for digipeater callsigns.[NL]> Number of digipeaters affects the message size limit.[NL][NL]
+broadcast_message_label_to=TO:
+broadcast_message_label_via=VIA:
+broadcast_message_label_use_all=use "ALL" to broadcast publicly
+broadcast_message_label_enter_send_message=Enter to broadcast
+broadcast_message_label_message=MESSAGE:
+broadcast_message_label_non_english_characters=(Non-english characters may take 2 bytes each or more)
+broadcast_message_label_load_canned_message=Load canned message:
+broadcast_message_label_load_alert_tags=Load alert tags:
+broadcast_message_button_broadcast=BROADCAST
+broadcast_message_button_broadcast_and_close=BROADCAST AND CLOSE
+broadcast_message_button_cancel=CLOSE
+broadcast_message_send_broadcast_sl1_speed=This broadcast is short enough to be sent at the lowest possible speed (SL1) for best reception at -22Db
+broadcast_message_send_broadcast_sl2_speed=This broadcast is short enough to be sent at low speed (SL2) for optimal reception at -18Db
+broadcast_message_send_broadcast_sl4_speed=This broadcast will be sent at standard speed (SL4) and can be decoded at -14dB
+broadcast_message_cf_varahf_limit_header=Broadcast is too long
+broadcast_message_cf_varahf_limit_details=Broadcasting on calling frequencies using VaraHF is limited to {{message_size}} characters.
+
+
+###################################################################
+# Alert tags Form (24)
+###################################################################
+alert_tags_direction=ltr
+alert_tags_form_title=Alert tags configuraiton
+alert_tags_label_about_tag_alerts=Alerts tags are strings that trigger alerts if received.[NL][NL]When an alert tag is detected in a beacon/cq/broadcast or during a chat, an alarm sound is fired and the triggering message is[NL]highlighted  in a color of your choice. You can disable the alert tags alarm sound under the "Appearance and sounds" menu.[NL][NL]Alert tags can used in various ways such as:[NL]> EmComm – Broadcast an emergency message with an alert tag that will trigger an alarm and visual effect on all stations.[NL]> Personalized notification - get notified about certain broadcast message such as CQ or WX updates.[NL]> Track callsigns - get notified when a certain callsign calls CQ or Beacons.[NL]> Special CQ alerts - get notified when someone calls a CQ POTA / NA etc.
+alert_tags_label_tag_text=Tag text
+alert_tags_label_font_color=Font color
+alert_tags_label_background_color=Background color
+alert_tags_label_simulation=Simulation
+alert_tags_label_description=Description
+alert_tags_label_beacon=Beacon
+alert_tags_label_cq=CQ
+alert_tags_label_broadcast=Broad[NL]cast
+alert_tags_label_data_stream=Data[NL]stream
+alert_tags_label_alert_tag=Alert tag
+alert_tags_textbox_tag_alert_simulation=Test
+alert_tags_button_save_and_close=SAVE AND CLOSE
+
+###################################################################
+# Verbose SNR invitation (25)
+###################################################################
+verbose_snr_invitation_direction=ltr
+verbose_snr_invitation_form_title=Verbose SNR invitation
+verbose_snr_invitation_label_verbose_snr_explained=Your partner is inviting you to a verbose SNR exchange mode.[NL][NL]This means that your VarAC will send an SNR report every[NL]minute on the minute.[NL][NL]This is useful in case you would like to explore propagation[NL]changes during a QSO.
+verbose_snr_invitation_button_accept=ACCEPT
+verbose_snr_invitation_button_reject=REJECT
+
+###################################################################
+# QSY popup Form (26)
+###################################################################
+qsy_popup_direction=ltr
+qsy_popup_default_title=QSY
+qsy_popup_label_qsy_header=QSY NOW
+qsy_popup_default_message_qsy_request=A QSY request to {{frequency}} has been initiated.
+qsy_popup_default_message_qsy_auto_qsy=VarAC will automatically {{action}} this invitation in {{qsy_wait_time_sec}} seconds.
+qsy_popup_default_message_qsy_manual_qsy=Click 'QSY' to QSY now.[NL][NL]If you fail to QSY quickly, the link might be closed. HURRY UP!
+qsy_popup_default_message_qsy_be_respectful=Always be respectful to others. Make sure you QSY to a free frequency.
+qsy_popup_qsy_recovery_title=Still waiting for your partner to QSY
+qsy_popup_qsy_recovery_message_title=Seems like {{callsign}} has not accepted your QSY invitation yet.[NL]You can continue to wait but it is most likely that the QSY invitation was rejected.[NL]There are various reasons in which this can happen:[NL][NL]1. {{callsign}} has explicitly rejected your invitation.[NL]2. {{callsign}} is away and has not enabled auto-qsy.[NL]3. The QSY frequency is not in the allowed auto-qsy range of {{callsign}}[NL][NL]QSY back to {{frequency}} ?
+qsy_popup_qsy_back_title=QSY back
+qsy_popup_qsy_back_message=It seems like you QSYed from the frequency you started.[NL]this QSO on or the calling frequency.[NL][NL]Do you want to QSY back to {{frequency}} ?
+qsy_popup_qsy_back_qso_is_over_message=Your QSO is over.[NL]Do you want to QSY back to the calling frequency on {{frequency}} ?
+qsy_popup_qsy_accept=ACCEPT
+qsy_popup_qsy_reject=REJECT
+qsy_popup_button_accept=QSY
+qsy_popup_button_reject=REJECT
+
+###################################################################
+# Vmail relay alert Form (27)
+###################################################################
+vmail_relay_alert_direction=ltr
+vmail_relay_alert_form_title=VMail relay alert
+vmail_relay_alert_textbox_send_vmail_on_cf_alert=You have VMails waiting to be relayed to this station.[NL][NL]PLEASE INVITE YOUR QSO PARTNER TO QSY TO ALLOW THE RELAY.[NL][NL]After QSY, the waiting VMail will be relayed automatically.[NL][NL]NOTE: If the other party is AWAY and does not support Auto-QSY, your Vmail will automatically relayed on the Calling Frequency (CF).
+vmail_relay_alert_button_close=CLOSE
+
+###################################################################
+# Alert center Form (28)
+###################################################################
+alert_center_direction=ltr
+alert_center_form_title=Alert center
+alert_center_incoming=Incoming
+alert_center_sent=Sent
+alert_center_archived=Archived
+alert_center_table_column_status=Status
+alert_center_table_column_alert_time=Alert time
+alert_center_table_column_from=From
+alert_center_table_column_to=To
+alert_center_table_column_frequency=Frequency
+alert_center_table_column_band=Bang
+alert_center_table_column_tag=Tag
+alert_center_table_column_alert_name=Alert name
+alert_center_table_column_source_type=Source
+alert_center_table_column_source_text=Source text
+alert_center_button_alert_setup=SETUP ALERTS
+alert_center_button_close=CLOSE
+alert_center_button_archive_alert=ARCHIVE
+alert_center_button_delete_alert=DELETE
+alert_center_button_archive_all_alerts=ARCHIVE ALL ALERTS
+alert_center_button_mark_all_alerts_as_read=MARK ALL[NL]AS READ
+alert_center_content_status_read=READ
+alert_center_content_status_new=NEW
+alert_center_content_beacon=BEACON
+alert_center_content_cq=CQ
+alert_center_content_broadcast=BROADCAST
+alert_center_content_datastream=DATASTREAM
+
+###################################################################
+# Alert details Form (29)
+###################################################################
+alert_info_direction=ltr
+alert_info_form_title=Alert details
+alert_info_label_alert_name=ALERT NAME:
+alert_info_label_source=SOURCE:
+alert_info_label_alert_tag=ALERT TAG:
+alert_info_label_from=FROM:
+alert_info_label_band=BAND:
+alert_info_label_frequency=FREQUENCY:
+alert_info_label_to=TO:
+alert_info_label_time=TIME:
+alert_info_label_source_text=SOURCE TEXT:
+alert_info_button_close=CLOSE
+
+###################################################################
+# Image shrinker Form (30)
+###################################################################
+image_shrinker_direction=ltr
+image_shrinker_form_title=Image shrinker
+image_shrinker_label_file_name=File name:
+image_shrinker_button_load_image=LOAD IMAGE
+image_shrinker_label_original=Original
+image_shrinker_label_original_size=Size:
+image_shrinker_label_original_resolution=Resolution:
+image_shrinker_label_original_estimated_time=Estimated time:
+image_shrinker_label_compressed=Compressed
+image_shrinker_label_compressed_size=Size:
+image_shrinker_label_compressed_resolution=Resolution:
+image_shrinker_label_compressed_estimated_time=Estimated time:
+image_shrinker_label_set_resolution=Set Resolution:
+image_shrinker_label_set_quality=Set Quality:
+image_shrinker_button_show_original=SHOW ORIGINAL
+image_shrinker_label_add=Add:
+image_shrinker_checkbox_add_mycallsign=My callsign
+image_shrinker_checkbox_add_his_callsign=OM Callsign
+image_shrinker_checkbox_add_snr_reports=SNR Reports
+image_shrinker_button_send_original=SEND[NL]ORIGINAL
+image_shrinker_button_send_compressed=SEND[NL]COMPRESSED
+image_shrinker_button_save_to_disk=SAVE[NL]TO DISK
+image_shrinker_button_cancel=CANCEL
+
+###################################################################
+# Path finder Form (31)
+###################################################################
+path_finder_direction=ltr
+path_finder_form_title=Path finder
+path_finder_label_path_finder_explained=If you need to send a VMail to a station that you cannot connect with directly,[NL]you have the option to park it at a mediator station.[NL][NL]The "Path Finder" feature enables you to locate the most suitable mediator.[NL]Simply enter a callsign, and VarAC will initiate a "Find Path" request.[NL][NL]Stations that have recently received signals from your intended destination[NL]will respond with the time of last reception, frequency, and SNR level.[NL][NL]The feedback from other stations collected by the Path Finder[NL]will be displayed in your broadcast windows.
+path_finder_label_callsign=Find path to:
+path_finder_button_find_path=FIND PATH
+path_finder_button_cancel=CANCEL
+
+###################################################################
+# Image viewer Form (32)
+###################################################################
+image_viewer_direction=ltr
+image_viewer_form_title=Image viewer
+
+###################################################################
+# Message viewer Form (33)
+###################################################################
+message_viewer_direction=ltr
+message_viewer_form_title=Message viewer
+message_viewer_label_select_text=Highlight a text using your mouse, right-click it, and choose the log entry where you want to insert this text
+
+###################################################################
+# VarAC statistics Form (34)
+###################################################################
+varac_statistics_direction=ltr
+varac_statistics_form_title=Statistics
+varac_statistics_textbox_header=VarAC Statistics for
+varac_statistics_label_total_qsos=Total
+varac_statistics_label_distinct_callsigns_qso=Callsigns
+varac_statistics_label_qso=QSOs
+varac_statistics_label_longest_qso_by_messages=By messages
+varac_statistics_label_longest_qso_by_time=By minutes
+varac_statistics_label_longest_qso=Longest QSO
+varac_statistics_label_sent=Sent
+varac_statistics_label_received=Received
+varac_statistics_label_beacons=Beacons
+varac_statistics_label_cq=CQs
+varac_statistics_label_messages=Chat messages
+varac_statistics_label_73s=73s
+varac_statistics_label_pings=Pings
+varac_statistics_label_broadcasts=Broadcasts
+varac_statistics_label_snr_sent=SNR sent
+varac_statistics_label_snr_received=SNR received
+varac_statistics_label_snr_max=Max
+varac_statistics_label_snr_avg=Average
+varac_statistics_label_snr_min=Min
+varac_statistics_label_copy_to_clipboard=Copy to clipboard
+varac_statistics_button_copy_as_image_to_clipboard=AS IMAGE
+varac_statistics_button_copy_as_text_to_clipboard=AS TEXT
+varac_statistics_label_dxcc_countries=DXCC countries
+
+###################################################################
+# Tic-Tac-Toe (3X3) Form (35)
+###################################################################
+hamplay_tic_tac_toe_3X3_direction=ltr
+hamplay_tic_tac_toe_3X3_title=Tic-Tac-Toe (3X3)
+hamplay_tic_tac_toe_3X3_label_goal=Goal: Be the first to create a horizontal, vertical, or diagonal line of three marks.
+hamplay_tic_tac_toe_3X3_button_close=CLOSE
+hamplay_tic_tac_toe_3X3_button_accept=ACCEPT[NL]INVITATION
+hamplay_tic_tac_toe_3X3_button_rematch=REMATCH
+
+###################################################################
+# Hamplay Game center status messages
+###################################################################
+hamplay_message_direction=ltr
+hamplay_message_label_game_status_invitation_sent=HamPlay Invitation sent.[NL]Waiting for {{connected_to_fullcallsign}} to join the game...
+hamplay_message_label_game_status_invitation_received={{connected_to_fullcallsign}} has invited you to play.[NL]Click ACCEPT INVITATION to play.
+hamplay_message_label_game_status_invitation_accepted={{connected_to_fullcallsign}} accepted your invitation.[NL]Your move.
+hamplay_message_label_game_status_abort={{connected_to_fullcallsign}} has left the game.[NL]Click Close to exit the game.
+hamplay_message_label_game_status_rematch={{connected_to_fullcallsign}} has challenged you to a rematch.[NL]Click ACCEPT INVITATION for another game.
+hamplay_message_label_game_status_your_turn=Your turn.[NL]Make a move.
+hamplay_message_label_game_status_their_turn={{connected_to_fullcallsign}} turn.[NL]Wait for their move.
+hamplay_message_label_game_status_draw=It's a draw!
+hamplay_message_label_game_status_you_win={{myfullcallsign}} Wins!
+hamplay_message_label_game_status_they_win={{connected_to_fullcallsign}} Wins![NL]You lose!
+hamplay_message_label_game_status_rematch_invitation_sent=Rematch invitation sent.[NL]Waiting for {{connected_to_fullcallsign}} to accept.
+hamplay_message_label_game_status_rematch_invitation_accepted=Invitation accepted.[NL]Wait for {{connected_to_fullcallsign}} move...
+
+###################################################################
+# HamPlay game center Form (36)
+###################################################################
+hamplay_main_direction=ltr
+hamplay_main_form_title=HamPlay game center
+hamplay_main_label_double_click_to_play=Double-Click a game to play
+hamplay_main_label_intro=Get ready to dive into the fun with our brand-new, experimental feature![NL]Right now, we’ve got two games to kick things off. But this is just the beginning![NL]More games are coming your way in future updates, so stay tuned and keep playing!
+hamplay_main_button_close=CLOSE
+hamplay_main_table_column_hamplay_game_id=#
+hamplay_main_table_column_hamplay_game=Game
+hamplay_main_table_column_hamplay_description=Description
+hamplay_main_game_1_name=Toc-Tac-Toe
+hamplay_main_game_1_description=Classic version (3X3)
+hamplay_main_game_2_name=Connect Four
+hamplay_main_game_2_description=Be the first to form a line of 4 discs
+hamplay_main_connect_first_title=Connect someone first
+hamplay_main_connect_first_message=You must connect to someone first to invite them to a game.[NL][NL]Tip: You can use the CQ 'PLAY' option to signal people that you are seeking a game play QSO.
+hamplay_main_playing_on_cf_title=Playing on the calling frequency
+hamplay_main_playing_on_cf_message=Playing on the calling frequency is not allowed.[NL][NL]Please QSY to another frequency before sending a Ham-Play invitation.
+
+###################################################################
+# Inquire Form (38)
+###################################################################
+inquire_direction=ltr
+inquire_form_title=Inquire
+inquire_label_header=To inquire about specific details from your QSO partner,[NL]please click any of the buttons below.
+inquire_button_snr=SNR REPORT
+inquire_label_snr=Inquire your report (SNR).[NL]Your partner will send your last SNR automatically
+inquire_button_info=INFORMATION
+inquire_label_info=Inquire the information of your QSO partner[NL]including Name, QTH, Locator and Rig.
+inquire_button_lhp=LAST HEARD PEEKING
+inquire_label_lhp=Inquire the last heard stations list of your QSO partner (*)
+inquire_button_frequency_scheduler=FREQ, SCHEDULER PEEKING
+inquire_label_frequency_scheduler=Inquire the frequency scheduler list of your QSO partner (*)
+inquire_button_version=VERSION
+inquire_label_version=Inquire the VarAC and VARA version numbers[NL]of your QSO partner.
+inquire_button_parked_vmail_peeking=PARKED VMAIL PEEKING
+inquire_label_parked_vmail_peeking=Check if your parked VMail have been delivered. The lookback period is 30 days (*)
+inquire_label_ask_only_once=(*) Can be asked only once during a QSO.
+inquire_button_close=CLOSE
+
+###################################################################
+# Connect Four Form (39)
+###################################################################
+hamplay_connect_four_direction=ltr
+hamplay_connect_four_title=Connect Four
+hamplay_connect_four_label_goal=Goal: Be the first to form a horizontal, vertical, or diagonal line of four discs.
+hamplay_connect_four_button_close=CLOSE
+hamplay_connect_four_button_accept=ACCEPT[NL]INVITATION
+hamplay_connect_four_button_rematch=REMATCH
+hamplay_connect_four_button_drop=DROP

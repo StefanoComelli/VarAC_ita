@@ -82,6 +82,9 @@ read_vmail_label_urgent=URGENT!
 callsign_history_table_column_qso_snr_chart=SNR Chart
 callsign_history_table_column_qso_snr_chart_view=VIEW
 callsign_history_label_select_a_qso_to_view_it=Select a QSO from above to view its contents
+callsign_history_table_column_qso_snr_chart=Tabella SNR
+callsign_history_table_column_qso_snr_chart_view=VISUALIZZA
+callsign_history_label_select_a_qso_to_view_it=Seleziona un QSO dall'alto per visualizzarne il contenuto
 
 ###################################################################
 # DXCluster Form (19)

@@ -1,0 +1,96 @@
+[English-template]
+
+###################################################################
+# Main Form (1)
+###################################################################
+main_screen_checkbox_show_emcomm_beacons_only=EmComm only
+
+###################################################################
+# Settings Form (4)
+###################################################################
+settings_groupbox_qsl_card=QSL Card
+settings_label_qsl_card_directory=Default save directory:
+settings_label_qsl_card_image=QSL card image:
+settings_label_open_qsl_card_directory=Click to open
+settings_checkbox_reconnect_gps_indefinitely=Reconnect GPS Indefinitely
+settings_messagebox_what_is_reconnect_gps_indefinitely_header=What is reconnect GPS indefinitely?
+settings_messagebox_what_is_reconnect_gps_indefinitely_details=By default, VarAC will attempt to reconnect to the GPS up to 5 times, with a 30 - second interval between attempts.[NL][NL]If this option is enabled, VarAC continue retrying every 30 seconds indefinitely until a connection is established.
+settings_checkbox_disable_leave_vmail_popup_alert=Disable leave Vmail popup alert
+settings_messagebox_what_is_disable_leave_vmail_popup_alert_header=What is disable leave VMail popup alert?
+settings_messagebox_what_is_disable_leave_vmail_popup_alert_details=When connecting to an unattended station(in 'Away' status), VarAC will display a popup asking if you'd like to leave a VMail.[NL][NL]You have the option to disable this popup alert.
+settings_checkbox_emcomm_disable_cf_qsy_selector=Disable QSY Selector upon connection
+settings_messagebox_what_is_emcomm_disable_cf_qsy_selector_header=What is disable QSY Selector upon connection?
+settings_messagebox_what_is_emcomm_disable_cf_qsy_selector_details=By default, when connecting to a station on the calling frequency, a QSY selector popup will appear, prompting you to perform a QSY.[NL][NL]In EmComm mode, you can disable this popup.
+settings_checkbox_gps_write_data_to_file=Write GPS data to file:
+settings_messagebox_what_is_gps_write_data_to_file_header=What is write GPS data to file?
+settings_messagebox_what_is_gps_write_data_to_file_details=Each time GPS coordinates are received, VarAC will save them to a designated file.[NL][NL]This file can later be used for analysis with geo applications.
+settings_checkbox_gps_show_live_coordinates=Show live coordinates
+settings_messagebox_what_is_gps_show_live_coordinates_header=What is show live coordinates?
+settings_messagebox_what_is_gps_show_live_coordinates_details=If enabled, your latest GPS coordinates (latitude and longitude) will appear on the bottom strip of the main screen and update with each new GPS reading.
+settings_checkbox_lastheard_show_last_known_locator=Show last known locator
+settings_messagebox_what_is_lastheard_show_last_known_locator_header=What is show last known locator?
+settings_messagebox_what_is_lastheard_show_last_known_locator_details=Standard CQ/Beacon transmissions do not include locator data.[NL][NL]However, when enabled, if you receive a CQ/Beacon from a station you have previously communicated with, VarAC will display that station's locator on the CQ/Beacon 'Last Heard' list using the last known locator information.
+settings_checkbox_log_vara_commands=Log VARA commands to:
+settings_messagebox_what_is_log_vara_commands_header=What is log Vara commands ?
+settings_messagebox_what_is_log_vara_commands_details=VarAC communicates with the VARA modem through a dedicated interface that handles the exchange of commands.[NL]You can log these commands to a file for analysis or debugging purposes.[NL][NL]However, keep in mind that the log file can grow large, so it is not recommended to keep logging enabled continuously.
+settings_label_default_adif_log_comment=Default log comment
+settings_messagebox_what_is_default_adif_log_comment_header=What is Default log comment?
+settings_messagebox_what_is_default_adif_log_comment_details=When logging a QSO, you can specify a default text to be automatically added as a comment to the QSO data.
+		
+		
+
+// Change to existing:
+settings_messagebox_pskreporter_upload_self_report_details=Let people know you are active on a frequency without being[NL]spotted by sending a beacon or a CQ call.[NL][NL]Every time you change frequency, a self-report to PSKReporter[NL]will be sent.[NL][NL]PLEASE NOTE: Self reports will only be sent after staying[NL]at least {{time}} seconds on the same frequency. In addition,[NL]while on the same frequency, a self report will be sent every[NL]{{self_report_interval}} seconds.
+
+###################################################################
+# Gestures Form (6)
+###################################################################
+gestures_label_embed_tag_frequency_scheduler_info=My frequency scheduler plan
+gestures_label_embed_tag_utc_date_time_info=Current UTC date and time
+gestures_label_embed_tag_my_date_time_info=My current date and time
+
+###################################################################
+# Send vmail Form (12)
+###################################################################
+send_vmail_button_save_to_drafts=SAVE TO[NL]DRAFTS
+
+###################################################################
+# Callsign history (15)
+###################################################################
+callsign_history_button_qsl_card=QSL CARD
+
+###################################################################
+# Leave a message  Form (16)
+###################################################################
+leave_a_message_checkbox_leave_vmail_do_not_show_this_again=Do not show this again
+
+###################################################################
+# Inquire Form (38)
+###################################################################
+inquire_button_locator=LOCATOR
+inquire_label_locator=Inquire only the locator of your QSO partner
+inquire_button_lhp_all=ALL
+inquire_button_lhp_callsign=CALLSIGN
+inquire_label_lhp_or=or
+
+# Change to existing parameter:
+inquire_label_lhp=Request the last heard stations list from your QSO partner or check when a specific callsign was last heard. (*)
+
+###################################################################
+# Applications Launcher (40)
+###################################################################
+applications_launcher_label_skip_if_active=Skip[NL]if active
+
+# Change to existing parameter:
+applications_launcher_label_about_applications_launcher=Here you can define a list of applications you want to run before starting VarAC, such as loggers, rig control applications, and more.[NL]For each application, you can specify:[NL]- Application: Full path to the executable file.[NL]- Arguments: Arguments to pass to the executable.[NL]- Wait Time (seconds): Time to wait after launching the app to allow it to fully start.[NL]- Restart if Active: Choose whether to relaunch the app if it’s already running or leave it as is.[NL]- Skip if active: if the application is already running, avoid launching it again.[NL]- Close on Exit: Specify if the app should close when VarAC exits.[NL][NL]PLEASE NOTE:[NL]- The order in which you list the applications determines their execution sequence.[NL]- VarAC will always be the last application to start. Do not enter it here.[NL]- Do not configure the VARA modem to start using this file.  The launch of the VARA modem is managed through the Settings menu.
+
+###################################################################
+# QSL Card (41)
+###################################################################
+qsl_card_direction=ltr
+qsl_card_form_title=QSL Card generator
+qsl_card_label_image_file_name=Image file:
+qsl_card_checkbox_qsl_card_gradient_buttom=Fade to Black at Bottom
+qsl_card_label_make_changes=* Click any field to make changes
+qsl_card_button_copy_qsl_to_clipboard=COPY  TO CLIPBOARD
+qsl_card_button_save_qsl_card_to_disk=SAVE TO DISK

@@ -1,0 +1,206 @@
+[English-template]
+
+###################################################################
+# Main Form (1)
+###################################################################
+main_screen_image_gallery_tool_strip_menu_item=Received files/images
+main_screen_button_qsl=QSL
+main_screen_tooltip_button_spot_dxcluster=Send a DXCluster spot for this callsign
+main_screen_tooltip_button_qsl=Generate a QSL card for this (or last) QSO"
+main_screen_messagebox_no_qsl_data_header=Can't create a QSL
+main_screen_messagebox_no_qsl_data_details=A QSL can only be generated if a callsign from an ongoing QSO or a previous QSO is available.[NL][NL]Please try again while in a QSO or after completing one.
+main_screen_qso_log_tool_strip_menu_item=QSL Log
+main_screen_status_strip_email_gateway=EMAIL GATE
+main_screen_messagebox_email_gateway_not_configured_header=Email gateway is not configured
+main_screen_messagebox_email_gateway_not_configured_details=Go to Settings, navigate to the Email tab, and configure your gateway before enabling it.
+main_screen_messagebox_cannot_log_qso_manually_while_conneceted_header=Cannot log while connected.
+main_screen_messagebox_cannot_log_qso_manually_while_conneceted_details=Manual logging is only permitted after ending the QSO. Please complete the QSO before proceeding with manual logging.[NL][NL]You may modify the data before logging if necessary
+main_screen_messagebox_cannot_send_message_while_in_a_ping_seesion_header=Can't send during ping
+main_screen_messagebox_cannot_send_message_while_in_a_ping_seesion_details=You are currently in a ping session.[NL][NL]Messaging is disabled while you are performing a ping or being pinged by another station.
+main_screen_messagebox_close_application_during_activity_header=Closing application
+main_screen_messagebox_close_application_during_activity_details=You are in the middle of an activity (CQ, Beacon, QSO, Broadcast, Ping, etc.).[NL][NL]Are you sure you want to close now?
+main_screen_messagebox_vmail_relay_duplication_header=Already in relay queue
+main_screen_messagebox_vmail_relay_duplication_details=The VMail you are trying to relay is already in the queue. You cannot relay the same VMail twice.
+main_screen_messagebox_cannot_send_beacon_now_header=Can't send a beacon now
+main_screen_messagebox_cannot_send_beacon_now_details=A beacon is currently in progress.[NL]Please try again later.
+main_screen_button_beacon_one_time_beacon=ONE-TIME BEACON
+main_screen_messagebox_frequency_is_busy_one_time_beacon_header=Frequency is busy!
+main_screen_messagebox_frequency_is_busy_one_time_beacon_details=The frequency appears to be busy.[NL]Please wait until the frequency is cleared.[NL][NL]Do you still wish to send a one-time beacon?
+main_screen_rightclick_menuitem_print_message=Print message
+
+# Change to existing elements:
+main_screen_button_spot_dxcluster=SPOT
+main_screen_tooltip_button_beacon=Send a beacon periodically so others can see you’re online.[NL]Your spotted beacons will be reported by others to PSK Reporter.[NL]Set the beacon interval under the 'Settings -> Rig Control & Vara configuration' menu.[NL][NL]To reset the beacon timer, Turn it OFF and ON.[NL][NL]The beacon will shut down within 72 hours. You'll need to reenable it if you wish to continue beaconing.[NL][NL]'SOON' means that the time for a beacon has arrived but VarAC is waiting for up to {{freq_not_busy_time_seconds}} seconds[NL]from the last moment it sensed that the frequency was busy.[NL][NL]'PAUSED' means that you are currently off the main QRG waiting on a slot so the beacon[NL]won't fire until you are back on the calling frequency.[NL][NL]Right-click the Beacon button to send a single, one-time beacon.
+
+###################################################################
+# Settings Form (4)
+###################################################################
+settings_label_qsl_card_email_platform=Email platform:
+settings_messagebox_what_is_qsl_card_email_platform_header=What is qsl email platform?
+settings_messagebox_what_is_qsl_card_email_platform_details=When sending a QSL, you can choose which application or website to use.[NL][NL]You'll still need to attach the QSL card manually (from a file or clipboard), but VarAC will automatically fill in the recipient, sender, subject, and message body
+settings_messagebox_what_is_gps_manual_gps_data_header=What is manual GPS data?
+settings_messagebox_what_is_gps_manual_gps_data_details=If you don’t have a connected GPS or your GPS is temporarily unavailable, but you still want to send GPS data (using the `<GPSLOC>` tag), you can set a static string containing your current GPS coordinates.
+settings_groupbox_email_configuration=Email configuration
+settings_groupbox_email_gateway=Email gateway
+settings_label_smtp_from_email_address=My mail address
+settings_checkbox_email_limit_access_to_callsigns=Limit access to:
+settings_checkbox_email_gateway_auto_relay=Auto VMail to Email gateway relay
+settings_checkbox_email_enable_email_gateway=Enable Email gateway
+settings_label_smtp_server=SMTP server
+settings_label_smtp_port=SMTP port
+settings_label_smtp_timeout_seconds=SMTP Timeout (sec)
+settings_checkbox_enable_tls=Enable TLS
+settings_label_smtp_password=SMTP Password
+settings_button_smtp_password_show=SHOW
+settings_label_smtp_retries_limit=Retries limit
+settings_label_email_how_to_setup_smtp_server=How to set up an SMTP server?
+settings_button_email_send_test_email=SEND TEST EMAIL
+settings_label_send_test_email_status_sending=SENDING...
+settings_label_send_test_email_status_success=SUCCESS
+settings_label_send_test_email_status_failed=FAILED
+settings_messagebox_label_email_what_is_my_email_address_header=What is my email address?
+settings_messagebox_label_email_what_is_my_email_address_details=Enter the email address from which emails will be sent.[NL][NL]Ensure that SMTP is enabled for this email to allow VarAC to send messages successfully.
+settings_messagebox_label_email_what_is_limit_access_to_header=What is limit access to?
+settings_messagebox_label_email_what_is_limit_access_to_details=You can restrict which stations (callsigns) are allowed to use your email gateway. VarAC will only relay emails from the specified callsigns.[NL][NL]If this setting is disabled, anyone can use your email gateway.[NL][NL]Separate multiple callsigns with commas.
+settings_messagebox_label_email_what_is_retries_limit_header=What is retries limit?
+settings_messagebox_label_email_what_is_retries_limit_details=VarAC will attempt to relay messages through the email gateway up to a set limit. If sending fails, it will retry until the limit is reached.[NL][NL]Once exceeded, the email gateway will shut down until the issue is resolved.[NL]A visual indication will appear on the bottom status strip of the main VarAC screen.
+settings_messagebox_label_email_auto_relay_header=What is auto relay?
+settings_messagebox_label_email_auto_relay_details=When the station you’re connected to indicates that a VMail-to-Email gateway is available, VarAC will automatically relay any VMails in your outbox or parking box that are addressed to an Email.[NL][NL]If this option is disabled, you’ll need to manually send them from your outbox or parking box.
+settings_checkbox_lastheard_start_beacon_upon_startup=Start beacon upon startup
+settings_messagebox_what_is_lastheard_start_beacon_upon_startup_header=What is start upon startup?
+settings_messagebox_what_is_lastheard_start_beacon_upon_startup_details=If you want VarAC to automatically start sending beacons after launch, enable this option.[NL][NL]Ensure you're on a valid frequency at startup to prevent beaconing on the wrong frequency.
+settings_label_beacon_type=Beacon type
+settings_messagebox_what_is_beacon_type_header=What is Beacon type?
+settings_messagebox_what_is_beacon_type_details=VarAC offers two types of beacons:[NL][NL]>> Standard Beacon:[NL]A basic beacon transmitted at the lowest possible speed to ensure better reception even under challenging SNR conditions (-22 dB).[NL]It includes only your callsign, with an optional flag indicating whether it is an EmComm beacon.[NL][NL]>> Advanced Beacon:[NL]Sent at a slightly higher speed (reception possible down to -18 dB).[NL]This beacon carries additional information such as your Grid Locator, email gateway indicator, and more.
+settings_checkbox_email_gateway_announce_via_beacons=Announce gateway via beacons
+settings_messagebox_email_gateway_cant_announce_header=Can't announce email gateway
+settings_messagebox_email_gateway_cant_announce_details=To activate this feature, you must:[NL]1. Disable the 'Limit access to' setting in the email gateway.[NL]2. Set your beacon type to 'ADVANCED' under the 'CQ/Beacon' tab.
+settings_messagebox_what_is_email_gateway_announce_header=What is announce email gateway?
+settings_messagebox_what_is_email_gateway_announce_details=If your email gateway is open to all (not restricted to specific callsigns), you can announce it through your beacons.[NL][NL]When other stations decode your beacon, they will see a clear indication that your station provides a public email gateway.[NL][NL]To activate this feature, you must:[NL]1. Disable the 'Limit access to' setting in the email gateway.[NL]2. Set your beacon type to 'ADVANCED' under the 'CQ/Beacon' tab.
+settings_checkbox_gps_manual_gps_data=Manual GPS data
+
+###################################################################
+# Gestures Form (6)
+###################################################################
+gestures_label_embed_tag_email_info=My Email
+
+
+###################################################################
+# Canned messages Form (7)
+###################################################################
+canned_messages_label_my_email=My Email
+
+###################################################################
+# Send QSY invitation Form (9)
+###################################################################
+send_qsy_invitation_messagebox_select_slot_header=Please select a slot
+send_qsy_invitation_messagebox_select_slot_details=Select a Slot to invite your QSO partner to QSY
+send_qsy_invitation_messagebox_sniffer_select_slot_header=Please select a slot
+send_qsy_invitation_messagebox_sniffer_select_slot_details=You must select a slot to check (sniff) if it is available
+
+###################################################################
+# Frequency scheduler Form (10)
+###################################################################
+frequency_scheduler_label_frequency_scheduler_startup_mode=Startup mode:
+frequency_scheduler_messagebox_label_what_is_frequency_scheduler_startup_mode_header=What is startup mode?
+frequency_scheduler_messagebox_label_what_is_frequency_scheduler_startup_mode_details=You can define the frequency scheduler's state when VarAC starts.[NL][NL]It can be set to ACTIVE, INACTIVE, or retain the LAST_STATE from when you last closed VarAC.
+
+###################################################################
+# My information Form (11)
+###################################################################
+my_information_label_email=Email:
+my_information_label_email_comment=Primarily for receiving VarAC QSL cards
+
+###################################################################
+# Send vmail Form (12)
+###################################################################
+send_vmail_sending_vmail_to_email_header=Sending Vmail to an Email through VarAC Email Gateway
+send_vmail_sending_vmail_to_email_details=You are sending a Vmail to an Email address: {{to_callsign}}[NL]You are currently connected to: {{connected_to_fullcallsign}}[NL][NL]Make sure they support an Email gateway.[NL][NL]Do you want to relay this VMail through {{connected_to_fullcallsign}}?[NL][NL]Click YES to relay now.[NL][NL]Click NO to queue this VMail in the outbox to be relayed through other stations who operates a VarAC Email gateway.
+send_vmail_invalid_vmail_header=Not a valid Email address
+send_vmail_invalid_vmail_details=Please enter a valid Email address and try again.
+send_vmail_label_to_email=TO EMAIL:
+send_vmail_sending_vmail_to_different_callsign_need_qsy_header=Please QSY
+send_vmail_sending_vmail_to_different_callsign_need_qsy_details=You must first QSY away from the calling frequency.[NL][NL]Once you've moved, go to your outbox, right-click the VMail, and select 'Relay now through connected station'
+
+# Change to existing elements:
+send_vmail_label_to=TO CALLSIGN:
+
+
+###################################################################
+# Vmailbox Form (13)
+###################################################################
+vmailbox_drafts=Drafts
+vmailbox_drafts_tooltip=VMails you composed but don't want to send yet
+
+###################################################################
+# Read vmail Form (14)
+###################################################################
+read_vmail_label_to_email=TO EMAIL:
+
+# Change to existing elements:
+read_vmail_label_to=TO CALLSIGN:
+
+###################################################################
+# Callsign history (15)
+###################################################################
+callsign_history_label_email=Email:
+
+###################################################################
+# CQ slot selector Form (17)
+###################################################################
+cq_slot_selector_messagebox_call_cq_select_slot_header=Please select a slot
+cq_slot_selector_messagebox_call_cq_select_slot_details=You are on an official VarAC calling frequency, so you must choose a slot to QSY to after making your CQ call.[NL][NL]QSOs on VarAC calling frequencies are prohibited.
+cq_slot_selector_messagebox_call_cq_slot_0_selected_header=Slot 0 selected
+cq_slot_selector_messagebox_call_cq_slot_0_selected_details=Are you sure you want to start a QSO on the calling frequency?
+cq_slot_selector_messagebox_call_cq_sniffer_select_slot_header=Please select a slot
+cq_slot_selector_messagebox_call_cq_sniffer_select_slot_details=You must select a slot to check (sniff) if it is available.
+
+
+###################################################################
+# Inquire Form (38)
+###################################################################
+inquire_button_gps=GPS
+
+# Change to existing elements:
+inquire_label_locator=Inquire location data
+inquire_label_parked_vmail_peeking=Check if your parked VMail have been delivered. Shows up to last 10 Vmails from the past 30 days (*)
+
+
+###################################################################
+# QSL Card (41)
+###################################################################
+qsl_card_button_copy_to_clipboard_and_open_email_client=COPY TO CLIPBOARD, OPEN[NL]EMAIL CLIENT && CLOSE
+
+###################################################################
+# QSO Log(43)
+###################################################################
+qso_log_direction=ltr
+qso_log_rightclick_menuitem_copy_all=Copy all
+qso_log_rightclick_menuitem_qrz_lookup=QRZ.COM lookup
+qso_log_rightclick_menuitem_copy_callsign=Copy callsign
+qso_log_table_column_band=Band
+qso_log_table_column_calsign=Callsign
+qso_log_table_column_time=QSO Time
+qso_log_table_column_qso_snr_sent=SNR-S
+qso_log_table_column_qso_snr_received=SNR-R
+qso_log_table_column_qso_locator=Locator
+qso_log_table_column_qso_duration_min=Duration (min)
+qso_log_table_column_qso_frequency=Frequency
+qso_log_table_column_qso_snr_chart=SNR Chart
+qso_log_table_column_qso_i_am_away=I'm Away
+qso_log_table_column_qso_is_ping=Ping
+qso_log_checkbox_filter_out_i_am_away_qsos=Hide Away QSOs
+qso_log_label_filter_band=Band
+qso_log_label_filter_callsign=Callsign
+qso_log_messagebox_what_is_filter_out_i_am_away_ping_qsos_header=What is hide Away/Ping QSOs?
+qso_log_messagebox_what_is_filter_out_i_am_away_ping_qsos_details=If selected, the list will exclude QSOs that were either Pings or made while in Away status.[NL][NL]Some QSOs are labeled as 'away QSOs' when a station connects to you while your VarAC is in AWAY status, and the status remains AWAY throughout the entire QSO.
+qso_log_button_refresh=REFRESH
+
+###################################################################
+# Email Gateway relay popup (44)
+###################################################################
+email_gateway_relay_popup_direction=ltr
+email_gateway_relay_popup_form_title=Relay to Email gateway
+email_gateway_relay_popup_label_email_gateway_relay_message=You are connected to a station that provides an Email gateway.[NL][NL]Your outbox/parking boxes contain VMails awaiting relay to Email.[NL][NL]Would you like to send them now through this station?[NL]Please note that it may be necessary to QSY away from the calling frequency before relaying the VMail.
+email_gateway_relay_popup_button_relay=RELAY
+email_gateway_relay_popup_button_close=CLOSE

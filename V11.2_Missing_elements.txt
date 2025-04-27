@@ -1,0 +1,72 @@
+[English-template]
+
+###################################################################
+# Main Form (1)
+###################################################################
+main_screen_button_check_in_request=CHECKIN REQ.
+main_screen_tooltip_button_checkin_request=While in EmComm mode, you can request all other EmComm stations on the frequency[NL]to send a beacon immediately, allowing you to see who is available.[NL][NL]Please note:[NL]1. This action cannot be performed on VarAC official calling frequencies.[NL]2. Other stations must have the automatic check-in reply option enabled in[NL]their EmComm settings.
+main_screen_messagebox_send_can_not_send_check_in_request_on_cf_header=Can not send a check-in request on a VarAC CF
+main_screen_messagebox_send_can_not_send_check_in_request_on_cf_details=Sending an EmComm check-in on VarAC official calling frequency is forbidden.[NL][NL]Please QSY first.
+
+###################################################################
+# Settings Form (4)
+###################################################################
+settings_checkbox_emcomm_auto_reply_to_check_in_request=Automatic reply to check-in request
+settings_messagebox_what_is_emcomm_auto_reply_to_check_in_request_header=What is automatic reply to check-in request?
+settings_messagebox_what_is_emcomm_auto_reply_to_check_in_request_details=When an EmComm station sends a check-in request, your station will automatically respond by immediately sending a beacon.[NL][NL]Note: Automatic replies will not be triggered on VarAC official calling frequencies.
+settings_checkbox_stop_beacon_upon_band_skip=Stop beacon upon band skip
+settings_messagebox_what_is_stop_beacon_upon_band_skip_header=What is stop beacon upon band skip?
+settings_messagebox_what_is_stop_beacon_upon_band_skip_details=Stop sending beacons when changing bands.[NL][NL]This is useful if you don’t have antennas for certain bands and want to ensure no beacons are transmitted.
+settings_checkbox_show_cq_popup_alert=Show CQ popup alert
+settings_messagebox_what_is_show_cq_popup_alert_header=What is show CQ popup alert?
+settings_messagebox_what_is_show_cq_popup_alert_details=When a CQ is heard, VarAC will display a popup to catch your attention.[NL][NL]You can respond to the CQ directly from this popup.
+	
+# Changes to existing parameter
+settings_label_smtp_from_email_address=Gateway Email address
+
+###################################################################
+# Apperance Form (8)
+###################################################################
+appearance_and_sounds_label_gestures=Gestures
+appearance_and_sounds_checkbox_visual_gestures=Visual gestures
+
+###################################################################
+# Send vmail Form (12)
+###################################################################
+send_vmail_label_reply_to_email=REPLY TO:
+send_vmail_messagebox_label_what_reply_to_email_header=What is reply to?
+send_vmail_messagebox_label_what_reply_to_email_details=Currently, VarAC email gateways are one-directional, meaning you can only send a VMail to an email address, but not receive replies through the gateway.[NL][NL]When sending a VMail to an email address via a gateway, you can specify a 'reply-to' email address. This lets the recipient respond directly to you by email.[NL][NL]By default, this field is populated with the email address set in your VarAC profile, but you can override it if needed.[NL][NL]If you leave it blank, no reply address will be included, and any replies from the recipient will be sent back to the gateway and won't reach you.
+send_vmail_invalid_callsign_header=Not a valid callsign
+send_vmail_invalid_callsign_details=Please enter a valid callsign and try again.
+send_vmail_label_load=LOAD
+send_vmail_label_load_canned_message=CANNED MESSAGES:
+send_vmail_label_load_alert_tags=ALERT TAGS:
+
+## Change existing patameter:
+send_vmail_send_vmail_label_load_vmail_template=TEMPLATE:
+
+###################################################################
+# Vmailbox Form (13)
+###################################################################
+vmailbox_rightclick_menuitem_not_a_valid_callsign_header=Can not perform this
+vmailbox_rightclick_menuitem_not_a_valid_callsign_details=You can only perorm this operation with valid callsigns.
+
+###################################################################
+# Read vmail Form (14)
+###################################################################
+read_vmail_label_reply_to_email=REPLY TO:
+
+###################################################################
+# Switch profile Form (22)
+###################################################################
+switch_profile_checkbox_profile_load_last_profile_used_upon_varac_startup=Load the last used profile on VarAC startup
+
+###################################################################
+# CQ Alert popup(45)
+###################################################################
+cq_alert_popup_direction=ltr
+cq_alert_popup_form_title=CQ Alert
+cq_alert_popup_popup_header={{callsign}} IS CALLING CQ
+cq_alert_popup_button_connect=CONNECT
+cq_alert_popup_button_close=CLOSE
+cq_alert_popup_checkbox_cq_alert_popup_do_not_show=Don’t show these alerts again. You can always change this in the settings

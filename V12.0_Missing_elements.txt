@@ -1,0 +1,132 @@
+[English-template]
+
+###################################################################
+# Main Form (1)
+###################################################################
+main_screen_text_message_no_previous_chats=------ NO PREVIOUS CHATS WITH {{connected_to_callsign}} ------
+main_screen_label_verbose_gps=Verbose GPS
+main_screen_tooltip_label_verbose_gps=Sending a GPS position every 1 minute.
+main_screen_messagebox_potentially_dangerous_file_header=Potentially dangerous file
+main_screen_messagebox_potentially_dangerous_file_details=The file you are trying to open has a potentially dangerous extension {{extension}}.[NL][NL]Do you want to continue?
+main_screen_messagebox_opening_link_in_browser_header=Open Link in External Browser
+main_screen_messagebox_opening_link_in_browser_details=You are about to open a link in your default web browser.[NL]Please ensure the link is from a trusted source before proceeding.[NL][NL]Link: {{link}}
+
+###################################################################
+# Settings Form (4)
+###################################################################
+settings_tab_cluster=Cluster
+settings_tab_email=Email
+settings_groupbox_cluster=Multi-node Cluster
+settings_checkbox_cluster_enabled=Enable multi-node cluster
+settings_label_cluster_instance_number=Instance number
+settings_label_cluster_counters_refresh_rate_sec=Counters refresh rate (sec)
+settings_checkbox_cluster_ptt_lock=PTT lock
+settings_checkbox_cluster_email_gateway_handler=Email gateway handler
+settings_messagebox_what_is_cluster_enabled_header=What is enable multi-node cluster?
+settings_messagebox_what_is_cluster_enabled_details=A VarAC Cluster is an advanced setup that enables you to run multiple VarAC instances simultaneously, all connected to a shared database. Each instance operates with its own RIG and VARA modem, yet they work in sync to support powerful cross-band capabilities such as VMail forwarding and the Email gateway.[NL][NL]Because all instances use the same shared database, any incoming VMail becomes instantly accessible across all bands. This effectively turns VarAC into a cross-band repeater for both VMails and Email settings_messages.[NL][NL]Additionally, the cluster allows others to perform tasks like 'last heard peaking'—helping them identify which band a specific callsign was recently heard on, whether through a beacon or CQ.[NL][NL]Setting up a VarAC Cluster is straightforward:[NL][NL]1. Create multiple VarAC profiles – Each should have its own VarAC_X.ini file, configured to work with a dedicated VARA modem and rig.[NL][NL]2. Launch all profiles simultaneously – By default, they will all connect to the same shared VarAC database (VarAC.db).[NL][NL]3. Enable Cluster Mode – In the settings of each instance, activate Cluster Mode and assign a shared Cluster ID to all.[NL][NL]4. Adjust additional parameters – Explore and configure other available cluster settings as needed (see below).[NL][NL]5. Email Gateway note – If you're running a VarAC Email Gateway, only one instance should be designated as the gateway handler. Refer to the Gateway Handler settings help for more details.
+settings_messagebox_what_is_cluster_instance_number_header=What is an instance number?
+settings_messagebox_what_is_cluster_instance_number_details=Each VarAC instance must have a unique instance number. This number is essential for various cluster operations, such as node-level logging, PTT lock synchronization, and identifying which instance is managing the Email Gateway.[NL][NL]When a cluster node is actively engaged in a QSO or link, its instance number will be displayed on the consoles of all other cluster nodes.
+settings_messagebox_what_is_cluster_counters_refresh_rate_sec_header=What is counters refresh rate?
+settings_messagebox_what_is_cluster_counters_refresh_rate_sec_details=VarAC displays various counters, such as incoming VMail, relay notifications, alerts, and more. While each VarAC cluster node maintains its own counters, it's crucial that all nodes reflect the most up-to-date values.[NL][NL]This parameter defines the interval (in seconds) at which a VarAC instance fetches updated counters from the shared database and updates the UI accordingly.[NL][NL]There is no need to modify this setting during standard operation.
+settings_messagebox_what_is_cluster_ptt_lock_header=What is ptt lock?
+settings_messagebox_what_is_cluster_ptt_lock_details=If you're running VarAC on a shared rig that supports multi-band operation—such as a modern SDR—but only allows transmission on one band at a time, enable the PTT lock.[NL][NL]When one VarAC cluster node is engaged in transmission, it will signal all other nodes to disable their PTT and refrain from transmitting until the active transmission is complete.[NL][NL]When a PTT lock is in effect, the non-transmitting nodes will display a visual indication on their consoles
+settings_messagebox_what_is_cluster_email_gateway_handler_header=What is email gateway handler?
+settings_messagebox_what_is_cluster_email_gateway_handler_details=In a VarAC cluster that also functions as an email gateway, only one node should be designated as the gateway handler. This prevents multiple nodes from simultaneously sending or receiving the same emails, which could lead to duplicate incoming and outgoing messages.[NL][NL]Ensure that only one node in your VarAC cluster is configured as the email gateway handler.
+settings_groupbox_qsy=QSY
+settings_checkbox_send_qsy_freq_offset=Send QSY Freq Offset
+settings_messagebox_what_is_send_qsy_freq_offset_header=What is send QSY frequency offset?
+settings_messagebox_what_is_send_qsy_freq_offset_details=There are two ways to send a QSY invitation:[NL][NL]Full Frequency – Sends the complete QSY frequency. This results in a longer transmission due to the number of characters.[NL][NL]Frequency Offset – Sends only the offset from the current frequency, making the message shorter and more emission-efficient.[NL][NL]Use the offset method only if both stations are running recent versions and have CAT control enabled, ensuring both sides know the current frequency and can accurately calculate the target frequency.
+settings_checkbox_exchange_callid_snr_after_qsy_from_cf=Exchange Call ID and SNR after QSY from CF
+settings_messagebox_what_is_checkbox_exchange_callid_snr_after_qsy_from_cf_header=What is exchange call ID and SNR after QSY?
+settings_messagebox_what_is_checkbox_exchange_callid_snr_after_qsy_from_cf_details=Calling frequencies are designated for beaconing, CQ calls and initiating connections. Once a connection is established, it is crucial to send a QSY invitation and vacate the calling frequency to allow others to connect.[NL][NL]To streamline this process and minimize congestion on calling frequencies, VarAC by default will not exchange any QSO details such as CALL ID or SNR reports until a QSY has been completed.[NL][NL]It is strongly recommended not to disable this feature unless you are operating on a private calling frequency with your own team, outside of the official VarAC frequencies.
+settings_label_send_log_to_secondary=Send log to (Secondary)
+settings_groupbox_email_gateway_smtp_conf=SMTP (outgoing) Configuration
+settings_groupbox_email_gateway_imap_conf=IMAP (incoming) Configuration
+settings_checkbox_email_gateway_enable_incoming_emails=Enable incoming Emails
+settings_messagebox_what_is_enable_incoming_emails_header=What is enable incoming emails?
+settings_messagebox_what_is_enable_incoming_emails_details=The Email Gateway can send VMails to email addresses via SMTP, but it can also transfer emails—and their replies—back to VMail recipients over the air using IMAP.[NL][NL]Enable this option if you want the gateway to monitor its email account for new incoming messages and forward them as parking emails to your VMail inbox.[NL][NL]Recipients can then collect these messages using the standard relay notification method.
+settings_label_imap_server=Server
+settings_label_imap_port=Port
+settings_checkbox_enable_ssl=Enable SSL
+settings_label_imap_timeout_seconds=Timeout (sec)
+settings_label_imap_password=Password
+settings_button_imap_password_show=SHOW
+settings_label_imap_polling_interval=Polling interval (sec)
+settings_button_email_receive_test_email=IMAP TEST
+settings_label_receive_email_test_status_connecting=CONNECTING...
+settings_label_receive_email_test_status_success=SUCCESS
+settings_label_receive_email_test_status_failed=FAILED
+settings_messagebox_cannot_use_digipeater_with_advanced_beacon_header=Can't use Advanced beacon with digipeater
+settings_messagebox_cannot_use_digipeater_with_advanced_beacon_details=Please note that, unlike standard beacons, advanced beacons cannot be transmitted via digipeaters. All other functionalities remain unchanged.
+settings_checkbox_multi_band_last_heard_peeking=Multi-band last heard peeking
+settings_messagebox_label_what_is_multi_band_last_heard_peeking_header=What is multi band last heard peeking?
+settings_messagebox_label_what_is_multi_band_last_heard_peeking_details=By default, when a 'Last Heard' request is received, your station will report only the stations heard on the band you are currently tuned to.[NL][NL]To include callsigns from all bands, enable this feature.[NL][NL]In cluster mode, it allows reporting of stations heard across all active bands in your cluster.
+
+# Changes to existing parameter
+settings_label_send_log_to=Send log to (Primary)
+settings_checkbox_allow_info_request=Allow inquire request
+settings_messagebox_allow_info_request_header=What is allow Inquire on my information?
+settings_messagebox_allow_info_request_details=VarAC allows your QSO partner to inquire the following infomration:  Name, QTH, Locator, Age, Profession, Hobbies, Rig, Power and GPS location.[NL][NL]If you wish to disable this option, then uncheck this box.
+settings_label_smtp_server=Server
+settings_label_smtp_port=Port
+settings_label_smtp_timeout_seconds=Timeout (sec)
+settings_label_smtp_password=Password
+
+
+###################################################################
+# Canned messages Form (7)
+###################################################################
+canned_messages_label_sbj=VMail subject
+canned_messages_label_email_address=EMail address
+
+###################################################################
+# Apperance Form (8)
+###################################################################
+appearance_and_sounds_checkbox_narrate_my_beacons=Narrate my beacons
+
+# Change to existing parameters:
+appearance_and_sounds_checkbox_narrate_beacons=Narrate received beacons
+
+###################################################################
+# Send QSY invitation Form (9)
+###################################################################
+
+# Change to existing parameters:
+
+send_qsy_invitation_follow_this_wizard_message=Your QSO partner allows auto-QSY.[NL]Please send a QSY invitation to clear the calling frequency.
+
+###################################################################
+# Send vmail Form (12)
+###################################################################
+send_vmail_checkbox_send_to_email=Send to Email
+send_vmail_invalid_reply_to_vmail_header=Not a valid reply-to Email address
+send_vmail_invalid_reply_to_vmail_details=Please enter a valid reply-to Email address and try again.
+send_vmail_radio_button_reply_to_gateway=Email gateway
+send_vmail_messagebox_label_what_reply_to_gateway_header=What is reply to gateway?
+send_vmail_messagebox_label_what_reply_to_gateway_details=Select this option if you want the sender to reply to you through the gateway.[NL][NL]When the recipient responds, their reply will arrive in the gateway's email account. The gateway will then retrieve it, place it in its VMail box, and park it for you to collect.[NL][NL]On your next beacon, the gateway will transmit a 'relay notification' to let you know a VMail is waiting.
+send_vmail_label_to_callsign=TO CALLSIGN:
+send_vmail_label_to_email=TO EMAIL:
+
+
+# Change to existing parameter
+send_vmail_messagebox_label_what_reply_to_email_header=What is reply to email?
+send_vmail_messagebox_label_what_reply_to_email_details=When sending a VMail to an email address via a gateway, you can specify a 'reply-to' email address. This lets the recipient respond directly to you by email.[NL][NL]By default, this field is populated with the email address set in your VarAC profile, but you can override it if needed.
+
+
+###################################################################
+# Read vmail Form (14)
+###################################################################
+read_vmail_button_callsign_history=HISTORY
+read_vmail_button_qrz_lookup=QRZ LOOKUP
+read_vmail_messagebox_cant_be_edited_as_it_is_being_sent_header=Can't edit VMails
+read_vmail_messagebox_cant_be_edited_as_it_is_being_sent_details=VMail cannot be edited while it is being sent.
+read_vmail_messagebox_cant_be_edited_as_it_was_already_sent_header=Can't edit VMails
+read_vmail_messagebox_cant_be_edited_as_it_was_already_sent_details=This VMail cannot be edited as it has already been sent.
+		
+
+###################################################################
+# Alert tags Form (24)
+###################################################################
+alert_tags_label_email_notification=Email notification
+alert_tags_messagebox_what_is_email_notification_header=What is email notification?
+alert_tags_messagebox_what_is_email_notification_details=If you're operating an email gateway (configured under Settings), you can enable certain alerts to also be sent via email to one or more recipients (separate multiple addresses with commas).[NL][NL]If your gateway supports inbound email, replies to these alerts will be queued and delivered to the callsign that triggered the original alert.

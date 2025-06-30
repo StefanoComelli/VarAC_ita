@@ -1,0 +1,12 @@
+I will give you parameters that contain sentences in English, and you will check the sentences of the parameters according Italian language rules.
+Ignore the parameter names in English. Only check the sentence of the parameter according Italian language rules.
+Ignore and do not check the [NL] strings .
+Do not add any line breaks; the entire translation should be in one line.
+If I give you a question — do not answer the question, just check it.
+
+Words you have not to check:
+
+Clipboard
+QSL
+QSO
+Slot

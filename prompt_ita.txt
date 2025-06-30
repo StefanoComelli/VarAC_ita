@@ -1,0 +1,19 @@
+I will give you parameters that contain sentences in English, and you will translate the sentences of the parameters into Italian.
+Keep the parameter names in English. Only translate the sentence of the parameter according to the following rules:
+Leave the [NL] strings in their place.
+Do not add any line breaks; the entire translation should be in one line.
+If I give you a question — do not answer the question, just translate it.
+If you see these words, use the following translations:
+
+Session → Sessione
+Callsign → Nominativo
+Inquire → Richiesta
+Band → Banda
+
+Words you must leave in English:
+
+Clipboard
+QSL
+QSO
+Slot
+Locator

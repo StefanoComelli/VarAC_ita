@@ -1,0 +1,134 @@
+[English-template]
+
+###################################################################
+# Main Form (1)
+###################################################################
+main_screen_text_message_no_previous_chats=------ NESSUNA CHAT PRECEDENTE CON {{connected_to_callsign}} ------
+main_screen_label_verbose_gps=GPS Verboso
+main_screen_tooltip_label_verbose_gps=Invio di una posizione GPS ogni minuto.
+main_screen_messagebox_potentially_dangerous_file_header=File potenzialmente pericoloso
+main_screen_messagebox_potentially_dangerous_file_details=Il file che stai tentando di aprire ha un'estensione potenzialmente pericolosa {{extension}}.[NL][NL]Vuoi continuare?
+main_screen_messagebox_opening_link_in_browser_header=Apri link nel browser esterno
+main_screen_messagebox_opening_link_in_browser_details=Stai per aprire un link nel browser predefinito.[NL]Assicurati che il link provenga da una fonte affidabile prima di procedere.[NL][NL]Link: {{link}}
+
+###################################################################
+# Settings Form (4)
+###################################################################
+settings_tab_cluster=Cluster
+settings_tab_email=Email
+settings_groupbox_cluster=Cluster multi-nodo
+settings_checkbox_cluster_enabled=Abilita cluster multi-nodo
+settings_label_cluster_instance_number=Numero istanza
+settings_label_cluster_counters_refresh_rate_sec=Frequenza aggiornamento contatori (sec)
+settings_checkbox_cluster_ptt_lock=Blocco PTT
+settings_checkbox_cluster_email_gateway_handler=Gestore gateway Email
+settings_messagebox_what_is_cluster_enabled_header=Cos'è abilitare cluster multi-nodo?
+settings_messagebox_what_is_cluster_enabled_details=Un Cluster VarAC è una configurazione avanzata che ti permette di eseguire più istanze VarAC simultaneamente, tutte connesse a un database condiviso. Ogni istanza opera con il proprio RIG e modem VARA, ma lavorano in sincronia per supportare funzionalità cross-band potenti come l’inoltro di VMail e il gateway Email.\[NL]\[NL]Poiché tutte le istanze usano lo stesso database condiviso, qualsiasi VMail in arrivo diventa immediatamente accessibile su tutte le bande, trasformando VarAC in un ripetitore cross-band per VMail e messaggi Email.\[NL]\[NL]Inoltre, il cluster permette ad altri di effettuare operazioni come il ‘last heard peaking’, aiutandoli a identificare su quale banda un determinato nominativo è stato sentito di recente, sia tramite beacon sia CQ.\[NL]\[NL]La configurazione di un Cluster VarAC è semplice:\[NL]\[NL]1. Crea più profili VarAC – Ognuno deve avere il proprio file VarAC_X.ini, configurato con un modem VARA e rig dedicati.\[NL]\[NL]2. Avvia tutti i profili simultaneamente – Di default si connetteranno allo stesso database VarAC condiviso (VarAC.db).\[NL]\[NL]3. Abilita Modalità Cluster – Nelle impostazioni di ogni istanza, attiva la modalità Cluster e assegna un ID Cluster condiviso a tutte.\[NL]\[NL]4. Regola parametri aggiuntivi – Esplora e configura altre impostazioni del cluster secondo necessità (vedi sotto).\[NL]\[NL]5. Nota sul gateway Email – Se usi un gateway Email VarAC, solo una istanza deve essere designata come gestore del gateway. Consulta l’aiuto delle impostazioni per maggiori dettagli.
+settings_messagebox_what_is_cluster_instance_number_header=Cos'è un numero di istanza?
+settings_messagebox_what_is_cluster_instance_number_details=Ogni istanza VarAC deve avere un numero di istanza univoco. Questo numero è essenziale per varie operazioni del cluster, come il logging a livello nodo, la sincronizzazione del blocco PTT e l’identificazione dell’istanza che gestisce il gateway Email.\[NL]\[NL]Quando un nodo del cluster è impegnato in un QSO o link, il suo numero di istanza sarà visualizzato sulle console di tutti gli altri nodi.
+settings_messagebox_what_is_cluster_counters_refresh_rate_sec_header=Cos'è la frequenza di aggiornamento dei contatori?
+settings_messagebox_what_is_cluster_counters_refresh_rate_sec_details=VarAC mostra vari contatori, come VMail in arrivo, notifiche di inoltro, allarmi e altro. Sebbene ogni nodo del cluster mantenga i propri contatori, è fondamentale che tutti riflettano i valori più aggiornati.\[NL]\[NL]Questo parametro definisce l’intervallo (in secondi) con cui un’istanza VarAC recupera i contatori aggiornati dal database condiviso e aggiorna l’interfaccia utente di conseguenza.\[NL]\[NL]Non è necessario modificare questa impostazione durante il normale funzionamento.
+settings_messagebox_what_is_cluster_ptt_lock_header=Cos'è il blocco PTT?
+settings_messagebox_what_is_cluster_ptt_lock_details=Se stai eseguendo VarAC su un rig condiviso che supporta operazioni multi-banda — come un moderno SDR — ma che consente la trasmissione su una sola banda alla volta, abilita il blocco PTT.\[NL]\[NL]Quando un nodo del cluster VarAC è in trasmissione, segnalerà a tutti gli altri nodi di disabilitare il loro PTT e di non trasmettere fino al completamento della trasmissione attiva.\[NL]\[NL]Quando il blocco PTT è attivo, i nodi non trasmittenti mostreranno un’indicazione visiva sulle loro console.
+settings_messagebox_what_is_cluster_email_gateway_handler_header=Cos'è il gestore del gateway email?
+settings_messagebox_what_is_cluster_email_gateway_handler_details=In un cluster VarAC che funziona anche come gateway email, solo un nodo deve essere designato come gestore del gateway. Questo evita che più nodi inviino o ricevano simultaneamente le stesse email, che causerebbero messaggi duplicati in ingresso e uscita.\[NL]\[NL]Assicurati che solo un nodo nel tuo cluster VarAC sia configurato come gestore del gateway email.
+settings_groupbox_qsy=QSY
+settings_checkbox_send_qsy_freq_offset=Invia offset frequenza QSY
+settings_messagebox_what_is_send_qsy_freq_offset_header=Cos'è l'invio dell'offset di frequenza QSY?
+settings_messagebox_what_is_send_qsy_freq_offset_details=Ci sono due modi per inviare un invito QSY:\[NL]\[NL]Frequenza completa – Invia la frequenza QSY completa. Questo comporta una trasmissione più lunga a causa del numero di caratteri.\[NL]\[NL]Offset frequenza – Invia solo l’offset dalla frequenza attuale, rendendo il messaggio più breve e più efficiente in emissione.\[NL]\[NL]Usa il metodo offset solo se entrambe le stazioni eseguono versioni recenti e hanno abilitato il controllo CAT, assicurando che entrambi i lati conoscano la frequenza attuale e possano calcolare con precisione la frequenza di destinazione.
+settings_checkbox_exchange_callid_snr_after_qsy_from_cf=Scambia Call ID e SNR dopo QSY da CF
+settings_messagebox_what_is_checkbox_exchange_callid_snr_after_qsy_from_cf_header=Cos'è lo scambio di Call ID e SNR dopo QSY?
+settings_messagebox_what_is_checkbox_exchange_callid_snr_after_qsy_from_cf_details=Le frequenze di chiamata sono designate per beaconing, chiamate CQ e per avviare connessioni. Una volta stabilita la connessione, è fondamentale inviare un invito QSY e liberare la frequenza di chiamata per permettere ad altri di connettersi.\[NL]\[NL]Per semplificare questo processo e minimizzare la congestione sulle frequenze di chiamata, VarAC di default non scambia dettagli QSO come CALL ID o rapporti SNR fino al completamento del QSY.\[NL]\[NL]Si consiglia vivamente di non disabilitare questa funzione a meno che non si operi su una frequenza di chiamata privata con il proprio team, al di fuori delle frequenze ufficiali VarAC.
+settings_label_send_log_to_secondary=Invia log a (Secondario)
+settings_groupbox_email_gateway_smtp_conf=Configurazione SMTP (in uscita)
+settings_groupbox_email_gateway_imap_conf=Configurazione IMAP (in arrivo)
+settings_checkbox_email_gateway_enable_incoming_emails=Abilita Email in arrivo
+settings_messagebox_what_is_enable_incoming_emails_header=Cos'è abilitare le email in arrivo?
+settings_messagebox_what_is_enable_incoming_emails_details=Il Gateway Email può inviare VMail a indirizzi email via SMTP, ma può anche trasferire email — e le loro risposte — ai destinatari VMail via radio usando IMAP.\[NL]\[NL]Abilita questa opzione se vuoi che il gateway monitori il suo account email per nuovi messaggi in arrivo e li inoltri come email parcheggiate nella tua casella VMail.\[NL]\[NL]I destinatari possono poi ritirare questi messaggi usando il metodo standard di notifica di inoltro.
+settings_label_imap_server=Server
+settings_label_imap_port=Porta
+settings_checkbox_enable_ssl=Abilita SSL
+settings_label_imap_timeout_seconds=Timeout (sec)
+settings_label_imap_password=Password
+settings_button_imap_password_show=MOSTRA
+settings_label_imap_polling_interval=Intervallo di polling (sec)
+settings_button_email_receive_test_email=TEST IMAP
+settings_label_receive_email_test_status_connecting=CONNESSIONE IN CORSO...
+settings_label_receive_email_test_status_success=SUCCESSO
+settings_label_receive_email_test_status_failed=FALLITO
+settings_messagebox_cannot_use_digipeater_with_advanced_beacon_header=Impossibile usare beacon Avanzato con digipeater
+settings_messagebox_cannot_use_digipeater_with_advanced_beacon_details=Nota che, a differenza dei beacon standard, i beacon avanzati non possono essere trasmessi tramite digipeater. Tutte le altre funzionalità restano invariate.
+settings_checkbox_multi_band_last_heard_peeking=Multi-band last heard peeking
+settings_messagebox_label_what_is_multi_band_last_heard_peeking_header=Cos'è il multi band last heard peeking?
+settings_messagebox_label_what_is_multi_band_last_heard_peeking_details=Di default, quando ricevi una richiesta ‘Last Heard’, la tua stazione riporterà solo le stazioni ascoltate sulla banda a cui sei sintonizzato.\[NL]\[NL]Per includere nominativi da tutte le bande, abilita questa funzione.\[NL]\[NL]In modalità cluster, permette di riportare le stazioni ascoltate su tutte le bande attive del cluster.
+
+
+# Changes to existing parameter
+settings_label_send_log_to=Invia a log (Primario)
+settings_checkbox_allow_info_request=Consenti richiesta info
+settings_messagebox_allow_info_request_header=Cos'è consentire la Richiesta sulle mie informazioni?
+settings_messagebox_allow_info_request_details=VarAC permette al tuo partner di QSO di richiedere le seguenti informazioni: Nome, QTH, Locator, Età, Professione, Hobby, Rig, Potenza e posizione GPS.[NL][NL]Se desideri disabilitare questa opzione, deseleziona questa casella.
+settings_label_smtp_server=Server
+settings_label_smtp_port=Porta
+settings_label_smtp_timeout_seconds=Timeout (sec)
+settings_label_smtp_password=Password
+
+
+###################################################################
+# Canned messages Form (7)
+###################################################################
+canned_messages_label_sbj=Oggetto VMail
+canned_messages_label_email_address=Indirizzo EMail
+
+###################################################################
+# Apperance Form (8)
+###################################################################
+appearance_and_sounds_checkbox_narrate_my_beacons=Narra i miei beacon
+
+# Change to existing parameters:
+appearance_and_sounds_checkbox_narrate_beacons=Narra i beacon ricevuti
+
+###################################################################
+# Send QSY invitation Form (9)
+###################################################################
+
+# Change to existing parameters:
+
+send_qsy_invitation_follow_this_wizard_message=Il tuo partner di QSO consente l'auto-QSY.[NL]Per favore invia un invito QSY per liberare la frequenza di chiamata.
+
+###################################################################
+# Send vmail Form (12)
+###################################################################
+send_vmail_checkbox_send_to_email=Invia a Email
+send_vmail_invalid_reply_to_vmail_header=Indirizzo email di risposta non valido
+send_vmail_invalid_reply_to_vmail_details=Inserisci un indirizzo email di risposta valido e riprova.
+send_vmail_radio_button_reply_to_gateway=Gateway Email
+send_vmail_messagebox_label_what_reply_to_gateway_header=Cos'è la risposta tramite gateway?
+send_vmail_messagebox_label_what_reply_to_gateway_details=Seleziona questa opzione se desideri che il mittente ti risponda tramite il gateway.[NL][NL]Quando il destinatario risponde, la sua risposta arriverà nell'account email del gateway. Il gateway la recupererà, la inserirà nella sua casella VMail e la parcheggerà in attesa che tu la ritiri.[NL][NL]Al tuo prossimo beacon, il gateway trasmetterà una 'notifica di inoltro' per avvisarti che una VMail è in attesa.
+send_vmail_label_to_callsign=A NOMINATIVO:
+send_vmail_label_to_email=A EMAIL:
+
+
+# Change to existing parameter
+send_vmail_messagebox_label_what_reply_to_email_header=Cos'è l'email di risposta?
+send_vmail_messagebox_label_what_reply_to_email_details=Quando invii una VMail a un indirizzo email tramite un gateway, puoi specificare un indirizzo email di 'risposta'. Questo permette al destinatario di risponderti direttamente via email.[NL][NL]Per impostazione predefinita, questo campo è compilato con l'indirizzo email impostato nel tuo profilo VarAC, ma puoi modificarlo se necessario.
+
+
+###################################################################
+# Read vmail Form (14)
+###################################################################
+read_vmail_button_callsign_history=CRONOLOGIA
+read_vmail_button_qrz_lookup=RICERCA QRZ
+read_vmail_messagebox_cant_be_edited_as_it_is_being_sent_header=Impossibile modificare le VMail
+read_vmail_messagebox_cant_be_edited_as_it_is_being_sent_details=La VMail non può essere modificata mentre è in fase di invio.
+read_vmail_messagebox_cant_be_edited_as_it_was_already_sent_header=Impossibile modificare le VMail
+read_vmail_messagebox_cant_be_edited_as_it_was_already_sent_details=Questa VMail non può essere modificata poiché è già stata inviata.
+
+		
+
+###################################################################
+# Alert tags Form (24)
+###################################################################
+alert_tags_label_email_notification=Notifica email
+alert_tags_messagebox_what_is_email_notification_header=Cos'è la notifica email?
+alert_tags_messagebox_what_is_email_notification_details=Se stai operando un gateway email (configurato nelle Impostazioni), puoi abilitare l'invio di determinati avvisi anche via email a uno o più destinatari (separa gli indirizzi con una virgola).\[NL]\[NL]Se il tuo gateway supporta email in entrata, le risposte a questi avvisi verranno accodate e recapitate al Nominativo che ha generato l'avviso originale.

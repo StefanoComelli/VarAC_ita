@@ -9,7 +9,7 @@ Session → Sessione
 Callsign → Nominativo
 Inquire → Richiesta
 Band → Banda
-
+CF → FC
 Words you must leave in English:
 
 Clipboard
@@ -17,3 +17,6 @@ QSL
 QSO
 Slot
 Locator
+Beacon
+Relay
+check-in

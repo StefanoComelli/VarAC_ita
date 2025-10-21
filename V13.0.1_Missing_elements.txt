@@ -1,0 +1,170 @@
+[English-template]
+
+###################################################################
+# Main Form (1)
+###################################################################
+main_screen_db_fixer_tool_strip_menu_item=Database fixer
+main_screen_callsign_tags_strip_menu_item=Callsign Tags
+main_screen_path_analzer_tool_strip_menu_item=Path analyzer
+main_screen_rightclick_menuitem_analyze_path=Analyze path
+main_screen_tooltip_label_snr_past_graph=Shows past SNR data on a graph using the path analyze tool
+main_screen_tooltip_label_ai_response_mode=You are in AI response mode, connected to a station serving as an AI gateway and in an active session with ACie, the VarAC AI assistant.[NL][NL]All messages are automatically sent with the prefix {{ai_prefix}} .[NL][NL]Click this button to exit the chat.
+main_screen_label_ai_response_mode=AI MODE
+main_screen_label_snr_past_graph=Past SNR
+
+# Change to existing parameter:
+main_screen_label_snr_graph=Live SNR
+main_screen_user_manual_en_tool_strip_menu_item=User Manuals
+
+###################################################################
+# Settings Form (4)
+###################################################################
+settings_label_port_wait_time_ms=Wait time (ms)
+settings_messagebox_what_is_port_wait_time_ms_header=What is port wait time (ms)?
+settings_messagebox_what_is_port_wait_time_ms_details=Do not modify unless necessary: Some CAT commands—like 'read frequency'—generate a response from the rig.[NL][NL]On certain radios or when using low baud rates, this response may take longer to arrive.[NL][NL]The 'Port wait time' setting defines how long (in milliseconds) VarAC will wait before attempting to read the rig's response.[NL][NL]If you notice issues with frequency readings, try increasing this value.
+settings_label_imap_username=Username
+settings_label_smtp_username=Username
+settings_button_email_gateway_password_show=SHOW
+settings_button_email_gateway_password_hide=HIDE
+settings_checkbox_show_tips=Show tips
+settings_checkbox_emcomm_qsy_notify_via_broadcast=QSY Notify via Broadcast
+settings_messagebox_what_is_emcomm_qsy_notify_via_broadcast_header=What is QSY notify via broadcast?
+settings_messagebox_what_is_emcomm_qsy_notify_via_broadcast_details=When you QSY automatically using the frequency scheduler, a broadcast notification will be sent to all, letting them know which frequency you’ll be moving to.
+settings_label_qsl_default_message=Default message:
+settings_checkbox_show_my_cqs_and_beacons=Show my CQs and Beacons
+settings_messagebox_what_is_show_my_cqs_and_beacon_header=What is show my CQs and Beacons?
+settings_messagebox_what_is_show_my_cqs_and_beacon_details=Enable this to include your own Beacons and CQ in the Last Heard Beacons and CQ lists.
+settings_tab_ai=AI
+settings_label_ai_how_to_setup_an_ai_gateway=How to set up an AI gateway?
+settings_groupbox_ai_gateway=AI Gateway
+settings_checkbox_ai_enable_gateway=Enable AI gateway
+settings_label_ai_api_key=AI API key
+settings_button_ai_show_api_key=SHOW
+settings_label_ai_response_size_limit_characters=Limit response (characters)
+settings_checkbox_ai_enable_chat_context=Enable chat context
+settings_label_ai_limit_interactions_per_qso=Limit interactions per QSO
+settings_groupbox_ai_limitations=Limitations
+settings_checkbox_ai_limit_access_to_callsigns_list=Limit access to:
+settings_button_ai_test_api=TEST API
+settings_label_ai_test_status_testing=TESTING...
+settings_label_ai_test_status_failed=FAILED. CHECK API KEY.
+settings_label_ai_test_status_success=SUCCESS
+settings_label_how_to_setup_a_varac_cluster=How to set up a VarAC cluster?
+settings_messagebox_label_ai_what_is_limit_response_characters_header=What is limit response characters?
+settings_messagebox_label_ai_what_is_limit_response_characters_details=You can set a character limit for AI responses, giving you precise control over the data transmitted over the air and helping ensure it doesn’t take too much time or bandwidth.[NL][NL]For an average HF link, we recommend keeping responses around 200 characters, while for FM use, you can allow a higher limit.[NL][NL]Please note that AI responses may slightly exceed the set limit; typically, an overage of 10–20% is acceptable.
+settings_messagebox_label_ai_what_is_limit_interactions_per_qso_header=What is limit interactions per QSO?
+settings_messagebox_label_ai_what_is_limit_interactions_per_qso_details=You can limit the number of questions an operator can ask the AI during a QSO.[NL][NL]This helps prevent users from exceeding the limits set by your AI provider (Gemini) and ensures operators don’t abuse your AI service.[NL][NL]Set to 0 if you don’t want to enforce a limit.
+settings_messagebox_label_ai_what_is_limit_access_to_callsigns_list_header=What is limit access to callsigns?
+settings_messagebox_label_ai_what_is_limit_access_to_callsigns_list_details=You can restrict your AI gateway service to specific callsigns.[NL][NL]Simply provide a comma-separated list of the callsigns you want your AI gateway to serve.
+settings_messagebox_label_ai_what_is_enable_gateway_header=What is an AI gateway?
+settings_messagebox_label_ai_what_is_enable_gateway_details=Enabling the AI gateway turns your VarAC station into an internet gateway powered by ACie, an AI agent.[NL][NL]Instead of inefficient web browsing with heavy HTML overhead, ACie provides a streamlined way to access online information.[NL][NL]Other operators can simply ask questions like 'How to build a field Yagi wire antenna?' and get direct answers through your station
+settings_messagebox_label_ai_what_is_api_key_header=What is an API Key?
+settings_messagebox_label_ai_what_is_api_key_details=VarAC leverages Google Gemini under the hood. Gemini provides both a free tier (with reasonable chat limits) and a paid option. For most users, the free tier is more than sufficient.[NL][NL]How to generate a free Google Gemini API key:[NL]1. Go to https://aistudio.google.com/app/api-keys [NL]2. Click 'Create API Key'[NL]3. Copy the generated key and paste it here[NL][NL]Would you like to open the Gemini key generator now?
+settings_messagebox_label_ai_what_is_enable_chat_context_header=What is AI chat context?
+settings_messagebox_label_ai_what_is_enable_chat_context_details=ACie (the AI Agent) can operate with or without chat context. When context is enabled, ACie remembers the entire conversation, allowing her to consider everything you’ve said or asked previously.[NL][NL]"If context is disabled, she will respond to each question independently, without recalling earlier messages.[NL][NL]For a smoother, ongoing conversation, we recommend keeping context enabled.
+
+# remove these parameters:
+button_smtp_password_show
+button_imap_password_show
+
+###################################################################
+# Canned messages Form (7)
+###################################################################
+canned_messages_label_local_time=Local Time
+canned_messages_label_utc_date_time=UTC DateTime
+canned_messages_label_utc_date=UTC Date
+canned_messages_label_utc_time=UTC Time
+
+###################################################################
+# Apperance Form (8)
+###################################################################
+appearance_and_sounds_checkbox_narrate_my_broadcasts=Narrate my broadcasts
+
+# change to existing parameters:
+appearance_and_sounds_checkbox_narrate_broadcasts=Narrate received broadcasts
+
+
+###################################################################
+# Send vmail Form (12)
+###################################################################
+
+# !! IMPORTANT NOTE 
+# !! There is duplication of this parameter - remove one of the instances: 
+# !! >> send_vmail_label_to_email <<
+
+		
+###################################################################
+# Broadcast message Form (23)
+###################################################################
+broadcast_message_button_broadcast_inquire=INQUIRE
+
+broadcast_message_messagebox_what_is_qsy_broadcast_header=What is QSY broadcast?
+broadcast_message_messagebox_what_is_qsy_broadcast_details=If you want to let everyone on the frequency know that you’re moving, you can send a QSY broadcast.[NL][NL]When others click your QSY broadcast, their rig will automatically tune to your new frequency.
+		
+###################################################################
+# Alert tags Form (24)
+###################################################################
+alert_tags_label_about_tag_alerts_header=What are alert tags?
+
+###################################################################
+# Alert center Form (28)
+###################################################################
+alert_center_button_delete_all_alerts=DELETE ALL
+alert_center_messagebox_delete_all_archived_alerts_header=Deleting all archived alerts?
+alert_center_messagebox_delete_all_archived_alerts_details=Are you sure you want to permanently delete all archived alerts?
+
+###################################################################
+# Database fixer (46)
+###################################################################
+database_fixer_direction=ltr
+database_fixer_label_db_fixer_intro=VarAC maintains an internal database that stores all information such as CQs, Beacons, QSOs, chats, broadcasts, SNR data, and more.
+This database is saved in the file VarAC.db.[NL][NL]Occasionally, new VarAC releases introduce additional elements to the database, and sometimes upgrades may fail, causing your VarAC.db file to have an incorrect structure.[NL][NL]This tool checks the structure of the VarAC database, alerts you if anything is missing, and can also repair it. Please use this tool with caution.
+database_fixer_button_copy=COPY
+database_fixer_label_db_fixer_log=Log
+database_fixer_button_check=CHECK DATABASE
+database_fixer_button_fix=FIX DATABASE
+database_fixer_button_compress=COMPRESS DATABASE
+database_fixer_button_fix_corruption=FIX CORRUPTION
+database_fixer_button_close=CLOSE
+
+###################################################################
+# VarAC Tip (47)
+###################################################################
+tip_popup_direction=ltr
+tip_popup_form_title=VarAC Tip
+tip_popup_button_tip_close=CLOSE
+tip_popup_button_tip_learn_more=LEARN MORE
+
+tip_popup_tip_header_hamplay=Playing games in VarAC
+tip_popup_tip_details_hamplay=Starting with VarAC V10, you can now invite your QSO partner to play games like Tic Tac Toe or Connect Four using the new HamPlay feature.[NL][NL]After moving off the calling frequency, use the 'HamPlay' button to send an invitation—if accepted, the game begins with real-time updates and sound effects.[NL][NL]There's even a 'CQ PLAY' call option to invite others for a fun challenge while still chatting during gameplay.
+
+tip_popup_tip_header_email_gateway=VarAC EMail gateway
+tip_popup_tip_details_email_gateway=The VarAC Email Gateway is a key feature that allows operators to send and receive emails directly from their radio stations to and from the internet.[NL][NL]It acts as a bridge, converting VarAC messages for radio transmission into standard internet emails and vice-versa.[NL][NL]This capability is especially important for emergency communications (EmComm), offering a reliable, off-grid email solution when the internet is unavailable.
+
+tip_popup_tip_header_advanced_beacon=Advanced beacon
+tip_popup_tip_details_advanced_beacon=VarAC supports two beacon types: Standard (minimal, highly robust, decodable at -22 dB) and Advanced (uses AX.25-KISS, includes Grid, Email Gateway info, decodable at -18 dB).[NL][NL]Choose based on your needs and band conditions.
+
+tip_popup_tip_header_one_time_beacon=One-time beacon
+tip_popup_tip_details_one_time_beacon=If you’re not the type who likes constant beaconing but still want to send a one-time beacon to let everyone know you’re around, simply RIGHT-CLICK the Beacon button, and VarAC will fire a single beacon instantly![NL][NL]You can use this feature whether your beaconing is turned off or even between beacon cycles when it's on.
+
+tip_popup_tip_header_instant_qsl=Instant QSL Generator
+tip_popup_tip_details_instant_qsl=Want faster QSL access? Just click the 'QSL' button on the main screen![NL][NL]During a QSO, it loads your current contact.[NL][NL]After it ends, it pulls up your latest QSO—ready to send in seconds.
+
+###################################################################
+# Path analyzer (48)
+###################################################################
+path_analyzer_direction=ltr
+path_analyzer_form_title=Path analyzer
+path_analyzer_label_callsign=Callsign:
+path_analyzer_label_band=Band:
+path_analyzer_label_locator_prefix=Locator prefix:
+path_analyzer_label_last_days=Last days:
+path_analyzer_button_analyze=ANALYZE
+path_analyzer_button_copy_graph_to_clipboard=COPY GRAPH TO CLIPBOARD
+path_analyzer_table_column_hour=Hour
+path_analyzer_table_column_avg_snr=Avarage SNR
+path_analyzer_table_column_max_snr=Maximum SNR
+path_analyzer_table_column_beacons_cqs=Beacons/CQs
+path_analyzer_table_column_number_of_callsigns=# of Callsigns
+path_analyzer_table_column_callsigns=Callsigns
+path_analyzer_checkbox_highlight_current_timeframe=Highlight current timeframe

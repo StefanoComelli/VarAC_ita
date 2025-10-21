@@ -1,0 +1,153 @@
+###################################################################
+# Main Form (1)
+###################################################################
+main_screen_db_fixer_tool_strip_menu_item=Correttore del database
+main_screen_callsign_tags_strip_menu_item=Tag del Nominativo
+main_screen_path_analzer_tool_strip_menu_item=Analizzatore di percorso
+main_screen_rightclick_menuitem_analyze_path=Analizza percorso
+main_screen_tooltip_label_snr_past_graph=Mostra i dati SNR passati su un grafico utilizzando lo strumento di analisi del percorso
+main_screen_tooltip_label_ai_response_mode=Sei in modalità di risposta AI, connesso a una stazione che funge da gateway AI e in una Sessione attiva con ACie, l’assistente AI di VarAC.[NL][NL]Tutti i messaggi vengono inviati automaticamente con il prefisso {{ai_prefix}} .[NL][NL]Fai clic su questo pulsante per uscire dalla chat.
+main_screen_label_ai_response_mode=MODALITÀ AI
+main_screen_label_snr_past_graph=SNR Passato
+
+# Change to existing parameter:
+main_screen_label_snr_graph=SNR Live
+main_screen_user_manual_en_tool_strip_menu_item=Manuali Utente
+
+###################################################################
+# Settings Form (4)
+###################################################################
+settings_label_port_wait_time_ms=Tempo di attesa (ms)
+settings_messagebox_what_is_port_wait_time_ms_header=Cos’è il tempo di attesa della porta (ms)?
+settings_messagebox_what_is_port_wait_time_ms_details=Non modificare se non necessario: alcuni comandi CAT — come “lettura frequenza” — generano una risposta dalla radio.[NL][NL]Su determinate radio o con baud rate bassi, questa risposta può impiegare più tempo ad arrivare.[NL][NL]L’impostazione “Tempo di attesa della porta” definisce per quanto tempo (in millisecondi) VarAC attenderà prima di tentare di leggere la risposta della radio.[NL][NL]Se noti problemi nella lettura della frequenza, prova ad aumentare questo valore.
+settings_label_imap_username=Nome utente
+settings_label_smtp_username=Nome utente
+settings_button_email_gateway_password_show=MOSTRA
+settings_button_email_gateway_password_hide=NASCONDI
+settings_checkbox_show_tips=Mostra suggerimenti
+settings_checkbox_emcomm_qsy_notify_via_broadcast=Notifica QSY via Broadcast
+settings_messagebox_what_is_emcomm_qsy_notify_via_broadcast_header=Cos’è la notifica QSY via Broadcast?
+settings_messagebox_what_is_emcomm_qsy_notify_via_broadcast_details=Quando effettui un QSY automatico utilizzando il pianificatore di frequenze, verrà inviata una notifica broadcast a tutti, per informarli su quale frequenza ti sposterai.
+settings_label_qsl_default_message=Messaggio predefinito:
+settings_checkbox_show_my_cqs_and_beacons=Mostra i miei CQ e Beacon
+settings_messagebox_what_is_show_my_cqs_and_beacon_header=Cos’è “Mostra i miei CQ e Beacon”?
+settings_messagebox_what_is_show_my_cqs_and_beacon_details=Abilita questa opzione per includere i tuoi Beacon e CQ nelle liste degli ultimi Beacon e CQ ascoltati.
+settings_tab_ai=AI
+settings_label_ai_how_to_setup_an_ai_gateway=Come configurare un gateway AI?
+settings_groupbox_ai_gateway=Gateway AI
+settings_checkbox_ai_enable_gateway=Abilita gateway AI
+settings_label_ai_api_key=Chiave API AI
+settings_button_ai_show_api_key=MOSTRA
+settings_label_ai_response_size_limit_characters=Limita risposta (caratteri)
+settings_checkbox_ai_enable_chat_context=Abilita contesto chat
+settings_label_ai_limit_interactions_per_qso=Limita interazioni per QSO
+settings_groupbox_ai_limitations=Limitazioni
+settings_checkbox_ai_limit_access_to_callsigns_list=Limita accesso a:
+settings_button_ai_test_api=TEST API
+settings_label_ai_test_status_testing=IN TEST...
+settings_label_ai_test_status_failed=FALLITO. CONTROLLA LA CHIAVE API.
+settings_label_ai_test_status_success=SUCCESSO
+settings_label_how_to_setup_a_varac_cluster=Come configurare un cluster VarAC?
+settings_messagebox_label_ai_what_is_limit_response_characters_header=Cos’è la limitazione dei caratteri di risposta?
+settings_messagebox_label_ai_what_is_limit_response_characters_details=Puoi impostare un limite di caratteri per le risposte AI, per avere un controllo preciso sui dati trasmessi via radio e assicurarti che non richiedano troppo tempo o banda.[NL][NL]Per un collegamento HF medio, si consiglia di mantenere le risposte intorno a 200 caratteri, mentre per uso FM puoi consentire un limite più alto.[NL][NL]Nota che le risposte AI possono superare leggermente il limite impostato; un margine del 10–20% è accettabile.
+settings_messagebox_label_ai_what_is_limit_interactions_per_qso_header=Cos’è la limitazione delle interazioni per QSO?
+settings_messagebox_label_ai_what_is_limit_interactions_per_qso_details=Puoi limitare il numero di domande che un operatore può porre all’AI durante un QSO.[NL][NL]Questo aiuta a evitare che gli utenti superino i limiti imposti dal tuo provider AI (Gemini) e impedisce abusi del servizio AI.[NL][NL]Imposta a 0 se non vuoi applicare alcun limite.
+settings_messagebox_label_ai_what_is_limit_access_to_callsigns_list_header=Cos’è la limitazione di accesso ai nominativi?
+settings_messagebox_label_ai_what_is_limit_access_to_callsigns_list_details=Puoi limitare il servizio del tuo gateway AI a specifici Nominativi.[NL][NL]Basta fornire un elenco separato da virgole dei Nominativi che il tuo gateway AI deve servire.
+settings_messagebox_label_ai_what_is_enable_gateway_header=Cos’è un gateway AI?
+settings_messagebox_label_ai_what_is_enable_gateway_details=Abilitare il gateway AI trasforma la tua stazione VarAC in un gateway internet alimentato da ACie, un agente AI.[NL][NL]Invece della navigazione web inefficiente con il peso dell’HTML, ACie fornisce un modo snello per accedere alle informazioni online.[NL][NL]Altri operatori possono semplicemente chiedere, ad esempio: “Come costruire un’antenna Yagi da campo?” e ricevere risposte dirette tramite la tua stazione.
+settings_messagebox_label_ai_what_is_api_key_header=Cos’è una chiave API?
+settings_messagebox_label_ai_what_is_api_key_details=VarAC utilizza Google Gemini. Gemini offre sia un livello gratuito (con limiti di chat ragionevoli) che uno a pagamento. Per la maggior parte degli utenti, il livello gratuito è più che sufficiente.[NL][NL]Come generare una chiave API gratuita di Google Gemini:[NL]1. Vai su https://aistudio.google.com/app/api-keys [NL]2. Clicca “Create API Key”[NL]3. Copia la chiave generata e incollala qui[NL][NL]Vuoi aprire ora il generatore di chiavi Gemini?
+settings_messagebox_label_ai_what_is_enable_chat_context_header=Cos’è il contesto chat AI?
+settings_messagebox_label_ai_what_is_enable_chat_context_details=ACie (l’agente AI) può operare con o senza contesto di chat. Quando il contesto è abilitato, ACie ricorda l’intera conversazione, tenendo conto di tutto ciò che hai detto o chiesto in precedenza.[NL][NL]Se il contesto è disabilitato, risponderà a ogni domanda in modo indipendente, senza ricordare i messaggi precedenti.[NL][NL]Per una conversazione più fluida, si consiglia di mantenere il contesto abilitato.
+
+###################################################################
+# Canned messages Form (7)
+###################################################################
+canned_messages_label_local_time=Ora locale
+canned_messages_label_utc_date_time=Data/Ora UTC
+canned_messages_label_utc_date=Data UTC
+canned_messages_label_utc_time=Ora UTC
+
+###################################################################
+# Apperance Form (8)
+###################################################################
+appearance_and_sounds_checkbox_narrate_my_broadcasts=Narra i miei broadcast
+
+# change to existing parameters:
+appearance_and_sounds_checkbox_narrate_broadcasts=Narra i broadcast ricevuti
+
+###################################################################
+# Broadcast message Form (23)
+###################################################################
+broadcast_message_button_broadcast_inquire=RICHIESTA
+
+broadcast_message_messagebox_what_is_qsy_broadcast_header=Cos’è il broadcast QSY?
+broadcast_message_messagebox_what_is_qsy_broadcast_details=Se vuoi far sapere a tutti sulla frequenza che ti stai spostando, puoi inviare un broadcast QSY.[NL][NL]Quando gli altri cliccano sul tuo broadcast QSY, la loro radio si sintonizzerà automaticamente sulla tua nuova frequenza.
+
+###################################################################
+# Alert tags Form (24)
+###################################################################
+alert_tags_label_about_tag_alerts_header=Cosa sono i tag di avviso?
+
+###################################################################
+# Alert center Form (28)
+###################################################################
+alert_center_button_delete_all_alerts=ELIMINA TUTTO
+alert_center_messagebox_delete_all_archived_alerts_header=Eliminare tutti gli avvisi archiviati?
+alert_center_messagebox_delete_all_archived_alerts_details=Sei sicuro di voler eliminare definitivamente tutti gli avvisi archiviati?
+
+###################################################################
+# Database fixer (46)
+###################################################################
+database_fixer_direction=ltr
+database_fixer_label_db_fixer_intro=VarAC mantiene un database interno che memorizza tutte le informazioni come CQ, Beacon, QSO, chat, broadcast, dati SNR e altro ancora. Questo database è salvato nel file VarAC.db.[NL][NL]Occasionalmente, nuove versioni di VarAC introducono elementi aggiuntivi nel database, e talvolta gli aggiornamenti possono fallire, causando una struttura errata nel file VarAC.db.[NL][NL]Questo strumento controlla la struttura del database di VarAC, ti avvisa se manca qualcosa e può anche ripararlo. Usa questo strumento con cautela.
+database_fixer_button_copy=COPIA
+database_fixer_label_db_fixer_log=Log
+database_fixer_button_check=CONTROLLA DATABASE
+database_fixer_button_fix=RIPARA DATABASE
+database_fixer_button_compress=COMPRIMI DATABASE
+database_fixer_button_fix_corruption=RIPARA CORRUZIONE
+database_fixer_button_close=CHIUDI
+
+###################################################################
+# VarAC Tip (47)
+###################################################################
+tip_popup_direction=ltr
+tip_popup_form_title=Suggerimento VarAC
+tip_popup_button_tip_close=CHIUDI
+tip_popup_button_tip_learn_more=SCOPRI DI PIÙ
+
+tip_popup_tip_header_hamplay=Giocare in VarAC
+tip_popup_tip_details_hamplay=A partire da VarAC V10, puoi ora invitare il tuo partner di QSO a giocare a Tris o Forza Quattro utilizzando la nuova funzione HamPlay.[NL][NL]Dopo esserti spostato dalla frequenza di chiamata, usa il pulsante “HamPlay” per inviare un invito — se accettato, il gioco inizia con aggiornamenti in tempo reale ed effetti sonori.[NL][NL]C’è anche un’opzione “CQ PLAY” per invitare altri a una sfida divertente mentre continui la chat durante il gioco.
+
+tip_popup_tip_header_email_gateway=Gateway Email VarAC
+tip_popup_tip_details_email_gateway=Il Gateway Email di VarAC è una funzione chiave che consente agli operatori di inviare e ricevere email direttamente dalle loro stazioni radio verso e da internet.[NL][NL]Agisce come un ponte, convertendo i messaggi VarAC per la trasmissione radio in email internet standard e viceversa.[NL][NL]Questa funzionalità è particolarmente importante per le comunicazioni di emergenza (EmComm), offrendo una soluzione email affidabile fuori rete quando internet non è disponibile.
+
+tip_popup_tip_header_advanced_beacon=Beacon avanzato
+tip_popup_tip_details_advanced_beacon=VarAC supporta due tipi di Beacon: Standard (minimale, altamente robusto, decodificabile a -22 dB) e Avanzato (usa AX.25-KISS, include Griglia, informazioni Gateway Email, decodificabile a -18 dB).[NL][NL]Scegli in base alle tue esigenze e alle condizioni di Banda.
+
+tip_popup_tip_header_one_time_beacon=Beacon una tantum
+tip_popup_tip_details_one_time_beacon=Se non ti piace trasmettere beacon costantemente ma vuoi inviare un beacon una tantum per far sapere che sei in aria, fai semplicemente CLICK DESTRO sul pulsante Beacon, e VarAC invierà immediatamente un singolo beacon![NL][NL]Puoi usare questa funzione anche se il beaconing è disattivato o tra un ciclo e l’altro quando è attivo.
+
+tip_popup_tip_header_instant_qsl=Generatore QSL istantaneo
+tip_popup_tip_details_instant_qsl=Vuoi accedere più rapidamente alle QSL? Basta cliccare il pulsante “QSL” sulla schermata principale![NL][NL]Durante un QSO, carica il tuo contatto corrente.[NL][NL]Dopo la fine, mostra il tuo ultimo QSO — pronto per essere inviato in pochi secondi.
+
+###################################################################
+# Path analyzer (48)
+###################################################################
+path_analyzer_direction=ltr
+path_analyzer_form_title=Analizzatore di percorso
+path_analyzer_label_callsign=Nominativo:
+path_analyzer_label_band=Banda:
+path_analyzer_label_locator_prefix=Prefisso Locator:
+path_analyzer_label_last_days=Ultimi giorni:
+path_analyzer_button_analyze=ANALIZZA
+path_analyzer_button_copy_graph_to_clipboard=COPIA GRAFICO NEL CLIPBOARD
+path_analyzer_table_column_hour=Ora
+path_analyzer_table_column_avg_snr=SNR Medio
+path_analyzer_table_column_max_snr=SNR Massimo
+path_analyzer_table_column_beacons_cqs=Beacon/CQ
+path_analyzer_table_column_number_of_callsigns=# di Nominativi
+path_analyzer_table_column_callsigns=Nominativi
+path_analyzer_checkbox_highlight_current_timeframe=Evidenzia intervallo di tempo corrente

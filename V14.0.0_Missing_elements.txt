@@ -1,0 +1,109 @@
+[English-template]
+
+###################################################################
+# Main Form (1)
+###################################################################
+main_screen_button_bbs_files=BBS FILES
+main_screen_messagebox_bbs_file_list_can_not_open_header=BBS file list is not available
+main_screen_messagebox_bbs_file_list_can_not_open_header=BBS file list is not available
+main_screen_messagebox_bbs_file_list_can_not_open_details=The BBS file list displays the files available for download from the station you are currently connected to. It is shown only when:[NL][NL]1. You are actively connected to a station that operates a BBS.[NL]2. You’re not on an official VarAC calling frequency.
+main_screen_tooltip_button_bbs_files=BBS is a file server that allows you to download files from other stations.[NL][NL]Click here to enter BBS mode and view the list of available files for download.
+main_screen_label_qsy=QSY
+main_screen_academy_tool_strip_menu_item=VarAC Academy
+main_screen_table_column_datastream_reaction=Reaction
+
+# Change existing values:
+
+main_screen_tooltip_label_ui_advanced_mode=Toggle between Simple, Advanced & EmComm UI modes.[NL]Simple mode include the must-have features only.[NL]Toggling will temporarily resize VarAC.
+main_screen_label_ui_advanced_mode=Mode
+
+###################################################################
+# Settings Form (4)
+###################################################################
+settings_checkbox_bbs_enabled=Enable BBS
+settings_label_bbs_dir=BBS Directory
+settings_checkbox_bbs_limit_access_to_callsigns_list=Limit access to:
+settings_button_bbs_open_dir=OPEN
+settings_messagebox_label_bbs_what_is_bbs_header=What is a VarAC BBS?
+settings_messagebox_label_bbs_what_is_bbs_details=BBS is a file server that lets stations connected to you download files directly from your system.[NL][NL]You can store all shared files in a dedicated directory, and any connected station can view the file list and download what it needs.[NL][NL]Files can be of any type—images, executables, or even simple text files that function like an old-fashioned bulletin board.
+settings_messagebox_bbs_what_is_bbs_dir_header=What is BBS directory?
+settings_messagebox_bbs_what_is_bbs_dir_details=All files stored in the BBS directory can be discovered and downloaded by connected stations.[NL][NL]Please make sure to scan these files for viruses.
+settings_messagebox_label_bbs_what_is_limit_access_to_callsigns_header=What is limit access to callsigns?
+settings_messagebox_label_bbs_what_is_limit_access_to_callsigns_details=You can restrict your BBS service to specific callsigns.[NL][NL]Simply provide a comma-separated list of the callsigns you want your BBS to serve.
+settings_checkbox_ai_gateway_announce_via_beacons=Announce AI gateway via beacons
+settings_messagebox_what_is_ai_gateway_announce_header=What is announce AI gateway?
+settings_messagebox_what_is_ai_gateway_announce_details=If your AI gateway is open to all (not restricted to specific callsigns), you can announce it through your beacons.[NL][NL]When other stations decode your beacon, they will see a clear indication that your station provides a public AI gateway.[NL][NL]To activate this feature, you must:[NL]1. Disable the 'Limit access to' setting in the AI gateway.[NL]2. Set your beacon type to 'ADVANCED' under the 'CQ/Beacon' tab.
+settings_messagebox_ai_gateway_cant_announce_header=Can't announce AI gateway
+settings_messagebox_ai_gateway_cant_announce_details="To activate this feature, you must first:[NL]1. Disable the 'Limit access to' setting in the AI gateway.[NL]2. Set your beacon type to 'ADVANCED' under the 'CQ/Beacon' tab.
+settings_messagebox_what_is_read_frequency_every_few_seconds_header=What is read frequency every few seconds?
+settings_messagebox_what_is_read_frequency_every_few_seconds_details=By default, VarAC updates your radio’s frequency only when you change it from within VarAC.[NL][NL]If you want VarAC to also track the actual frequency your radio is tuned to, including manual VFO changes or adjustments made by other software, enable this option.[NL][NL]You can also configure how frequently VarAC reads the current frequency from your radio.
+settings_messagebox_what_is_load_last_frequency_header=What is load last frequency?
+settings_messagebox_what_is_load_last_frequency_details=Enable this option if you want VarAC to return to the last frequency used before closing. VarAC will remember the previous frequency and automatically tune your radio to it when the program starts.[NL][NL]PLEASE NOTE: If the VarAC frequency scheduler is enabled, it will override the last-used frequency and tune your radio according to the scheduler settings.
+
+settings_tab_keys=Keys
+settings_groupbox_diploma=Diploma
+settings_label_about_diplomas=Show the community you’ve mastered the VarAC! Earn your official Master diploma at VarAC Academy to automatically showcase your certified expertise to everyone on the frequency via your beacons. Click "To VarAC Academy" now to claim your rank, stand out on the waterfall, and prove you’re a premier operator.
+settings_label_diploma_code=Enter diploma code:
+settings_label_diploma_status=Diploma status:
+settings_checkbox_announce_diploma=Announce diploma via beacons
+settings_button_diploma_varac_school=TO VARAC ACADEMY
+settings_messagebox_what_is_diploma_announce_header=What is announce diploma?
+settings_messagebox_what_is_diploma_announce_details=If you have achieved a diploma, you can announce it through your beacons.[NL][NL]When other stations decode your beacon, they will see a clear indication of your diploma, helping your beacon stand out from the rest.
+settings_messagebox_diploma_cant_announce_header=Can't announce Diploma
+settings_messagebox_diploma_cant_announce_details=To activate this feature, you must first set your beacon type to 'ADVANCED' under the 'CQ/Beacon' tab.
+
+settings_label_ai_api_timeout_sec=Timeout (sec)
+
+settings_checkbox_bbs_announce_via_beacons=Announce BBS via beacons
+settings_messagebox_what_is_bbs_announce_header=What is announce BBS?
+settings_messagebox_what_is_bbs_announce_details=If your BBS is open to all (not restricted to specific callsigns), you can announce it through your beacons.[NL][NL]When other stations decode your beacon, they will see a clear indication that your station provides a public BBS.[NL][NL]To activate this feature, you must:[NL]1. Disable the 'Limit access to' setting in the BBS.[NL]2. Set your beacon type to 'ADVANCED' under the 'CQ/Beacon' tab.
+
+###################################################################
+# Apperance Form (8)
+###################################################################
+appearance_and_sounds_checkbox_play_sound_reactions=Reactions
+
+###################################################################
+# Frequency scheduler Form (10)
+###################################################################
+frequency_scheduler_button_clear_all=CLEAR ALL
+
+###################################################################
+# Vmailbox Form (13)
+###################################################################
+vmailbox_time_received_composed=Compose time
+
+###################################################################
+# Callsign history (15)
+###################################################################
+callsign_history_table_column_datastream_reaction=Reaction
+
+
+###################################################################
+# VarAC Tip (47)
+###################################################################
+tip_popup_tip_header_monitor_qso=Monitor other VarAC QSOs
+tip_popup_tip_details_monitor_qso=Can I monitor other VarAC QSOs? Absolutely![NL][NL]By setting up a secondary VARA modem in Monitor mode, you can listen to ongoing VarAC traffic on the calling frequency.[NL][NL]To configure this, go to Settings → VARA → VARA Monitor Path, specify the location of your secondary VARA modem, and VarAC will take care of the rest.[NL][NL]Please note that certain limitations apply. For additional details, click the 'Learn More' button.
+tip_popup_tip_header_bbs=BBS
+tip_popup_tip_details_bbs=The {{software_name}} BBS turns your station into an off-grid file hub.[NL]To set it up, go to Settings → VARA → BBS and select your shared directory. Once configured, connected stations can browse and download your files—like PDFs or maps—directly over the radio link.[NL][NL]Pro Tip: Enable BBS announcements in your beacons to alert others that your library is live. Just remember to keep file sizes small to ensure fast downloads over radio bandwidth!
+tip_popup_tip_header_academy={{software_name}} Academy
+tip_popup_tip_details_academy=Elevate your skills with {{software_name}} Academy. The '{{software_name}} Master' online course is a step-by-step training covering everything from smooth QSOs and QSY to VMails and broadcasts. It’s designed to help you operate efficiently while avoiding common mistakes.[NL][NL]Once you pass the quizzes, you’ll earn a digital diploma to load into your profile. Your 'Master' status will then appear in your beacons, showing the network you are a certified, pro-level operator.
+
+###################################################################
+# BBS (50)
+###################################################################
+bbs_direction=ltr
+bbs_form_title=BBS Files
+bbs_label_about_bbs_file_list=These are the files available for download from the station you’re currently connected to. Files marked in red exceed your configured incoming file size limit — but if you choose to download them anyway, the limit will be ignored.[NL][NL]Double-click a file to request a download.
+bbs_label_bbs_files_status_header=STATUS:
+bbs_status_files_retrieving_files_in_progress=BBS files retrieval in progress…
+bbs_status_files_retrieving_files_completed=BBS files retrieval completed.
+bbs_status_files_retrieving_files_completed_no_files=Files retrieval completed. BBS is empty.
+bbs_status_files_retrieving_files_rejected=Retrieval rejected — station may not have a BBS or you’re not allowed.
+bbs_table_column_file_name=File name
+bbs_table_column_creation_time=Creation time
+bbs_table_column_size_bytes=Size (bytes)
+bbs_button_close=CLOSE
+bbs_button_button_inquire_bbs_files=RETRIEVE FILE LIST
+bbs_text_cant_get_file_on_cf_header=You are on a calling frequency
+bbs_text_cant_get_file_on_cf_details=You cannot download BBS files on a calling frequency. Please QSY first.

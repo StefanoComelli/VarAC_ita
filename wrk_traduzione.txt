@@ -1,0 +1,105 @@
+[English-template]
+
+###################################################################
+# Main Form (1)
+###################################################################
+main_screen_button_bbs_files=BBS FILES
+main_screen_messagebox_bbs_file_list_can_not_open_header=Elenco file BBS non disponibile
+main_screen_messagebox_bbs_file_list_can_not_open_header=Elenco file BBS non disponibile
+main_screen_messagebox_bbs_file_list_can_not_open_details=L'elenco file BBS mostra i file disponibili per il download dalla stazione a cui sei attualmente connesso. Viene mostrato solo quando:[NL][NL]1. Sei attivamente connesso a una stazione che gestisce un BBS.[NL]2. Non sei su una frequenza di chiamata ufficiale VarAC.
+main_screen_tooltip_button_bbs_files=BBS è un file server che consente di scaricare file da altre stazioni.[NL][NL]Clicca qui per entrare in modalità BBS e visualizzare l'elenco dei file disponibili per il download.
+main_screen_label_qsy=QSY
+main_screen_academy_tool_strip_menu_item=VarAC Academy
+main_screen_table_column_datastream_reaction=Reazione
+
+# Change existing values:
+
+main_screen_tooltip_label_ui_advanced_mode=Alterna tra le modalità UI Semplice, Avanzata ed EmComm.[NL]La modalità Semplice include solo le funzionalità essenziali.[NL]L'attivazione ridimensionerà temporaneamente VarAC.
+main_screen_label_ui_advanced_mode=Modalità
+
+###################################################################
+# Settings Form (4)
+###################################################################
+settings_checkbox_bbs_enabled=Abilita BBS
+settings_label_bbs_dir=Directory BBS
+settings_checkbox_bbs_limit_access_to_callsigns_list=Limita l'accesso a:
+settings_button_bbs_open_dir=APRI
+settings_messagebox_label_bbs_what_is_bbs_header=Cos'è una BBS VarAC?
+settings_messagebox_label_bbs_what_is_bbs_details=BBS è un file server che permette alle stazioni connesse di scaricare file direttamente dal tuo sistema.[NL][NL]Puoi archiviare tutti i file condivisi in una directory dedicata e qualsiasi stazione connessa può visualizzare l'elenco dei file e scaricare ciò di cui ha bisogno.[NL][NL]I file possono essere di qualsiasi tipo—immagini, eseguibili o anche semplici file di testo che funzionano come una bacheca tradizionale.
+settings_messagebox_bbs_what_is_bbs_dir_header=Cos'è la directory BBS?
+settings_messagebox_bbs_what_is_bbs_dir_details=Tutti i file archiviati nella directory BBS possono essere scoperti e scaricati dalle stazioni connesse.[NL][NL]Assicurati di scansionare questi file per i virus.
+settings_messagebox_label_bbs_what_is_limit_access_to_callsigns_header=Cos'è limitare l'accesso ai nominativi?
+settings_messagebox_label_bbs_what_is_limit_access_to_callsigns_details=Puoi limitare il servizio BBS a specifici nominativi.[NL][NL]Fornisci semplicemente un elenco separato da virgole dei nominativi che vuoi servire con il tuo BBS.
+settings_checkbox_ai_gateway_announce_via_beacons=Annuncia il gateway AI tramite Beacon
+settings_messagebox_what_is_ai_gateway_announce_header=Cos'è annunciare il gateway AI?
+settings_messagebox_what_is_ai_gateway_announce_details=Se il tuo gateway AI è aperto a tutti (non limitato a specifici nominativi), puoi annunciarlo tramite i tuoi Beacon.[NL][NL]Quando altre stazioni decodificano il tuo Beacon, vedranno una chiara indicazione che la tua stazione fornisce un gateway AI pubblico.[NL][NL]Per attivare questa funzione, devi:[NL]1. Disabilitare l'impostazione 'Limita l'accesso a' nel gateway AI.[NL]2. Impostare il tipo di Beacon su 'ADVANCED' nella scheda 'CQ/Beacon'.
+settings_messagebox_ai_gateway_cant_announce_header=Impossibile annunciare il gateway AI
+settings_messagebox_ai_gateway_cant_announce_details=Per attivare questa funzione, devi prima:[NL]1. Disabilitare l'impostazione 'Limita l'accesso a' nel gateway AI.[NL]2. Impostare il tipo di Beacon su 'ADVANCED' nella scheda 'CQ/Beacon'.
+settings_messagebox_what_is_read_frequency_every_few_seconds_header=Cos'è leggere la frequenza ogni pochi secondi?
+settings_messagebox_what_is_read_frequency_every_few_seconds_details=Per impostazione predefinita, VarAC aggiorna la frequenza della tua radio solo quando la modifichi dall'interno di VarAC.[NL][NL]Se vuoi che VarAC tenga traccia anche della frequenza reale su cui è sintonizzata la tua radio, incluse modifiche manuali del VFO o regolazioni effettuate da altri software, abilita questa opzione.[NL][NL]Puoi anche configurare ogni quanto VarAC legge la frequenza corrente dalla tua radio.
+settings_messagebox_what_is_load_last_frequency_header=Cos'è caricare l'ultima frequenza?
+settings_messagebox_what_is_load_last_frequency_details=Abilita questa opzione se vuoi che VarAC torni all'ultima frequenza utilizzata prima della chiusura. VarAC ricorderà la frequenza precedente e sintonizzerà automaticamente la tua radio su di essa all'avvio del programma.[NL][NL]NOTA BENE: se il pianificatore di frequenza VarAC è abilitato, sovrascriverà l'ultima frequenza utilizzata e sintonizzerà la tua radio secondo le impostazioni del pianificatore.
+settings_tab_keys=Tasti
+settings_groupbox_diploma=Diploma
+settings_label_about_diplomas=Mostra alla community che hai padroneggiato VarAC! Ottieni il tuo diploma ufficiale Master presso VarAC Academy per mostrare automaticamente a tutti sulla frequenza la tua competenza certificata tramite i tuoi Beacon. Clicca ora su "To VarAC Academy" per ottenere il tuo grado, distinguerti nel waterfall e dimostrare di essere un operatore di primo livello.
+settings_label_diploma_code=Inserisci codice diploma:
+settings_label_diploma_status=Stato diploma:
+settings_checkbox_announce_diploma=Annuncia il diploma tramite Beacon
+settings_button_diploma_varac_school=TO VARAC ACADEMY
+settings_messagebox_what_is_diploma_announce_header=Cos'è annunciare il diploma?
+settings_messagebox_what_is_diploma_announce_details=Se hai ottenuto un diploma, puoi annunciarlo tramite i tuoi Beacon.[NL][NL]Quando altre stazioni decodificano il tuo Beacon, vedranno una chiara indicazione del tuo diploma, aiutando il tuo Beacon a distinguersi dagli altri.
+settings_messagebox_diploma_cant_announce_header=Impossibile annunciare il diploma
+settings_messagebox_diploma_cant_announce_details=Per attivare questa funzione, devi prima impostare il tipo di Beacon su 'ADVANCED' nella scheda 'CQ/Beacon'.
+settings_label_ai_api_timeout_sec=Timeout (sec)
+settings_checkbox_bbs_announce_via_beacons=Annuncia BBS tramite Beacon
+settings_messagebox_what_is_bbs_announce_header=Cos'è annunciare il BBS?
+settings_messagebox_what_is_bbs_announce_details=Se il tuo BBS è aperto a tutti (non limitato a specifici nominativi), puoi annunciarlo tramite i tuoi Beacon.[NL][NL]Quando altre stazioni decodificano il tuo Beacon, vedranno una chiara indicazione che la tua stazione fornisce un BBS pubblico.[NL][NL]Per attivare questa funzione, devi:[NL]1. Disabilitare l'impostazione 'Limita l'accesso a' nel BBS.[NL]2. Impostare il tipo di Beacon su 'ADVANCED' nella scheda 'CQ/Beacon'.
+
+###################################################################
+# Apperance Form (8)
+###################################################################
+appearance_and_sounds_checkbox_play_sound_reactions=Reazioni
+
+###################################################################
+# Frequency scheduler Form (10)
+###################################################################
+frequency_scheduler_button_clear_all=CANCELLA TUTTO
+
+###################################################################
+# Vmailbox Form (13)
+###################################################################
+vmailbox_time_received_composed=Ora di composizione
+
+###################################################################
+# Callsign history (15)
+###################################################################
+callsign_history_table_column_datastream_reaction=Reazione
+
+###################################################################
+# VarAC Tip (47)
+###################################################################
+tip_popup_tip_header_monitor_qso=Monitora altri QSO VarAC
+tip_popup_tip_details_monitor_qso=Posso monitorare altri QSO VarAC? Assolutamente sì![NL][NL]Configurando un modem VARA secondario in modalità Monitor, puoi ascoltare il traffico VarAC in corso sulla frequenza di chiamata.[NL][NL]Per configurarlo, vai su Impostazioni → VARA → VARA Monitor Path, specifica la posizione del tuo modem VARA secondario e VarAC si occuperà del resto.[NL][NL]Tieni presente che si applicano alcune limitazioni. Per ulteriori dettagli, fai clic sul pulsante 'Learn More'.
+tip_popup_tip_header_bbs=BBS
+tip_popup_tip_details_bbs=La BBS di {{software_name}} trasforma la tua stazione in un hub di file off-grid.[NL]Per configurarla, vai su Impostazioni → VARA → BBS e seleziona la tua directory condivisa. Una volta configurata, le stazioni collegate possono sfogliare e scaricare i tuoi file—come PDF o mappe—direttamente tramite il collegamento radio.[NL][NL]Suggerimento Pro: abilita gli annunci BBS nei tuoi Beacon per avvisare gli altri che la tua libreria è attiva. Ricorda solo di mantenere le dimensioni dei file ridotte per garantire download rapidi sulla banda radio!
+tip_popup_tip_header_academy={{software_name}} Academy
+tip_popup_tip_details_academy=Migliora le tue competenze con {{software_name}} Academy. Il corso online '{{software_name}} Master' è una formazione passo dopo passo che copre tutto, dai QSO fluidi e il QSY ai VMail e ai broadcast. È progettato per aiutarti a operare in modo efficiente evitando gli errori più comuni.[NL][NL]Una volta superati i quiz, otterrai un diploma digitale da caricare nel tuo profilo. Il tuo stato di 'Master' apparirà quindi nei tuoi Beacon, mostrando alla rete che sei un operatore certificato di livello professionale.
+
+###################################################################
+# BBS (50)
+###################################################################
+bbs_direction=ltr
+bbs_form_title=File BBS
+bbs_label_about_bbs_file_list=Questi sono i file disponibili per il download dalla stazione a cui sei attualmente connesso. I file contrassegnati in rosso superano il limite di dimensione dei file in ingresso configurato — ma se scegli comunque di scaricarli, il limite verrà ignorato.[NL][NL]Fai doppio clic su un file per richiedere il download.
+bbs_label_bbs_files_status_header=STATO:
+bbs_status_files_retrieving_files_in_progress=Recupero dei file BBS in corso…
+bbs_status_files_retrieving_files_completed=Recupero dei file BBS completato.
+bbs_status_files_retrieving_files_completed_no_files=Recupero dei file completato. La BBS è vuota.
+bbs_status_files_retrieving_files_rejected=Recupero rifiutato — la stazione potrebbe non avere una BBS oppure non sei autorizzato.
+bbs_table_column_file_name=Nome file
+bbs_table_column_creation_time=Ora di creazione
+bbs_table_column_size_bytes=Dimensione (byte)
+bbs_button_close=CHIUDI
+bbs_button_button_inquire_bbs_files=RECUPERA ELENCO FILE
+bbs_text_cant_get_file_on_cf_header=Sei su una frequenza di chiamata
+bbs_text_cant_get_file_on_cf_details=Non puoi scaricare file BBS su una frequenza di chiamata. Effettua prima un QSY.

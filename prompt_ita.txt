@@ -20,3 +20,21 @@ Locator
 Beacon
 Relay
 check-in
+BBS
+Academy
+
+This words are male in italian:
+QSO
+Slot
+Locator
+Beacon
+Relay
+check-in
+
+
+This words are female in italian:
+QSL
+BBS
+Academy
+
+Please line breaks as I send to you: if I sent 5 rows, I need 5 rows back

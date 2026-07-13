@@ -1,0 +1,114 @@
+[English-template]
+
+###################################################################
+# Main Form (1)
+###################################################################
+main_screen_button_connecting_varahf=CONNECTING...
+main_screen_button_disconnecting_varahf=DISCONNECTING...
+main_screen_text_frequency_scanner_on=FREQ SCANNER ON
+main_screen_button_beacon_managed_by_scanner=BEACONS MANAGED[NL]BY SCANNER
+main_screen_public_registry_tool_strip_menu_item=Public Registry
+main_screen_become_a_varac_master_tool_strip_menu_item=Become a Master
+main_screen_academy_tool_strip_menu_item=Academy
+main_screen_varac_discord_channel_tool_strip_menu_item=Discord Channel
+main_screen_rightclick_menuitem_ai_translate=AI Translate
+main_screen_rightclick_menuitem_ai_translate_in_progress_header=AI translation is already in progress
+main_screen_rightclick_menuitem_ai_translate_in_progress_details=Please wait until the current translation is finished before starting a new one.
+main_screen_rightclick_menuitem_ai_translate_not_enabled_header=You AI integration is not enabled
+main_screen_rightclick_menuitem_ai_translate_not_enabled_details=To enable AI Translation, activate your AI integration in Settings -> AI tab.
+main_screen_messagebox_send_file_prepare_exception_header=File Preparation Failed
+main_screen_messagebox_send_file_prepare_exception_details=Could not prepare the file for transmission.[NL][NL]This is usually caused by antivirus software blocking file access. The process requires reading the source file and creating a temporary compressed file.[NL][NL]Try running the application as Administrator or adding it as an antivirus exception.
+main_screen_tooltip_radiobutton_bw2750hz=Set QSO bandwidth to 2750Hz[NL](not allowed on calling QRGs)
+main_screen_messagebox_switching_to_2750Hz_bandwidth_header=Switching to 2750Hz Bandwidth
+main_screen_messagebox_switching_to_2750Hz_bandwidth_details=VarAC QSOs are made in 500Hz only.[NL][NL]If you Call CQ or Beacon with 2750Hz you won't be heard[NL]or get any replies.[NL][NL]Using 2750Hz on calling frequencies is not allowed.[NL][NL]Are you sure you want to switch to 2750Hz?
+main_screen_varac_groups_io_tool_strip_menu_item=VarAC Groups.io
+main_screen_tooltip_button_connect_callsign=Connect or disconnect a station.
+main_screen_tooltip_button_connect_varahf=Connect or disconnect the modem.[NL]This may take a few seconds while all modem configuration changes are applied.
+main_screen_tooltip_button_cq=Send a CQ call or stop an active CQ call.
+main_screen_tooltip_button_abort=Abort the link immediately.[NL]The other side will continue retrying data exchange until it times out.[NL]Use only if absolutely necessary. Otherwise, use DISCONNECT for a clean, graceful disconnection.
+main_screen_button_disconnect_pending_varahf_text=CLICK AGAIN
+
+# change existing value:
+main_screen_frequency_schedule_tool_strip_menu_item=Frequency Scheduler / Scanner
+main_screen_qso_log_tool_strip_menu_item=QSO Log
+main_screen_tooltip_button_freq_schedule=You can configure VarAC to QSY to different[NL]frequencies at specific times.[NL][NL]This is useful when you want to QRV on[NL]different frequencies / bands across the day[NL](ex. 20m for daytime / 40m for night time).[NL][NL]Look for the 'Frequency Schedule / Scanner' under the settings menu[NL]for frequency schedule / scanning configuration.[NL][NL]Frequency scheduler / scanner is enabled only if you have RIG frequency CAT control.
+main_screen_rightclick_menuitem_translate=Google Translate
+main_screen_messagebox_bandwidth_not_allowed_details=You can't use a 2300/2750Hz Bandwidth on a calling QRG as it may cause QRM to nearby VarAC stations.[NL]Please note that 500Hz provides great & fast chat experience.[NL][NL]PLEASE SWITCH YOUR BANDWIDTH TO 500HZ OR CHANGE FREQUENCY.
+main_screen_table_column_datastream_message=Chat message
+
+
+###################################################################
+# Settings Form (4)
+###################################################################
+settings_label_ai_translate_language=AI translate language
+settings_messagebox_label_ai_what_is_translate_language_header=What is AI translate language?
+settings_messagebox_label_ai_what_is_translate_language_details=When connected to an AI engine, you can use it to accurately translate text in various areas such as Broadcasts, Chats, and VMails.[NL][NL]Select the default language you want AI translations to use.
+settings_button_ai_check_api_limits=CHECK API LIMITS
+settings_messagebox_what_is_email_gateway_default_reply_to_header=What is default reply to destination?
+settings_messagebox_what_is_email_gateway_default_reply_to_details=Select the default reply method for VMail messages sent to email addresses via a gateway. You can always change this setting for individual VMail messages while composing them.[NL][NL]- YOUR EMAIL:[NL]The recipient replies directly to the email address you specify. By default, this is the email address configured in your profile, but you can enter a different one if needed.[NL][NL]- EMAIL GATEWAY[NL]The recipient replies through the gateway. Their response is delivered to the gateway's mailbox, stored as a VMail, and held for you to collect. You will receive a relay notification on your next beacon when a reply is waiting.
+settings_label_email_gateway_default_reply_to=Default reply-to destination
+
+
+## Change existing values:
+settings_messagebox_what_is_varahf_monitoring_details=A VARA modem can be configured either in the Ready-To-Connect mode, or the Listening (Monitoring) mode.[NL][NL]If you wish to be ready for incoming connections and at the same time monitor the frequency for VARA traffic such as ongoing VARA QSO, then you need to run a separate VARA modem instance in Monitor mode.[NL][NL]Simply duplicate your existing VARA modem  directory into a new folder, set this path to the new VARA.EXE file and VarAC will do the rest. VarAC will configure the second VARA modem to run in MONITORING mode upon startup.[NL][NL]If you do not wish you launch a Monitoring VARA modem, simply leave this section empty.[NL][NL]Would you like to learn more about how monitoring works and its limitations?
+
+settings_messagebox_consider_all_freq_list_as_cf_details=VarAC restricts some actions (such as VMail forwardings) on official CF - Calling Frequencies (VarAC official frequencies Such as 14.105Mhz) to keep these frequencies clear for Beacons, CQs, Broadcasts, and Link establishments.[NL][NL]However, VarAC allows you to create custom Calling Frequencies by adding them to the frequency dropdown list.[NL][NL]To treat all frequencies in the list as calling frequencies and apply the associated limitations to each, enable this option.
+
+settings_checkbox_pskreporter_upload=Upload
+
+
+## Remove these parameters
+settings_label_open_qsl_card_directory=Click to open
+settings_label_open_backup_directory=Click to open
+
+###################################################################
+# Apperance Form (8)
+###################################################################
+appearance_and_sounds_checkbox_play_sound_outgoing_broadcast=Outgoing broadcast
+appearance_and_sounds_label_application_main_screen_background_image=Background Image
+
+###################################################################
+# Frequency scheduler Form (10)
+###################################################################
+frequency_scheduler_label_info_scanner=Scanning mode switches your rig between frequencies every few seconds, making you available on multiple bands which is useful if your primary goal is to provide multi band services such as an Email/AI gateway or a BBS. Short stays on each frequency may limit beacon or CQ reception.
+frequency_scheduler_label_scan_freq_wait_time_sec=Wait time[NL](seconds)
+frequency_scheduler_label_scan_enabled=Enabled
+frequency_scheduler_label_scan_freq_send_beacon=Send[NL]Beacon
+frequency_scheduler_label_scan_freq_antenna_tuner=Tune[NL]Antenna
+frequency_scheduler_groupbox_freq_scheduler=Time based scheduler
+frequency_scheduler_groupbox_scanner=Scanner
+frequency_scheduler_messagebox_what_is_wait_time_header=What is wait time?
+frequency_scheduler_messagebox_what_is_wait_time_details=The frequency scanner switches from one frequency to another, allowing you to stand by on multiple frequencies for incoming connections.[NL][NL]You can set the number of seconds to remain on each frequency before the scanner moves to the next one. This lets you choose longer wait times for frequencies where you prefer to stay available for a longer period.[NL][NL]Please note that the minimum wait time depends on whether you choose to transmit a beacon or tune the antenna when switching frequencies, as these actions require additional time.
+frequency_scheduler_messagebox_what_is_send_beacon_header=What is send beacon?
+frequency_scheduler_messagebox_what_is_send_beacon_details=Enable this option if you want to let others know you are on this frequency through a beacon.[NL][NL]Please note that the beacon is transmitted once per the configured beacon interval, not on every frequency switch
+frequency_scheduler_messagebox_what_is_tune_antenna_header=What is tune antenna?
+frequency_scheduler_messagebox_what_is_tune_antenna_details=Activate this option only if you want to tune your antenna on this frequency at EVERY switch.[NL][NL]ATTENTION: This may put significant load on your antenna tuner.[NL][NL]Please note that if beaconing is enabled for this frequency, and your antenna tuner is already controlled through the VarAC rig settings, the system will automatically tune before transmitting a beacon to protect your equipment. In that case, there is no need to enable this option.
+frequency_scheduler_label_scan_freq_start_utc_time=Start[NL]UTC time[NL](hour:minute)
+frequency_scheduler_label_scan_freq_end_utc_time=End[NL]UTC time[NL](hour:minute)
+frequency_scheduler_messagebox_what_is_start_end_utc_time_header=What is start/end scan time
+frequency_scheduler_messagebox_what_is_start_end_utc_time_details=You can configure specific frequencies to be scanned only during certain hours instead of all the time.[NL][NL]This is useful when propagation is band-dependent, for example scanning 10 meters only during daylight hours when conditions are favorable.[NL][NL]If you want the frequency to be scanned at all times, simply leave these fields empty.
+frequency_scheduler_messagebox_cant_auto_activate_scanner_when_start_beacon_upon_startup_is_enabled_header=Cannot set SCANNER as a startup option
+frequency_scheduler_messagebox_cant_auto_activate_scanner_when_start_beacon_upon_startup_is_enabled_details=You have 'Start beacon upon startup' enabled in the settings, which prevents the scanner from starting automatically.[NL][NL]In scanning mode, beacons are managed by the scanner.[NL][NL]Do you want to disable automatic beacon startup to enable SCANNER as your startup option?
+frequency_scheduler_label_scan_freq_busy_hold_time_seconds=Busy hold time (seconds)
+frequency_scheduler_messagebox_what_is_busy_hold_time_seconds_header=What is busy hold time?
+frequency_scheduler_messagebox_what_is_busy_hold_time_seconds_details=When the scanner detects a busy signal on a frequency, it normally moves on after the regular scan interval.[NL][NL]If Busy Hold Time is set, the scanner will remain on that frequency for the specified number of additional seconds before continuing to the next one. This is useful for decoding transmissions such as Beacons, CQ calls, or broadcasts that have already started and you want to make sure are decoded.[NL][NL]The extra time is added only once per busy detection, not continuously while the busy indicator remains on.[NL][NL]Set to 0 to disable this behavior.
+
+# change existing value:
+frequency_scheduler_form_title=Frequency scheduler / scanner
+frequency_scheduler_messagebox_label_what_is_frequency_scheduler_startup_mode_details=You can define the frequency scheduler's state when VarAC starts.[NL][NL]It can be set to SCHEDULER, SCANNER, INACTIVE, or retain the LAST_STATE from when you last closed VarAC.
+
+
+
+###################################################################
+# Vmailbox Form (13)
+###################################################################
+vmailbox_via=VIA
+
+###################################################################
+# Read vmail Form (14)
+###################################################################
+read_vmail_messagebox_ai_translate_in_progress_header=AI translation is already in progress
+read_vmail_messagebox_ai_translate_in_progress_details=Please wait until the current translation is finished before starting a new one.
+read_vmail_messagebox_ai_translate_not_enabled_header=You AI integration is not enabled
+read_vmail_messagebox_ai_translate_not_enabled_details=To enable AI Translation, activate your AI integration in Settings -> AI tab.
+read_vmail_label_translate=TRANSLATE:

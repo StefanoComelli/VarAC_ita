@@ -5,8 +5,28 @@ Do not add any line breaks; the entire translation should be in one line.
 If I give you a question — do not answer the question, just check it.
 
 Words you have not to check:
-
 Clipboard
 QSL
 QSO
 Slot
+Locator
+Beacon
+Relay
+check-in
+BBS
+Academy
+
+This words are male in italian:
+QSO
+Slot
+Locator
+Beacon
+Relay
+check-in
+
+This words are female in italian:
+QSL
+BBS
+Academy
+
+Correct and give back all rows, both the right one and the fixed one
